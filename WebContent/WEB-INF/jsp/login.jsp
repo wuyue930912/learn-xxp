@@ -93,7 +93,6 @@
 		</c:if>
 		<c:if test="${APP.appID==2}">
 		//默认账户被聚焦
-		$("#customerCode").focus();
 		/* $("#userName").css("background", "pink"); */
 		$('.cont_con').css('paddingTop','30px');/* 申购端输入框居中 */
 		$('#errMsgDiv').css('paddingTop','44px');
@@ -121,7 +120,6 @@
 		var InfoContent = CryptoAgent.GetSignCertInfo(InfoTypeID);
 		var accno = InfoContent.toString().split('@');
 		document.getElementById("accno").value = accno[1];
-		//document.getElementById("customerCode").value = accno[2].toString().split('%')[1]; 
 		$("#userName").focus();
 		$("#userName").css("background", "pink");
 		</c:if>
@@ -143,14 +141,6 @@
 		
 	}
 	function login() {
-		var customerCode = $("#customerCode").val();
-		if (customerCode == "" || customerCode == undefined || customerCode.length != 10) {
-			$("#customerCode").focus();
-			$("#customerCode").css("background", "pink");
-			$("#customerCode").attr("errmsg", "客户号不正确！");
-			$("#errMsgDiv").html($("#customerCode").attr("errmsg"));
-			return;
-		}
 		var userName = $("#userName").val();
 		if (userName == "" || userName == undefined) {
 			$("#userName").focus();
@@ -170,7 +160,7 @@
 			return;
 		}
 		if (flag == "1") {
-			var param = {"customerCode":customerCode,"userName":userName,"password":password};
+			var param = {"userName":userName,"password":password};
 			$.ajax({
 				url : '${ctx}/toLoginTwo',
 				type : "POST",
@@ -201,19 +191,8 @@
 		</div> 
 		<div class="cont_bg"> 
 			<form id="form" method="post" action="${ctx}/j_spring_security_check">
-				<div class="cont_img">
-					<img src="${ctx}/images/sgd.png" style="width:73px;height:25px"/>
-				</div>
 				<div class="cont_con">
 					<div class="cont_log"> 
-							<dl>
-								<dt>
-									<img src="${ctx}/images/logo/kehuhao.png" />
-								</dt>
-								<dd>
-									<input id="customerCode" <c:if test="${APP.cfcaKeyFlag==1}">value="请插入UKEY！" readonly="readonly"</c:if> name="customerCode" value="" type="text" maxlength="10" class="cont_input required" />
-								</dd>
-							</dl>
 							<dl>
 								<dt>
 									<img src="${ctx}/images/logo/yhm.png" />
