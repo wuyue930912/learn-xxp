@@ -197,7 +197,7 @@
 <body style="background-color: #F4F4F4" onkeydown="keyLogin()">
 <div class="cont">
 		<div class="cont_logo">
-			<img src="${ctx}/images/logo/logo.png" width="815" height="94" />
+			<img width="815" height="94" />
 		</div> 
 		<div class="cont_bg"> 
 			<form id="form" method="post" action="${ctx}/j_spring_security_check">
