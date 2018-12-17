@@ -1,0 +1,23 @@
+[{
+	"id":"C1",
+	"text":"密押校验",
+	"checked":true,
+   	"state":"open",
+	"src":"YJ_mycheck",
+	"leaf":true
+},{
+	"id":"C2",
+	"text":"应急操作",
+	"checked":true,
+   	"state":"open",
+	"src":"YJ_sg",
+	"leaf":true
+},{
+	"id":"C3",
+	"text":"应急债权托管",
+	"checked":true,
+   	"state":"open",
+	"src":"yjzqcz",
+	"leaf":true
+}]
+

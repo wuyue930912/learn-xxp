@@ -1,0 +1,129 @@
+{"total":3, "rows": [{
+			"zhuangtai":"已簿记建档",
+			"bondCode":"111111",
+			"shengou":"1111111",
+			"startTime":"2015-09-16 17:40:00",
+			"endTime":"2015-09-16 20:40:00",
+			"type":"数量",
+			"amount":"100,0000"
+		},{
+			"zhuangtai":"已确认",
+			"bondCode":"2222222",
+			"shengou":"2222222",
+			"startTime":"2015-09-16 17:40:00",
+			"endTime":"2015-09-16 20:40:00",
+			"type":"利率",
+			"amount":"150,0000"
+		},{
+			"zhuangtai":"已确认",
+			"bondCode":"2222222",
+			"shengou":"2222222",
+			"startTime":"2015-09-16 17:40:00",
+			"endTime":"2015-09-16 20:40:00",
+			"type":"价格",
+			"amount":"150,0000"
+		},{
+			"zhuangtai":"已确认",
+			"bondCode":"2222222",
+			"shengou":"2222222",
+			"startTime":"2015-09-16 17:40:00",
+			"endTime":"2015-09-16 20:40:00",
+			"type":"利差",
+			"amount":"150,0000"
+		},{
+			"zhuangtai":"已确认",
+			"bondCode":"2222222",
+			"shengou":"2222222",
+			"startTime":"2015-09-16 17:40:00",
+			"endTime":"2015-09-16 20:40:00",
+			"type":"利率",
+			"amount":"150,0000"
+		},{
+			"zhuangtai":"已确认",
+			"bondCode":"2222222",
+			"shengou":"2222222",
+			"startTime":"2015-09-16 17:40:00",
+			"endTime":"2015-09-16 20:40:00",
+			"type":"利率",
+			"amount":"150,0000"
+		},{
+			"zhuangtai":"已确认",
+			"bondCode":"2222222",
+			"shengou":"2222222",
+			"startTime":"2015-09-16 17:40:00",
+			"endTime":"2015-09-16 20:40:00",
+			"type":"利率",
+			"amount":"150,0000"
+		},{
+			"zhuangtai":"已确认",
+			"bondCode":"2222222",
+			"shengou":"2222222",
+			"startTime":"2015-09-16 17:40:00",
+			"endTime":"2015-09-16 20:40:00",
+			"type":"利率",
+			"amount":"150,0000"
+		},{
+			"zhuangtai":"已确认",
+			"bondCode":"2222222",
+			"shengou":"2222222",
+			"startTime":"2015-09-16 17:40:00",
+			"endTime":"2015-09-16 20:40:00",
+			"type":"利率",
+			"amount":"150,0000"
+		},{
+			"zhuangtai":"已确认",
+			"bondCode":"2222222",
+			"shengou":"2222222",
+			"startTime":"2015-09-16 17:40:00",
+			"endTime":"2015-09-16 20:40:00",
+			"type":"利率",
+			"amount":"150,0000"
+		},{
+			"zhuangtai":"已确认",
+			"bondCode":"2222222",
+			"shengou":"2222222",
+			"startTime":"2015-09-16 17:40:00",
+			"endTime":"2015-09-16 20:40:00",
+			"type":"利率",
+			"amount":"150,0000"
+		},{
+			"zhuangtai":"已确认",
+			"bondCode":"2222222",
+			"shengou":"2222222",
+			"startTime":"2015-09-16 17:40:00",
+			"endTime":"2015-09-16 20:40:00",
+			"type":"利率",
+			"amount":"150,0000"
+		},{
+			"zhuangtai":"已确认",
+			"bondCode":"2222222",
+			"shengou":"2222222",
+			"startTime":"2015-09-16 17:40:00",
+			"endTime":"2015-09-16 20:40:00",
+			"type":"利率",
+			"amount":"150,0000"
+		},{
+			"zhuangtai":"已确认",
+			"bondCode":"2222222",
+			"shengou":"2222222",
+			"startTime":"2015-09-16 17:40:00",
+			"endTime":"2015-09-16 20:40:00",
+			"type":"利率",
+			"amount":"150,0000"
+		},{
+			"zhuangtai":"已确认",
+			"bondCode":"2222222",
+			"shengou":"2222222",
+			"startTime":"2015-09-16 17:40:00",
+			"endTime":"2015-09-16 20:40:00",
+			"type":"利率",
+			"amount":"150,0000"
+		},{
+			"zhuangtai":"已确认",
+			"bondCode":"2222222",
+			"shengou":"2222222",
+			"startTime":"2015-09-16 17:40:00",
+			"endTime":"2015-09-16 20:40:00",
+			"type":"利率",
+			"amount":"150,0000"
+		}]}

@@ -1,0 +1,96 @@
+{"total":4, "rows": [{
+			"tzp":"中国建设银行",
+			"tzid":"A0004000001",
+			"tzlb":"承销团",
+			"bjjw":"100,0000",
+			"sys":"80",
+			"per":"<input type='text' id='per' value='80' style='text-align:right'/>"
+			
+		},{
+			"tzp":"交通银行股份有限公司",
+			"tzid":"A0005000001",
+			"tzlb":"直接投资人",
+			"bjjw":"100,0000",
+			"sys":"80",	
+			"per":"<input type='text' id='per' value='80' style='text-align:right'/>"
+		},{
+			"tzp":"中信银行",
+			"tzid":"A0006000001",
+			"tzlb":"其他投资人",
+			"bjjw":"100,0000",
+			"sys":"80",
+			"per":"<input type='text' id='per' value='80' style='text-align:right'/>"
+		},{
+			"tzp":"中国建设银行",
+			"tzid":"A0004000001",
+			"tzlb":"承销团",
+			"bjjw":"100,0000",
+			"sys":"80",
+			"per":"<input type='text' id='per' value='80' style='text-align:right'/>"
+			
+		},{
+			"tzp":"交通银行股份有限公司",
+			"tzid":"A0005000001",
+			"tzlb":"直接投资人",
+			"bjjw":"100,0000",
+			"sys":"80",	
+			"per":"<input type='text' id='per' value='80' style='text-align:right'/>"
+		},{
+			"tzp":"中信银行",
+			"tzid":"A0006000001",
+			"tzlb":"其他投资人",
+			"bjjw":"100,0000",
+			"sys":"80",
+			"per":"<input type='text' id='per' value='80' style='text-align:right'/>"
+		},{
+			"tzp":"中国建设银行",
+			"tzid":"A0004000001",
+			"tzlb":"承销团",
+			"bjjw":"100,0000",
+			"sys":"80",
+			"per":"<input type='text' id='per' value='80' style='text-align:right'/>"
+			
+		},{
+			"tzp":"交通银行股份有限公司",
+			"tzid":"A0005000001",
+			"tzlb":"直接投资人",
+			"bjjw":"100,0000",
+			"sys":"80",	
+			"per":"<input type='text' id='per' value='80' style='text-align:right'/>"
+		},{
+			"tzp":"中信银行",
+			"tzid":"A0006000001",
+			"tzlb":"其他投资人",
+			"bjjw":"100,0000",
+			"sys":"80",
+			"per":"<input type='text' id='per' value='80' style='text-align:right'/>"
+		},{
+			"tzp":"中国建设银行",
+			"tzid":"A0004000001",
+			"tzlb":"承销团",
+			"bjjw":"100,0000",
+			"sys":"80",
+			"per":"<input type='text' id='per' value='80' style='text-align:right'/>"
+			
+		},{
+			"tzp":"交通银行股份有限公司",
+			"tzid":"A0005000001",
+			"tzlb":"直接投资人",
+			"bjjw":"100,0000",
+			"sys":"80",	
+			"per":"<input type='text' id='per' value='80' style='text-align:right'/>"
+		},{
+			"tzp":"中信银行",
+			"tzid":"A0006000001",
+			"tzlb":"其他投资人",
+			"bjjw":"100,0000",
+			"sys":"80",
+			"per":"<input type='text' id='per' value='80' style='text-align:right'/>"
+		},{
+			"tzp":"总计",
+			"tzid":"",
+			"tzlb":"",
+			"bjjw":"",
+			"sys":"960",
+			"per":"960"
+		}]}

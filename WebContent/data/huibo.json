@@ -1,0 +1,17 @@
+{"total":2, "rows": [
+				{
+			"planmoney":"七年期",
+			"moneybefore":"100,000",
+			"moneyafter":"<input type='text' style='width:100%' />"
+		},
+		{
+			"planmoney":"五年期",
+			"moneybefore":"100,000",
+			"moneyafter":"<input type='text' style='width:100%' />"
+		},
+		{
+			"planmoney":"总计发行额",
+			"moneybefore":"200,000",
+			"moneyafter":"0"
+		}
+	]}

@@ -1,0 +1,57 @@
+{"total":5, "rows": [{
+			"selection":"<input type = 'radio' />",
+			"bondCode":"0142302",
+			"tlrName":"国家电网公司",
+			"tlrCode":"0142302",
+			"createType":"数量",
+			"zongliang":"24",
+			"status":"申购未开始",
+			"createDate":"2015年09月16日 09:50:00",
+			"endDate":"2015年09月16日 13:35:00",
+			"details":"<a href=''>详细</a>"
+		},{
+			"selection":"<input type = 'radio' />",
+			"bondCode":"56789",
+			"tlrName":"中国铁路总公司",
+			"tlrCode":"56789",
+			"createType":"价格",
+			"zongliang":"24",
+			"status":"申购中",
+			"createDate":"2015年09月10日 14:19:00",
+			"endDate":"2015年09月10日 14:30:00",
+			"details":"<a href=''>详细</a>"
+		},{
+			"selection":"<input type = 'radio' />",
+			"bondCode":"34567",
+			"tlrName":"中国铁路总公司",
+			"tlrCode":"34567",
+			"createType":"利率",
+			"zongliang":"24",
+			"status":"追加申购中",
+			"createDate":"2015年09月10日 14:14:00",
+			"endDate":"2015年09月10日 14:16:00",
+			"details":"<a href=''>详细</a>"
+		},{
+			"selection":"<input type = 'radio' />",
+			"bondCode":"0142302",
+			"tlrName":"国家电网公司",
+			"tlrCode":"0142302",
+			"createType":"利差",
+			"zongliang":"24",
+			"status":"债券托管中",
+			"createDate":"2015年09月16日 09:50:00",
+			"endDate":"2015年09月16日 13:35:00",
+			"details":"<a href=''>详细</a>"
+		},{
+			"selection":"<input type = 'radio' />",
+			"bondCode":"999",
+			"tlrName":"国家电网公司",
+			"tlrCode":"999",
+			"createType":"数量",
+			"zongliang":"24",
+			"status":"申购结束",
+			"createDate":"2015年09月08日 10:15:00",
+			"endDate":"2015年09月08日 10:20:00",
+			"details":"<a href=''>详细</a>"
+		}
+		]}

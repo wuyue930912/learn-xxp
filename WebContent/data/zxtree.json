@@ -1,0 +1,76 @@
+[{"id":"A",    
+    "text":"中心业务",
+    "state":"closed",    
+    "children":[{
+	"id":"050101",
+	"text":"直接投资人管理",
+	"checked":true,
+   	"state":"open",
+	"src":"ZxZtrgl/ztrgl",
+	"leaf":true
+},{    
+    "id":"A2",    
+    "text":"承销团管理",
+    "state":"open",    
+    "children":[{
+     	"id":"050201",
+        "text":"投资人团类别",    
+        "checked":true,
+        "state":"open" ,
+        "src":"ZxTzrtlb/ZX_tzrlb",
+        "leaf":true  
+    	},{
+    	"id":"050301",
+        "text":"申购和承销量设置",    
+        "checked":true,
+        "state":"open" ,
+        "src":"ZxSgcxlb/zxSgcxlb",
+        "leaf":true  
+    	},{
+    	"id":"050401",
+        "text":"追加参数设置",    
+        "checked":true,
+        "state":"open",
+        "src":"ZxZjsz/zjcsIndex",
+        "leaf":true  
+    	},{   
+    	"id":"050501", 
+        "text":"投资人团管理",    
+        "checked":true,
+        "state":"open" ,
+        "src":"ZxTzrt/zxTzrt" ,
+        "leaf":true 
+    }]  
+},
+{
+	"id":"A3",
+	"text":"债券注册",
+	"checked":true,
+   	"state":"open",
+	"src":"FxZqzl/fxzqindex",
+	"leaf":true
+},
+{
+	"id":"A4",
+	"text":"要约信息",
+	"checked":true,
+   	"state":"open",
+	"src":"yy/FX_ZBS?appId=2",
+	"leaf":true
+},
+{    
+    "id":"A5",    
+    "text":"数据接口",
+    "state":"open",    
+    "children":[{
+     	"id":"A51",
+        "text":"数据同步",    
+        "checked":true,
+        "state":"open" ,
+        "src":"dataSynch/index",
+        "leaf":true  
+    	}]  
+}]
+}
+]
+

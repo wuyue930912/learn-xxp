@@ -1,0 +1,88 @@
+{"total":4, "rows": [{
+			"ttt":"",
+			"tzpp":"中国建设银行",
+			"tzrid":"A0004000001",
+			"tzlb":"承销商",
+			"sgz":"100,000",
+			"ok":"<input type='checkbox' value='true'/>"
+			
+		},{
+			"ttt":"",
+			"tzpp":"交通银行股份有限公司",
+			"tzrid":"A0005000001",
+			"tzlb":"直接投资人",
+				"sgz":"100,000",
+			"ok":"<input type='checkbox' value='true'/>"
+		},{
+			"ttt":"",
+			"tzpp":"中信银行",
+			"tzrid":"A0006000001",
+			"tzlb":"其他投资人",
+				"sgz":"100,000",
+			"ok":"<input type='checkbox' value='true'/>"
+		},{
+			"ttt":"",
+			"tzpp":"中国建设银行",
+			"tzrid":"A0004000001",
+			"tzlb":"承销商",
+			"sgz":"100,000",
+			"ok":"<input type='checkbox' value='true'/>"
+			
+		},{
+			"ttt":"",
+			"tzpp":"交通银行股份有限公司",
+			"tzrid":"A0005000001",
+			"tzlb":"直接投资人",
+				"sgz":"100,000",
+			"ok":"<input type='checkbox' value='true'/>"
+		},{
+			"ttt":"",
+			"tzpp":"中信银行",
+			"tzrid":"A0006000001",
+			"tzlb":"其他投资人",
+				"sgz":"100,000",
+			"ok":"<input type='checkbox' value='true'/>"
+		},{
+			"ttt":"",
+			"tzpp":"中国建设银行",
+			"tzrid":"A0004000001",
+			"tzlb":"承销商",
+			"sgz":"100,000",
+			"ok":"<input type='checkbox' value='true'/>"
+			
+		},{
+			"ttt":"",
+			"tzpp":"交通银行股份有限公司",
+			"tzrid":"A0005000001",
+			"tzlb":"直接投资人",
+				"sgz":"100,000",
+			"ok":"<input type='checkbox' value='true'/>"
+		},{
+			"ttt":"",
+			"tzpp":"中信银行",
+			"tzrid":"A0006000001",
+			"tzlb":"其他投资人",
+				"sgz":"100,000",
+			"ok":"<input type='checkbox' value='true'/>"
+		},{
+			"ttt":"",
+			"tzpp":"交通银行股份有限公司",
+			"tzrid":"A0005000001",
+			"tzlb":"直接投资人",
+				"sgz":"100,000",
+			"ok":"<input type='checkbox' value='true'/>"
+		},{
+			"ttt":"",
+			"tzpp":"中信银行",
+			"tzrid":"A0006000001",
+			"tzlb":"其他投资人",
+				"sgz":"100,000",
+			"ok":"<input type='checkbox' value='true'/>"
+		},{
+			"ttt":"总计",
+			"tzpp":"总计",
+			"tzrid":"",
+			"tzlb":"",
+			"sgz":"1,100,000",
+			"ok":""
+		}]}

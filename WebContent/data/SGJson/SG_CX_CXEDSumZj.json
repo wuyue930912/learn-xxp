@@ -1,0 +1,18 @@
+{"total":3, "rows": [{
+			"bondCode":"<b>追加中标</b>",
+			"bondName":"--",
+			"years":"1,000,000",
+			"accrualType":"1,000,000",
+			"createDate":"1,000,000",
+			"pamount":"0.00",
+			"amount":"&nbsp;"
+			
+		},{
+			"bondCode":"<b>合计</b>",
+			"bondName":"--",
+			"years":"11,000,000",
+			"accrualType":"--",
+			"createDate":"--",
+			"pamount":"--",
+			"amount":"&nbsp;"
+		}]}

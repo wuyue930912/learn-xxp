@@ -1,0 +1,73 @@
+{"total":4, "rows": [{
+			
+			
+			"pricelevel":"5.1",
+			"shengouacccount":"2,000",
+			"huopeiaccount":"2,000"
+		},{
+			
+			"pricelevel":"5.2",
+			"shengouacccount":"3,000",
+			"huopeiaccount":"3,000"
+		},{
+			
+			"pricelevel":"5.3",
+			"shengouacccount":"6,000",
+			"huopeiaccount":"0"
+		},{
+			
+			"pricelevel":"5.4",
+			"shengouacccount":"6,000",
+			"huopeiaccount":"0"
+		},{
+			
+			"pricelevel":"5.5",
+			"shengouacccount":"6,000",
+			"huopeiaccount":"0"
+		},{
+			
+			"pricelevel":"5.6",
+			"shengouacccount":"6,000",
+			"huopeiaccount":"0"
+		},{
+			
+			"pricelevel":"5.7",
+			"shengouacccount":"6,000",
+			"huopeiaccount":"0"
+		},{
+			
+			"pricelevel":"5.8",
+			"shengouacccount":"6,000",
+			"huopeiaccount":"0"
+		},{
+			
+			"pricelevel":"5.9",
+			"shengouacccount":"6,000",
+			"huopeiaccount":"0"
+		},{
+			
+			"pricelevel":"6.0",
+			"shengouacccount":"6,000",
+			"huopeiaccount":"0"
+		},{
+			
+			"pricelevel":"6.1",
+			"shengouacccount":"6,000",
+			"huopeiaccount":"0"
+		},{
+			
+			"pricelevel":"6.2",
+			"shengouacccount":"6,000",
+			"huopeiaccount":"0"
+		},{
+			
+			"pricelevel":"6.3",
+			"shengouacccount":"6,000",
+			"huopeiaccount":"0"
+		},{
+			
+			"pricelevel":"总计",
+			"shengouacccount":"11,000",
+			"huopeiaccount":"5,000"
+		}
+		]}

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.RoleMapper">
+	<resultMap id="BaseResultMap" type="com.pojo.Role">
+		<id column="id" jdbcType="INTEGER" property="id" />
+		<result column="name" jdbcType="VARCHAR" property="name" />
+		<result column="menus" jdbcType="VARCHAR" property="menus" />
+		<result column="createtime" jdbcType="TIMESTAMP" property="createtime" />
+		<result column="createuser" jdbcType="INTEGER" property="createuser" />
+		<result column="rolestate" jdbcType="INTEGER" property="rolestate" />
+		<result column="bz" jdbcType="VARCHAR" property="bz" />
+	</resultMap>
+
+
+	<select id="find" resultMap="BaseResultMap">
+		select * from kj_role
+		<where>
+			<if test="rolename!=null">
+				name like concat('%',#{rolename},'%')
+			</if>
+		</where>
+		<if test="start!=null and size!=null">
+			limit #{start},#{size}
+		</if>
+	</select>
+
+	<select id="getTotal" parameterType="Map" resultType="Long">
+		select count(*) from kj_role
+		<where>
+			<if test="rolename!=null">
+				name like concat('%',#{rolename},'%')
+			</if>
+		</where>
+	</select>
+
+	<sql id="Example_Where_Clause">
+		<where>
+			<foreach collection="oredCriteria" item="criteria" separator="or">
+				<if test="criteria.valid">
+					<trim prefix="(" prefixOverrides="and" suffix=")">
+						<foreach collection="criteria.criteria" item="criterion">
+							<choose>
+								<when test="criterion.noValue">
+									and ${criterion.condition}
+								</when>
+								<when test="criterion.singleValue">
+									and ${criterion.condition} #{criterion.value}
+								</when>
+								<when test="criterion.betweenValue">
+									and ${criterion.condition} #{criterion.value}
+									and
+									#{criterion.secondValue}
+								</when>
+								<when test="criterion.listValue">
+									and ${criterion.condition}
+									<foreach close=")" collection="criterion.value" item="listItem"
+										open="(" separator=",">
+										#{listItem}
+									</foreach>
+								</when>
+							</choose>
+						</foreach>
+					</trim>
+				</if>
+			</foreach>
+		</where>
+	</sql>
+	<sql id="Update_By_Example_Where_Clause">
+		<where>
+			<foreach collection="example.oredCriteria" item="criteria"
+				separator="or">
+				<if test="criteria.valid">
+					<trim prefix="(" prefixOverrides="and" suffix=")">
+						<foreach collection="criteria.criteria" item="criterion">
+							<choose>
+								<when test="criterion.noValue">
+									and ${criterion.condition}
+								</when>
+								<when test="criterion.singleValue">
+									and ${criterion.condition} #{criterion.value}
+								</when>
+								<when test="criterion.betweenValue">
+									and ${criterion.condition} #{criterion.value}
+									and
+									#{criterion.secondValue}
+								</when>
+								<when test="criterion.listValue">
+									and ${criterion.condition}
+									<foreach close=")" collection="criterion.value" item="listItem"
+										open="(" separator=",">
+										#{listItem}
+									</foreach>
+								</when>
+							</choose>
+						</foreach>
+					</trim>
+				</if>
+			</foreach>
+		</where>
+	</sql>
+	<sql id="Base_Column_List">
+		id, name, menus, createtime, createuser, rolestate, bz
+	</sql>
+	<select id="selectByExample" parameterType="com.pojo.RoleExample"
+		resultMap="BaseResultMap">
+		select
+		<if test="distinct">
+			distinct
+		</if>
+		'true' as QUERYID,
+		<include refid="Base_Column_List" />
+		from kj_role
+		<if test="_parameter != null">
+			<include refid="Example_Where_Clause" />
+		</if>
+		<if test="orderByClause != null">
+			order by ${orderByClause}
+		</if>
+	</select>
+	<select id="selectByPrimaryKey" parameterType="java.lang.Integer"
+		resultMap="BaseResultMap">
+		select
+		<include refid="Base_Column_List" />
+		from kj_role
+		where id = #{id,jdbcType=INTEGER}
+	</select>
+	<delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+		delete from
+		kj_role
+		where id = #{id,jdbcType=INTEGER}
+	</delete>
+	<delete id="deleteByExample" parameterType="com.pojo.RoleExample">
+		delete from kj_role
+		<if test="_parameter != null">
+			<include refid="Example_Where_Clause" />
+		</if>
+	</delete>
+	<insert id="insert" parameterType="com.pojo.Role">
+		insert into kj_role (id, name,
+		menus,
+		createtime, createuser, rolestate,
+		bz)
+		values
+		(#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR},
+		#{menus,jdbcType=VARCHAR},
+		#{createtime,jdbcType=TIMESTAMP},
+		#{createuser,jdbcType=INTEGER}, #{rolestate,jdbcType=INTEGER},
+		#{bz,jdbcType=VARCHAR})
+	</insert>
+	<insert id="insertSelective" parameterType="com.pojo.Role">
+		insert into kj_role
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			<if test="id != null">
+				id,
+			</if>
+			<if test="name != null">
+				name,
+			</if>
+			<if test="menus != null">
+				menus,
+			</if>
+			<if test="createtime != null">
+				createtime,
+			</if>
+			<if test="createuser != null">
+				createuser,
+			</if>
+			<if test="rolestate != null">
+				rolestate,
+			</if>
+			<if test="bz != null">
+				bz,
+			</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="id != null">
+				#{id,jdbcType=INTEGER},
+			</if>
+			<if test="name != null">
+				#{name,jdbcType=VARCHAR},
+			</if>
+			<if test="menus != null">
+				#{menus,jdbcType=VARCHAR},
+			</if>
+			<if test="createtime != null">
+				#{createtime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="createuser != null">
+				#{createuser,jdbcType=INTEGER},
+			</if>
+			<if test="rolestate != null">
+				#{rolestate,jdbcType=INTEGER},
+			</if>
+			<if test="bz != null">
+				#{bz,jdbcType=VARCHAR},
+			</if>
+		</trim>
+	</insert>
+	<select id="countByExample" parameterType="com.pojo.RoleExample"
+		resultType="java.lang.Long">
+		select count(*) from kj_role
+		<if test="_parameter != null">
+			<include refid="Example_Where_Clause" />
+		</if>
+	</select>
+	<update id="updateByExampleSelective" parameterType="map">
+		update kj_role
+		<set>
+			<if test="record.id != null">
+				id = #{record.id,jdbcType=INTEGER},
+			</if>
+			<if test="record.name != null">
+				name = #{record.name,jdbcType=VARCHAR},
+			</if>
+			<if test="record.menus != null">
+				menus = #{record.menus,jdbcType=VARCHAR},
+			</if>
+			<if test="record.createtime != null">
+				createtime = #{record.createtime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="record.createuser != null">
+				createuser = #{record.createuser,jdbcType=INTEGER},
+			</if>
+			<if test="record.rolestate != null">
+				rolestate = #{record.rolestate,jdbcType=INTEGER},
+			</if>
+			<if test="record.bz != null">
+				bz = #{record.bz,jdbcType=VARCHAR},
+			</if>
+		</set>
+		<if test="_parameter != null">
+			<include refid="Update_By_Example_Where_Clause" />
+		</if>
+	</update>
+	<update id="updateByExample" parameterType="map">
+		update kj_role
+		set id = #{record.id,jdbcType=INTEGER},
+		name =
+		#{record.name,jdbcType=VARCHAR},
+		menus =
+		#{record.menus,jdbcType=VARCHAR},
+		createtime =
+		#{record.createtime,jdbcType=TIMESTAMP},
+		createuser =
+		#{record.createuser,jdbcType=INTEGER},
+		rolestate =
+		#{record.rolestate,jdbcType=INTEGER},
+		bz =
+		#{record.bz,jdbcType=VARCHAR}
+		<if test="_parameter != null">
+			<include refid="Update_By_Example_Where_Clause" />
+		</if>
+	</update>
+	<update id="updateByPrimaryKeySelective" parameterType="com.pojo.Role">
+		update kj_role
+		<set>
+			<if test="name != null">
+				name = #{name,jdbcType=VARCHAR},
+			</if>
+			<if test="menus != null">
+				menus = #{menus,jdbcType=VARCHAR},
+			</if>
+			<if test="createtime != null">
+				createtime = #{createtime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="createuser != null">
+				createuser = #{createuser,jdbcType=INTEGER},
+			</if>
+			<if test="rolestate != null">
+				rolestate = #{rolestate,jdbcType=INTEGER},
+			</if>
+			<if test="bz != null">
+				bz = #{bz,jdbcType=VARCHAR},
+			</if>
+		</set>
+		where id = #{id,jdbcType=INTEGER}
+	</update>
+	<update id="updateByPrimaryKey" parameterType="com.pojo.Role">
+		update kj_role
+		set
+		name = #{name,jdbcType=VARCHAR},
+		menus = #{menus,jdbcType=VARCHAR},
+		createtime = #{createtime,jdbcType=TIMESTAMP},
+		createuser =
+		#{createuser,jdbcType=INTEGER},
+		rolestate =
+		#{rolestate,jdbcType=INTEGER},
+		bz = #{bz,jdbcType=VARCHAR}
+		where id =
+		#{id,jdbcType=INTEGER}
+	</update>
+</mapper>
