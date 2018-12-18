@@ -48,7 +48,7 @@ public class LoginController {
 		return "main/center";
 	}
 	
-	
+
 	@RequestMapping(value = "/main", method = RequestMethod.GET)
 	public ModelAndView getMainView(HttpServletRequest request, HttpServletResponse response, HttpSession httpSession) throws MyException {
 		User user = (User) httpSession.getAttribute("loginUser");

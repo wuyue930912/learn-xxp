@@ -95,6 +95,7 @@
 <script type="text/javascript" src="${ctx}/js/load.js"></script>
 <script type="text/javascript" src="${ctx}/js/pubfun.js"></script>
 <script type="text/javascript"> 
+
 	function openURL(title,url){
 	    if ($('#tt').tabs('exists', title)){
             $('#tt').tabs('select', title);

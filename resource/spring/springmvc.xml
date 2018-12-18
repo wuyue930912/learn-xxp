@@ -12,6 +12,7 @@
 	
 	<!-- Spring 来扫描指定包下的类，并注册被@Component，@Controller，@Service，@Repository等注解标记的组件 -->
 	<mvc:annotation-driven />
+	<mvc:resources mapping="/ueditor/**" location="/ueditor/"/>
 	<mvc:resources mapping="/js/**" location="/js/"/>
  	<mvc:resources mapping="/css/**" location="/css/"/> 
  	<mvc:resources mapping="/images/**" location="/images/"/> 
