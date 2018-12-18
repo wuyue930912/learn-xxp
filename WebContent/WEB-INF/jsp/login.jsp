@@ -187,7 +187,6 @@
 <body style="background-color: #F4F4F4" onkeydown="keyLogin()">
 <div class="cont">
 		<div class="cont_logo">
-			<img width="815" height="94" />
 		</div> 
 		<div class="cont_bg"> 
 			<form id="form" method="post" action="${ctx}/j_spring_security_check">
@@ -223,7 +222,6 @@
 		</div>		
 	</div>
 	<div id="nantian" style='postion:relative;text-align:center;'>
-	<div class="foot">&copy; 中央国债登记结算有限责任公司 Copyright &copy; All Rights Reserved</div>
 	</div>
 	 <script>
 	 $(document).ready(function(){

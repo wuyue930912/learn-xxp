@@ -112,6 +112,14 @@
 	$(function(){
 		$("#nav").accordion('getSelected').panel('collapse')
 	});
+	
+	function logout(){
+		$.messager.confirm('退出提示', '确定退出本系统？', function(r) {
+			if (r) {
+				window.location.href = "${ctx}/login";
+			}
+		});
+	}
 </script>
 <style type="text/css">
 .jiesuo {
