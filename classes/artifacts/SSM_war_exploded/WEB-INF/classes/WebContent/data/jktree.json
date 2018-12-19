@@ -1,0 +1,49 @@
+[{
+	"id":"jk1",
+	"text":"当日要约查询",
+	"checked":true,
+   	"state":"open",
+	"src":"todayYYcx",
+	"leaf":true
+},{
+	"id":"jk2",
+	"text":"历史要约查询",
+	"checked":true,
+   	"state":"open",
+	"src":"lsyyquery",
+	"leaf":true
+},
+{
+	"id":"jk3",
+	"text":"报表",
+	"checked":true,
+   	"state":"open",
+	"src":"bbyyquery",
+	"leaf":true
+},{
+	"id":"jk5",
+	"text":"调整授权",
+	"checked":true,
+   	"state":"open",
+	"src":"JK_TZSQGL",
+	"leaf":true
+},{    
+    "id":"jk4",    
+    "text":"信息发布",
+    "state":"open",    
+    "children":[{
+     	"id":"jk41",
+        "text":"组类别",    
+        "checked":true,
+        "state":"open" ,
+        "src":"zlbdy",
+        "leaf":true  
+    	},{
+    	"id":"jk42",
+        "text":"组成员",    
+        "checked":true,
+        "state":"open" ,
+        "src":"zcydy",
+        "leaf":true  
+    	}]  
+}]

@@ -1,0 +1,27 @@
+body {margin: 0px;padding: 0px;font-family: "宋体";font-size: 12px;}
+div,dl,dt,dd,img{padding:0px;margin:0px;list-style:none; border:0px;}
+input {padding:0px;margin:0px;}
+.cont {width: 100%;height: 330px;background: url(../images/logo/body1.jpg) repeat-x  left top #F4F4F4!important;}
+.cont_logo{height: 82px;width:100%;text-align:center;}
+.cont_bg {background: url(../images/logo/cont_bg.jpg) no-repeat!important;height: 204px;width:660px;margin-top: 44px;left:-200px;position:relative;margin-left:50%}
+.cont_img {/* display:inline-block;position:absolute;left:145px;top:80px; */ float:left;margin:80px 0 0 85px}
+.cont_con {float:left;width: 265px;padding: 16px 0 0 22px;}
+
+.cont_log {float: center;width: 265px;}
+.cont_log dl{width: 265px;margin-top: 20px;float: left;}
+.cont_log dt{float: left;width: 80px;height: 20px;font-weight: bold;color: #fff;text-align: right;}
+.cont_log dd{float: left;height: 20px;width: 176px;}
+
+.cont_log1 {width: 265px;}
+.cont_log1 dl{width: 265px;margin-top:6px;float: left;}
+.cont_log1 dt{float: left;width: 80px;height: 24px;font-weight: bold;color: #fff;text-align: right;}
+.cont_log1 dd{float: left;height: 24px;width: 176px;}
+/* 登陆界面上输入域加输入法限制  ime-mode:Disabled; mkw*/ 
+.cont_input {autocomplete:off;ime-mode:Disabled;height: 18px;padding:4px 5px 2px 5px;width: 185px;border: 0px;color: #555;/* background: url(../images/logo/input.jpg) no-repeat; */}
+
+.cont_input1 {autocomplete:off;height: 18px;padding:4px 5px 2px 5px;width: 166px;border: 0px;color: #555;}
+
+.cont_btn {float: right;height: 37px;width: 181px;padding-top: 10px;margin-right:-5px;margin-top: 20px;}
+/* .cont_btn img {margin-right: 10px;} */
+.foot {line-height: 30px;height:30px;color: #8a8989;margin-bottom:10px;text-align:center;postion:relative;font-size:12px;}
+.cont_select {height: 24px;padding:4px 5px 2px 5px;width: 166px;border: 0px;color: #555;/* background: url(../images/logo/input.jpg) no-repeat; */}

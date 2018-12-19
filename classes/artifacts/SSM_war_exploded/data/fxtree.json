@@ -1,0 +1,178 @@
+[{"id":"A",    
+    "text":"操作",
+    "state":"closed",    
+    "children":
+	[{    
+    "id":"A2",    
+    "text":"承销团管理",
+    "state":"open",    
+    "children":[{
+     	"id":"010101",
+        "text":"投资人团类别",    
+        "checked":true,
+        "state":"open" ,
+        "src":"FxTzrtlb/tzrtlbIndex",
+        "leaf":true  
+    	},{
+    	"id":"010201",
+        "text":"申购和承销量设置",    
+        "checked":true,
+        "state":"open" ,
+        "src":"FxSgcxlb/fxSgcxlb",
+        "leaf":true  
+    	},{
+    	"id":"010301",
+        "text":"追加参数设置",    
+        "checked":true,
+        "state":"open",
+        "src":"FxZjcslb/zjcslbIndex",
+        "leaf":true  
+    	},{   
+    	"id":"010401", 
+        "text":"投资人团管理",    
+        "checked":true,
+        "state":"open" ,
+        "src":"FxTzrt/fxTzrt" ,
+        "leaf":true 
+    }]  
+},
+{
+	"id":"010601",
+	"text":"查询密码管理",
+	"checked":true,
+   	"state":"open",
+	"src":"FxFxrcxmm/fxCxmm",
+	"leaf":true
+},
+{
+	"id":"010501",
+	"text":"债券注册",
+	"checked":true,
+   	"state":"open",
+	"src":"FxZqzl/fxzqindex",
+	"leaf":true
+},
+{
+	"id":"A4",
+	"text":"要约信息",
+	"checked":true,
+   	"state":"open",
+	"src":"yy/FX_ZBS?appId=1",
+	"leaf":true
+},
+{
+	"id":"A5",
+	"text":"回拨",
+	"checked":true,
+   	"state":"open",
+	"src":"fxhb/fxhbindex",
+	"leaf":true
+},
+{
+	"id":"A6",
+	"text":"配售管理",
+	"checked":true,
+   	"state":"open",
+	"src":"FxPsgl/FxPsglIndex",
+	"leaf":true
+},
+{
+	"id":"A8",
+	"text":"包销",
+	"checked":true,
+   	"state":"open",
+	"src":"fxbx/fxbxQuery",
+	"leaf":true
+},
+{
+	"id":"A9",
+	"text":"债权托管确认",
+	"checked":true,
+   	"state":"open",
+	"src":"tgzqqr/FX_TGQRGL",
+	"leaf":true
+},
+{    
+    "id":"A10",    
+    "text":"数据接口",
+    "state":"open",    
+    "children":[{
+     	"id":"A101",
+        "text":"数据同步",    
+        "checked":true,
+        "state":"open" ,
+        "src":"fxDataSynch/index",
+        "leaf":true  
+    	}]  
+}]
+},
+{"id":"C",    
+    "text":"应急",
+    "state":"closed",    
+    "children":[{
+	"id":"C1",
+	"text":"密押校验",
+	"checked":true,
+   	"state":"open",
+	"src":"YJ_mycheck",
+	"leaf":true
+},{
+	"id":"C2",
+	"text":"应急操作",
+	"checked":true,
+   	"state":"open",
+	"src":"YJ/YJ_sg",
+	"leaf":true
+},{
+	"id":"C3",
+	"text":"应急债权托管",
+	"checked":true,
+   	"state":"open",
+	"src":"YJ/yjzqcz",
+	"leaf":true
+}]
+},
+
+{"id":"jk",    
+    "text":"监控",
+    "state":"closed",    
+    "children":[{
+	"id":"jk1",
+	"text":"当日要约",
+	"checked":true,
+   	"state":"open",
+	"src":"todayYY/todayYYIndex",
+	"leaf":true
+},{
+	"id":"jk2",
+	"text":"历史要约",
+	"checked":true,
+   	"state":"open",
+	"src":"todayYY/historyYYIndex",
+	"leaf":true
+},
+{
+	"id":"jk3",
+	"text":"报表",
+	"checked":true,
+   	"state":"open",
+	"src":"todayYY/bbYYIndex",
+	"leaf":true
+},{
+	"id":"jk5",
+	"text":"调整授权",
+	"checked":true,
+   	"state":"open",
+	"src":"jktz/jktzindex",
+	"leaf":true
+},{
+	"id":"jk7",
+	"text":"操作日志",
+	"checked":true,
+   	"state":"open",
+	"src":"operatorLog/fxczrz",
+	"leaf":true
+}  
+]} 
+]
+

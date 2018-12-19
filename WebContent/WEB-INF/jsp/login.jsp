@@ -13,7 +13,7 @@
 <link href="${ctx}/css/login.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
 .required {
-	
+
 }
 </style>
 <link id="easyuiTheme" rel="stylesheet" type="text/css" href="${ctx}/js/easyui/themes/custom/easyui.css">
@@ -41,7 +41,7 @@
 		top.location = self.location;
 	}
 	$("#errMsgDiv").hide();
-	$(function() { 
+	$(function() {
 		//客户号
 		$("#custon").hide();
 		$("#errMsgDiv").fadeIn("slow");
@@ -107,7 +107,7 @@
 		var high = ($(document).height()-360)/2-25;
 		$('.cont').css({marginTop:high});
 		<c:if test="${APP.cfcaKeyFlag==1}">
-		
+
 		document.body.appendChild(eDiv);
 		var CryptoAgent = document.getElementById("CryptoAgent");
 		var subjectDNFilter = "";
@@ -123,22 +123,22 @@
 		$("#userName").focus();
 		$("#userName").css("background", "pink");
 		</c:if>
-		
-		
+
+
 	});
 	function keyLogin() {
 		if (window.event.keyCode == 13) {
 			login();
 		}
 	}
-	
+
 	function toUpperCase(t){
 		//var e=event||window.event;
 		//var c=e.keyCode;
 		//if(!(c==37 || c==39)){
 			t.value=t.value.toUpperCase();
 		//}
-		
+
 	}
 	function login() {
 		var userName = $("#userName").val();
@@ -176,10 +176,10 @@
 						alert('密码错误！');
 						return false;
 					}
-					
+
 				}
 			});
-			
+
 		}
 	}
 </script>
@@ -187,11 +187,11 @@
 <body style="background-color: #F4F4F4" onkeydown="keyLogin()">
 <div class="cont">
 		<div class="cont_logo">
-		</div> 
-		<div class="cont_bg"> 
+		</div>
+		<div class="cont_bg">
 			<form id="form" method="post" action="${ctx}/j_spring_security_check">
 				<div class="cont_con">
-					<div class="cont_log"> 
+					<div class="cont_log">
 							<dl>
 								<dt>
 									<img src="${ctx}/images/logo/yhm.png" />
@@ -208,7 +208,7 @@
 									<input id="password" value="" name="password" type="password" maxlength="6" class="cont_input required" />
 								</dd>
 							</dl>
-						
+
 						<input id="languageType" type="hidden" value="ZH" name="languageType" />
 						<input id="requestFlag" type="hidden" value="0" name="requestFlag" />
 					</div>
@@ -219,7 +219,7 @@
 				<!--错误信息显示位置和样式调整 -->
 				<div id="errMsgDiv" style="width: 157px; color: white;font-size: 14px;float:left;margin-left:20px"></div>
 			</form>
-		</div>		
+		</div>
 	</div>
 	<div id="nantian" style='postion:relative;text-align:center;'>
 	</div>

@@ -1,0 +1,53 @@
+{"total":17, "rows": [{
+			"personname":"国家电网",
+			"personid":"A0004000001"
+		
+		},{
+			"personname":"中国邮政银行股份有限公司",
+			"personid":"A0005000002"
+		},{
+			"personname":"中信银行",
+			"personid":"A0006000003"
+		},{
+			"personname":"民生银行股份有限公司",
+			"personid":"A0007000004"
+		},{
+			"personname":"交通银行股份有限公司",
+			"personid":"A0008000005"
+		},{
+			"personname":"上海浦发银行有限公司",
+			"personid":"A0009000006"
+		},{
+			"personname":"光大银行",
+			"personid":"A0010000007"
+		},{
+			"personname":"中国人民银行",
+			"personid":"A1005000008"
+		
+		},{
+			"personname":"中信银行",
+			"personid":"A1006000009"
+		},{
+			"personname":"国家开发银行",
+			"personid":"A0004000010"
+		},{
+			"personname":"农村信用社",
+			"personid":"A1005000011"
+		},{
+			"personname":"中国工商银行",
+			"personid":"A1006000012"
+		},{
+			"personname":"中国建设银行",
+			"personid":"A2006000013"
+		},{
+			"personname":"中国农业银行",
+			"personid":"A2006000014"
+		},{
+			"personname":"中投证券",
+			"personid":"A2006000015"
+		},{	"personname":"国家开发银行",
+			"personid":"A2006000016"
+		},{
+			"personname":"光大银行",
+			"personid":"A2006000017"
+		}]}

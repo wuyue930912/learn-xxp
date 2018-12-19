@@ -44,7 +44,6 @@ public class RoleController {
 	
 	@RequestMapping(value = "/toRole")
 	public ModelAndView toRole() {
-		logger.info("=============================================跳转角色页面=============================================");
 		return ModelAndViewUtil.toPage("main/role");
 	}
 	
@@ -55,7 +54,6 @@ public class RoleController {
 	
 	@RequestMapping(value = "/queryMenuList")
 	public String queryMenuList(@RequestParam(value="page",required=false) String page,@RequestParam(value="rows",required=false) String rows,HttpServletResponse res) throws Exception {
-		logger.info("=============================================查询权限=============================================");
 		PageBean pageBean=new PageBean(Integer.parseInt(page),Integer.parseInt(rows));
 		Map<String,Object> map=new HashMap<String,Object>();
 		map.put("start", pageBean.getStart());
@@ -65,7 +63,6 @@ public class RoleController {
 		
 		JSONObject result=new JSONObject();
 		JSONArray jsonArray=JSONArray.fromObject(menuList);
-		logger.info("=============================================返回数据::::"+jsonArray.toString()+"=============================================");
 		result.put("rows", jsonArray);
 		result.put("total", total);
 		
@@ -75,7 +72,6 @@ public class RoleController {
 	
 	@RequestMapping(value = "/queryRoleList")
 	public String queryRoleList(@RequestParam(value="page",required=false) String page,@RequestParam(value="rows",required=false) String rows,HttpServletResponse res) throws Exception {
-		logger.info("=============================================查询角色=============================================");
 		PageBean pageBean=new PageBean(Integer.parseInt(page),Integer.parseInt(rows));
 		Map<String,Object> map=new HashMap<String,Object>();
 		map.put("start", pageBean.getStart());
@@ -85,7 +81,6 @@ public class RoleController {
 		
 		JSONObject result=new JSONObject();
 		JSONArray jsonArray=JSONArray.fromObject(roleList);
-		logger.info("=============================================返回数据::::"+jsonArray.toString()+"=============================================");
 		result.put("rows", jsonArray);
 		result.put("total", total);
 		

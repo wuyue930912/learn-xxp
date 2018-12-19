@@ -1,0 +1,42 @@
+{"total":8, "rows": [{
+			"id":"1",
+			"price":"2.1",
+			"amount":"600,000",
+			"beizhu":"<font color='red'>超过单笔申购上限（>500,000）</font>"
+		},{
+			"id":"2",
+			"price":"2.0",
+			"amount":"50,000",
+			"beizhu":"<font color='red'>未达到单笔申购下限（<100,000）</font>"
+		},{
+			"id":"3",
+			"price":"1.9",
+			"amount":"AAA",
+			"beizhu":"<font color='red'>申购数量不是数值</font>"
+		},{
+			"id":"4",
+			"price":"1.8",
+			"amount":"0",
+			"beizhu":""
+		},{
+			"id":"5",
+			"price":"1.7",
+			"amount":"5,000",
+			"beizhu":"<font color='red'>申购数量不是基本申购单位（10,000）的整数倍</font>"
+		},{
+			"id":"6",
+			"price":"1.6",
+			"amount":"20,000",
+			"beizhu":""
+		},{
+			"id":"7",
+			"price":"1.5",
+			"amount":"15,000",
+			"beizhu":""
+		},{
+			"id":"8",
+			"price":"1.4",
+			"amount":"0",
+			"beizhu":""
+		}
+		]}

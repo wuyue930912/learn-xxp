@@ -13,7 +13,7 @@ public class CustomExceptionResolver implements HandlerExceptionResolver {
 		ex.printStackTrace();
 		String message = ex.toString();
 		ModelAndView modelAndView = new ModelAndView();
-		if(message.endsWith("Session³¬Ê±")) {
+		if(message.endsWith("Sessionè¶…æ—¶")) {
 			modelAndView.setViewName("error/invalid-session");
 		}else {
 			modelAndView.setViewName("error/internal-server-error");

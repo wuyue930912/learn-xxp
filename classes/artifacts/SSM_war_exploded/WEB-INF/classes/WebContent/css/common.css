@@ -1,0 +1,77 @@
+body table{
+	font-size: 12px;
+}
+body {
+	  margin:0px;
+	  padding:0px;
+	  overflow:auto;
+}
+div,ul,li,dl,dt,dd,img,h1,h2{margin:0px;padding:0px;list-style-type: none;border:0;}
+form{
+	 margin-bottom: 0px
+}
+.formInputTable{
+	width:100%
+}
+.formBtn{
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px
+}
+.queryBtn{
+	padding: 1px 12px 1px 12px;
+	background: #ff6765;
+	color: #ffffff
+}
+.clearBtn{
+	padding: 1px 12px 1px 12px;
+	margin-left: 20px;
+	background: #e6e6e6;
+	color: #ffffff
+}
+.operatorBtn{
+	padding:5px;
+	margin-top: 5px 0px;
+	width: 100%;
+}
+.additionOutput{
+	padding-top: 10px;
+	font-size: 12px;
+	padding-left: 10px
+}
+.textdisable{
+	padding: 0px
+}
+.tableInput{
+  margin: 0px -4px 0px -4px;
+  background:white;
+  height:21px;
+ /* #95B8E7 */
+  border: 1px solid #afafaf;
+  font-size: 12px;
+  outline-style: none;
+  -moz-border-radius: 0 0 0 0;
+  -webkit-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
+}
+
+
+
+.s2 {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.s3 {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.s4 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.s5 {
+	padding-left: 8px;
+	padding-right: 8px;
+}

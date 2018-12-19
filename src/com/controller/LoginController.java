@@ -37,14 +37,12 @@ public class LoginController {
 	@Autowired
 	private MenuService menuService;
 
-	@RequestMapping(value = "/loginFail", method = RequestMethod.GET)
+	@RequestMapping(value = "/loginTwo", method = RequestMethod.GET)
 	public String getLoginView(HttpServletRequest request, HttpServletResponse response) {
-		// 绛惧埌澶辫触鏃讹紝杩斿洖绛惧埌鐣岄潰
-		return "redirect:/login";
+		return "login-bootStrap";
 	}
 	@RequestMapping(value = "/main/center", method = RequestMethod.GET)
 	public String toCenter(HttpServletRequest request, HttpServletResponse response) {
-		// 绛惧埌澶辫触鏃讹紝杩斿洖绛惧埌鐣岄潰
 		return "main/center";
 	}
 	
@@ -54,11 +52,10 @@ public class LoginController {
 		User user = (User) httpSession.getAttribute("loginUser");
 		
 		if(user == null) {
-			throw new MyException("Session超时");
+			throw new MyException("Session瓒呮椂");
 		}
 		
 		Role role = roleService.findByRoleId(user.getUserrole());
-		logger.info("角色查询::::权限::::" + role.getMenus());
 		String[] menus = role.getMenus().split(",");
 		Map<String,List<Menu>> map = menuService.findByRole(menus);
 		List<Menu> list = map.get("fatherNode");
@@ -77,21 +74,17 @@ public class LoginController {
 		String userName = request.getParameter("userName");
 		String password = request.getParameter("password");
 
-		logger.info("开始登录::::" + new Date() + "::::用户名::::" + userName);
 		List<User> list = userService.checkUserName(userName);
 		if (list.size() > 0) {
 			List<User> list2 = userService.chekcUser(userName, MD5(password));
 			if (list2.size() > 0) {
 				User user = list2.get(0);
 				httpSession.setAttribute("loginUser", user);
-				logger.info("登陆成功::::" + new Date());
 				return "9001";
 			} else {
-				logger.error("密码错误::::" + new Date());
 				return "9002";
 			}
 		} else {
-			logger.error("用户不存在::::" + new Date());
 			return "9999";
 		}
 	}

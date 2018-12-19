@@ -1,0 +1,129 @@
+{"total":5, "rows": [{
+			"bondCode":"0132301",
+			"tlrName":"国家电网公司",
+			"tlrCode":"0132301",
+			"createType":"数量",
+			"zongliang":"28",
+			"status":"未申购",
+			"createDate":"2015/09/16 09:50:00",
+			"endDate":"2015/09/16 13:35:00",			 
+			"operator":"<a href=''>操作</a>"
+		},{
+			"bondCode":"0142302",
+			"tlrName":"国家电网公司",
+			"tlrCode":"0142302",
+			"createType":"数量",
+			"zongliang":"2,400,000",
+			"status":"未申购",
+			"createDate":"2015/09/16 09:50:00",
+			"endDate":"2015/09/16 13:35:00",
+			"operator":"<a href=''>操作</a>"
+		}, {
+			"bondCode":"56789",
+			"tlrName":"国家电网公司",
+			"tlrCode":"56789",
+			"createType":"价格",
+			"zongliang":"3,300,000",
+			"status":"已申购",
+			"createDate":"2015/09/16 14:19:00",
+			"endDate":"2015/09/16 14:30:00",
+			"operator":"<a href=''>操作</a>"
+		}, {
+			"bondCode":"156789",
+			"tlrName":"中国铁路总公司",
+			"tlrCode":"56789",
+			"createType":"价格",
+			"zongliang":"2,400,000",
+			"status":"已申购",
+			"createDate":"2015/09/16 14:19:00",
+			"endDate":"2015/09/16 14:30:00",
+			"operator":"<a href=''>操作</a>"
+		}, {
+			"bondCode":"016789",
+			"tlrName":"中国铁路总公司",
+			"tlrCode":"56789",
+			"createType":"价格",
+			"zongliang":"2,400,000",
+			"status":"已申购",
+			"createDate":"2015/09/16 14:19:00",
+			"endDate":"2015/09/16 14:30:00",
+			"operator":"<a href=''>操作</a>"
+		}, {
+			"bondCode":"052789",
+			"tlrName":"国家电网公司",
+			"tlrCode":"56789",
+			"createType":"价格",
+			"zongliang":"5,500,000",
+			"status":"已申购",
+			"createDate":"2015/09/16 14:19:00",
+			"endDate":"2015/09/16 14:30:00",
+			"operator":"<a href=''>操作</a>"
+		}, {
+			"bondCode":"150309",
+			"tlrName":"国家电网公司",
+			"tlrCode":"56789",
+			"createType":"价格",
+			"zongliang":"3,400,000",
+			"status":"已申购",
+			"createDate":"2015/09/16 14:19:00",
+			"endDate":"2015/09/16 14:30:00",
+			"operator":"<a href=''>操作</a>"
+		}, {
+			"bondCode":"150304",
+			"tlrName":"中国铁路总公司",
+			"tlrCode":"56789",
+			"createType":"价格",
+			"zongliang":"16,700,000",
+			"status":"已申购",
+			"createDate":"2015/09/16 14:19:00",
+			"endDate":"2015/09/16 14:30:00",
+			"operator":"<a href=''>操作</a>"
+		}, {
+			"bondCode":"150506",
+			"tlrName":"中国铁路总公司",
+			"tlrCode":"56789",
+			"createType":"价格",
+			"zongliang":"12,500,000",
+			"status":"已申购",
+			"createDate":"2015/09/16 14:19:00",
+			"endDate":"2015/09/16 14:30:00",
+			"operator":"<a href=''>操作</a>"
+		}, {
+			"bondCode":"150707",
+			"tlrName":"国家电网公司",
+			"tlrCode":"56789",
+			"createType":"价格",
+			"zongliang":"2,400,000",
+			"status":"已申购",
+			"createDate":"2015/09/16 14:19:00",
+			"endDate":"2015/09/16 14:30:00",
+			"operator":"<a href=''>操作</a>"
+		}, {
+			"bondCode":"150709",
+			"tlrName":"中国铁路总公司",
+			"tlrCode":"56789",
+			"createType":"价格",
+			"zongliang":"2,400,000",
+			"status":"已申购",
+			"createDate":"2015/09/16 14:19:00",
+			"endDate":"2015/09/16 14:30:00",
+			"operator":"<a href=''>操作</a>"
+		}, {
+			"bondCode":"150729",
+			"tlrName":"中国铁路总公司",
+			"tlrCode":"56789",
+			"createType":"价格",
+			"zongliang":"2,400,000",
+			"status":"已申购",
+			"createDate":"2015/09/16 14:19:00",
+			"endDate":"2015/09/16 14:30:00",
+			"operator":"<a href=''>操作</a>"
+		}
+		
+		
+		
+		
+		
+		
+		
+		]}

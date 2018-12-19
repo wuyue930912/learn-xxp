@@ -1,0 +1,19 @@
+[{    
+    "id":"T1",    
+    "text":"要约",       
+    "children":[{    
+        "text":"定义投资人",    
+        "checked":true,
+        "state":"open" ,
+        "src":"demo" ,
+        "id":"T11",
+        "leaf":true 
+    },{
+        "text":"债券注册",    
+        "checked":true,
+        "state":"open" ,
+        "src":"bondindex",
+        "id":"T12" ,
+        "leaf":true  
+    }]  
+}]  

@@ -1,0 +1,71 @@
+{"total":3, "rows": [{
+            "tzrjc":"XXX银行",
+			"tzrtgzh":"AXXXX",
+			"tzrnb":"甲类",
+			"sgzl":"11000",
+			"bjsgl":"3000",
+			"ll":"6.0"
+		},{
+            "tzrjc":"XXX证券",
+			"tzrtgzh":"ZXXXX",
+			"tzrnb":"乙类",
+			"sgzl":"30000",
+			"bjsgl":"5000",
+			"ll":"6.0"
+		},{
+            "tzrjc":"XXX保险",
+			"tzrtgzh":"OXXXX",
+			"tzrnb":"直接投资人",
+			"sgzl":"7000",
+			"bjsgl":"1000",
+			"ll":"6.0"
+
+		},{
+            "tzrjc":"保险",
+			"tzrtgzh":"OXXXX",
+			"tzrnb":"直接投资人",
+			"sgzl":"7000",
+			"bjsgl":"1000",
+			"ll":"6.0"
+
+		},{
+            "tzrjc":"保险测试2",
+			"tzrtgzh":"OXXXX",
+			"tzrnb":"直接投资人",
+			"sgzl":"7000",
+			"bjsgl":"1000",
+			"ll":"6.0"
+
+		},{
+            "tzrjc":"保险测试2",
+			"tzrtgzh":"OXXXX",
+			"tzrnb":"其他投资人",
+			"sgzl":"7000",
+			"bjsgl":"1000",
+			"ll":"6.0"
+
+		},{
+            "tzrjc":"保险",
+			"tzrtgzh":"OXXXX",
+			"tzrnb":"直接投资人",
+			"sgzl":"7000",
+			"bjsgl":"1000",
+			"ll":"6.0"
+
+		},{
+            "tzrjc":"保险测试2",
+			"tzrtgzh":"OXXXX",
+			"tzrnb":"直接投资人",
+			"sgzl":"7000",
+			"bjsgl":"1000",
+			"ll":"6.0"
+
+		},{
+            "tzrjc":"保险测试2",
+			"tzrtgzh":"OXXXX",
+			"tzrnb":"其他投资人",
+			"sgzl":"7000",
+			"bjsgl":"1000",
+			"ll":"6.0"
+
+		}]}

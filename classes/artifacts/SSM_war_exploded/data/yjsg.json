@@ -1,0 +1,186 @@
+{"total":9, "rows": [{
+			"xzid":"<input type='radio' name='ids' id='ids'  value='未托管'/>",
+			"bondCode":"A0004000001",
+			"bondName":"A0004000001",
+			"years":"建设银行",
+			"accrualType":"中国建设银行",
+			"createDate":"未托管",
+			"MYstate":"已校验"
+		},{
+			"xzid":"<input type='radio' name='ids' id='ids' value='已托管'/>",
+			"bondCode":"A0007000001",
+			"bondName":"A0007000001",
+			"years":"光大银行",
+			"accrualType":"中国光大银行",
+			"createDate":"未托管",
+			"MYstate":"已校验"
+		},{
+			"xzid":"<input type='radio' name='ids' id='ids' value='已调整'/>",
+			"bondCode":"00000002326",
+			"bondName":"00000002326",
+			"years":"湖北农信社",
+			"accrualType":"湖北省农村信用联合社",
+			"createDate":"已托管",
+			"MYstate":"已校验"
+		},{
+			"xzid":"<input type='radio' name='ids' id='ids'  value='未托管'/>",
+			"bondCode":"A0011000001",
+			"bondName":"A0011000001",
+			"years":"建设银行",
+			"accrualType":"中国建设银行",
+			"createDate":"未托管",
+			"MYstate":"已校验"
+		},{
+			"xzid":"<input type='radio' name='ids' id='ids' value='已托管'/>",
+			"bondCode":"A0033000001",
+			"bondName":"A0033000001",
+			"years":"光大银行",
+			"accrualType":"中国光大银行",
+			"createDate":"已托管",
+			"MYstate":"已校验"
+		},{
+			"xzid":"<input type='radio' name='ids' id='ids' value='已调整'/>",
+			"bondCode":"11000002326",
+			"bondName":"11000002326",
+			"years":"湖北农信社",
+			"accrualType":"湖北省农村信用联合社",
+			"createDate":"已调整",
+			"MYstate":"已校验"
+		},{
+			"xzid":"<input type='radio' name='ids' id='ids'  value='未托管'/>",
+			"bondCode":"A055000001",
+			"bondName":"A055000001",
+			"years":"建设银行",
+			"accrualType":"中国建设银行",
+			"createDate":"未托管",
+			"MYstate":"已校验"
+		},{
+			"xzid":"<input type='radio' name='ids' id='ids' value='已托管'/>",
+			"bondCode":"A0007",
+			"bondName":"A0007",
+			"years":"光大银行",
+			"accrualType":"中国光大银行",
+			"createDate":"已托管",
+			"MYstate":"已校验"
+		},{
+			"xzid":"<input type='radio' name='ids' id='ids' value='已托管'/>",
+			"bondCode":"00000002326",
+			"bondName":"00000002326",
+			"years":"湖北农信社",
+			"accrualType":"湖北省农村信用联合社",
+			"createDate":"已调整",
+			"MYstate":"已校验"
+		},{
+			"xzid":"<input type='radio' name='ids' id='ids' value='已托管'/>",
+			"bondCode":"A0007",
+			"bondName":"A0007",
+			"years":"光大银行",
+			"accrualType":"中国光大银行",
+			"createDate":"已托管",
+			"MYstate":"已校验"
+		},{
+			"xzid":"<input type='radio' name='ids' id='ids' value='已托管'/>",
+			"bondCode":"A0007",
+			"bondName":"A0007",
+			"years":"光大银行",
+			"accrualType":"中国光大银行",
+			"createDate":"已托管",
+			"MYstate":"已校验"
+		},{
+			"xzid":"<input type='radio' name='ids' id='ids' value='已托管'/>",
+			"bondCode":"A0007",
+			"bondName":"A0007",
+			"years":"光大银行",
+			"accrualType":"中国光大银行",
+			"createDate":"已托管",
+			"MYstate":"已校验"
+		},{
+			"xzid":"<input type='radio' name='ids' id='ids' value='已托管'/>",
+			"bondCode":"A0007",
+			"bondName":"A0007",
+			"years":"光大银行",
+			"accrualType":"中国光大银行",
+			"createDate":"已托管",
+			"MYstate":"已校验"
+		},{
+			"xzid":"<input type='radio' name='ids' id='ids' value='已托管'/>",
+			"bondCode":"A0007",
+			"bondName":"A0007",
+			"years":"光大银行",
+			"accrualType":"中国光大银行",
+			"createDate":"已托管",
+			"MYstate":"已校验"
+		},{
+			"xzid":"<input type='radio' name='ids' id='ids' value='已托管'/>",
+			"bondCode":"A0007",
+			"bondName":"A0007",
+			"years":"光大银行",
+			"accrualType":"中国光大银行",
+			"createDate":"已托管",
+			"MYstate":"已校验"
+		},{
+			"xzid":"<input type='radio' name='ids' id='ids' value='已托管'/>",
+			"bondCode":"A0007",
+			"bondName":"A0007",
+			"years":"光大银行",
+			"accrualType":"中国光大银行",
+			"createDate":"已托管",
+			"MYstate":"已校验"
+		},{
+			"xzid":"<input type='radio' name='ids' id='ids' value='已托管'/>",
+			"bondCode":"A0007",
+			"bondName":"A0007",
+			"years":"光大银行",
+			"accrualType":"中国光大银行",
+			"createDate":"已托管",
+			"MYstate":"已校验"
+		},{
+			"xzid":"<input type='radio' name='ids' id='ids' value='已托管'/>",
+			"bondCode":"A0007",
+			"bondName":"A0007",
+			"years":"光大银行",
+			"accrualType":"中国光大银行",
+			"createDate":"已托管","MYstate":"已校验"
+		},{
+			"xzid":"<input type='radio' name='ids' id='ids' value='已托管'/>",
+			"bondCode":"A0007",
+			"bondName":"A0007",
+			"years":"光大银行",
+			"accrualType":"中国光大银行",
+			"createDate":"已托管","MYstate":"已校验"
+		},{
+			"xzid":"<input type='radio' name='ids' id='ids' value='已托管'/>",
+			"bondCode":"A0007",
+			"bondName":"A0007",
+			"years":"光大银行",
+			"accrualType":"中国光大银行",
+			"createDate":"已托管","MYstate":"已校验"
+		},{
+			"xzid":"<input type='radio' name='ids' id='ids' value='已托管'/>",
+			"bondCode":"A0007",
+			"bondName":"A0007",
+			"years":"光大银行",
+			"accrualType":"中国光大银行",
+			"createDate":"已托管","MYstate":"已校验"
+		},{
+			"xzid":"<input type='radio' name='ids' id='ids' value='已托管'/>",
+			"bondCode":"A0007",
+			"bondName":"A0007",
+			"years":"光大银行",
+			"accrualType":"中国光大银行",
+			"createDate":"已托管","MYstate":"已校验"
+		},{
+			"xzid":"<input type='radio' name='ids' id='ids' value='已托管'/>",
+			"bondCode":"A0007",
+			"bondName":"A0007",
+			"years":"光大银行",
+			"accrualType":"中国光大银行",
+			"createDate":"已托管","MYstate":"已校验"
+		},{
+			"xzid":"<input type='radio' name='ids' id='ids' value='已托管'/>",
+			"bondCode":"A0007",
+			"bondName":"A0007",
+			"years":"光大银行",
+			"accrualType":"中国光大银行",
+			"createDate":"已托管","MYstate":"已校验"
+		}]}

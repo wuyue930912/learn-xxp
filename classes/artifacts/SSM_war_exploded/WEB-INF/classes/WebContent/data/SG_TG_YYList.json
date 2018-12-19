@@ -1,0 +1,275 @@
+{"total":23, "rows": [{
+			"bondCode":"0142302",
+			"tlrName":"国家电网公司",
+			"tlrCode":"0142302",
+			"createType":"数量",
+			"zongliang":"2,400,000",
+			"status":"未申购",
+			"createDate":"2015/09/16 09:50:00",
+			"endDate":"2015/09/16 13:35:00",
+			"details":"<a href=''>详细</a>"
+			
+		},{
+			"bondCode":"0143201",
+			"tlrName":"中国铁路总公司",
+			"tlrCode":"0143201",
+			"createType":"价格",
+			"zongliang":"2,400,000",
+			"status":"已申购",
+			"createDate":"2015/09/10 14:19:00",
+			"endDate":"2015/09/10 14:30:00",
+			"details":"<a href=''>详细</a>"
+			
+		},{
+			"bondCode":"0150201",
+			"tlrName":"中国建设银行",
+			"tlrCode":"0150201",
+			"createType":"利率",
+			"zongliang":"2,400,000",
+			"status":"已申购",
+			"createDate":"2015/09/10 14:14:00",
+			"endDate":"2015/09/10 14:16:00",
+			"details":"<a href=''>详细</a>"
+			
+		},{
+			"bondCode":"0142302",
+			"tlrName":"国家电网公司",
+			"tlrCode":"0142302",
+			"createType":"利差",
+			"zongliang":"2,400,000",
+			"status":"未申购",
+			"createDate":"2015/09/16 09:50:00",
+			"endDate":"2015/09/16 13:35:00",
+			"details":"<a href=''>详细</a>"
+			
+		},{
+			"bondCode":"0153331",
+			"tlrName":"中国建设银行",
+			"tlrCode":"0153331",
+			"createType":"数量",
+			"zongliang":"2,400,000",
+			"status":"已申购",
+			"createDate":"2015/09/08 10:15:00",
+			"endDate":"2015/09/08 10:20:00",
+			"details":"<a href=''>详细</a>"
+			
+			
+		},{
+			"bondCode":"0153351",
+			"tlrName":"长城企业债券",
+			"tlrCode":"0153351",
+			"createType":"数量",
+			"zongliang":"2,400,000",
+			"status":"已申购",
+			"createDate":"2015/09/08 10:15:00",
+			"endDate":"2015/09/08 10:20:00",
+			"details":"<a href=''>详细</a>"
+			
+			
+		},{
+			"bondCode":"0153361",
+			"tlrName":"国家电网公司",
+			"tlrCode":"0153361",
+			"createType":"数量",
+			"zongliang":"2,400,000",
+			"status":"已申购",
+			"createDate":"2015/09/08 10:15:00",
+			"endDate":"2015/09/08 10:20:00",
+			"details":"<a href=''>详细</a>"
+			
+			
+		},{
+			"bondCode":"0155501",
+			"tlrName":"中国建设银行",
+			"tlrCode":"0155501",
+			"createType":"数量",
+			"zongliang":"2,400,000",
+			"status":"已申购",
+			"createDate":"2015/09/08 10:15:00",
+			"endDate":"2015/09/08 10:20:00",
+			"details":"<a href=''>详细</a>"
+			
+			
+		},{
+			"bondCode":"0153333",
+			"tlrName":"长城企业债券",
+			"tlrCode":"0153333",
+			"createType":"数量",
+			"zongliang":"2,400,000",
+			"status":"未申购",
+			"createDate":"2015/09/08 10:15:00",
+			"endDate":"2015/09/08 10:20:00",
+			"details":"<a href=''>详细</a>"
+			
+			
+		},{
+			"bondCode":"0153222",
+			"tlrName":"中国农业银行",
+			"tlrCode":"0153222",
+			"createType":"数量",
+			"zongliang":"2,400,000",
+			"status":"已申购",
+			"createDate":"2015/09/08 10:15:00",
+			"endDate":"2015/09/08 10:20:00",
+			"details":"<a href=''>详细</a>"
+			
+			
+		},{
+			"bondCode":"0153221",
+			"tlrName":"中国建设银行",
+			"tlrCode":"0153221",
+			"createType":"数量",
+			"zongliang":"2,400,000",
+			"status":"已申购",
+			"createDate":"2015/09/08 10:15:00",
+			"endDate":"2015/09/08 10:20:00",
+			"details":"<a href=''>详细</a>"
+			
+			
+		},{
+			"bondCode":"0153341",
+			"tlrName":"国家电网公司",
+			"tlrCode":"0153341",
+			"createType":"数量",
+			"zongliang":"2,400,000",
+			"status":"未申购",
+			"createDate":"2015/09/08 10:15:00",
+			"endDate":"2015/09/08 10:20:00",
+			"details":"<a href=''>详细</a>"
+			
+			
+		},{
+			"bondCode":"0153233",
+			"tlrName":"中国农业银行",
+			"tlrCode":"0153233",
+			"createType":"数量",
+			"zongliang":"2,400,000",
+			"status":"未申购",
+			"createDate":"2015/09/08 10:15:00",
+			"endDate":"2015/09/08 10:20:00",
+			"details":"<a href=''>详细</a>"
+			
+			
+		},{
+			"bondCode":"0153266",
+			"tlrName":"国家电网公司",
+			"tlrCode":"0153266",
+			"createType":"数量",
+			"zongliang":"2,400,000",
+			"status":"已申购",
+			"createDate":"2015/09/08 10:15:00",
+			"endDate":"2015/09/08 10:20:00",
+			"details":"<a href=''>详细</a>"
+			
+			
+		},{
+			"bondCode":"0153277",
+			"tlrName":"中国农业银行",
+			"tlrCode":"0153277",
+			"createType":"数量",
+			"zongliang":"2,400,000",
+			"status":"已申购",
+			"createDate":"2015/09/08 10:15:00",
+			"endDate":"2015/09/08 10:20:00",
+			"details":"<a href=''>详细</a>"
+			
+			
+		},{
+			"bondCode":"0153267",
+			"tlrName":"中国建设银行",
+			"tlrCode":"0153267",
+			"createType":"数量",
+			"zongliang":"2,400,000",
+			"status":"未申购",
+			"createDate":"2015/09/08 10:15:00",
+			"endDate":"2015/09/08 10:20:00",
+			"details":"<a href=''>详细</a>"
+			
+			
+		},{
+			"bondCode":"0153278",
+			"tlrName":"长城企业债券",
+			"tlrCode":"0153278",
+			"createType":"数量",
+			"zongliang":"2,400,000",
+			"status":"已申购",
+			"createDate":"2015/09/08 10:15:00",
+			"endDate":"2015/09/08 10:20:00",
+			"details":"<a href=''>详细</a>"
+			
+			
+		},{
+			"bondCode":"0153286",
+			"tlrName":"中国农业银行",
+			"tlrCode":"0153286",
+			"createType":"数量",
+			"zongliang":"2,400,000",
+			"status":"已申购",
+			"createDate":"2015/09/08 10:15:00",
+			"endDate":"2015/09/08 10:20:00",
+			"details":"<a href=''>详细</a>"
+			
+			
+		},{
+			"bondCode":"0153287",
+			"tlrName":"长城企业债券",
+			"tlrCode":"0153287",
+			"createType":"数量",
+			"zongliang":"2,400,000",
+			"status":"已申购",
+			"createDate":"2015/09/08 10:15:00",
+			"endDate":"2015/09/08 10:20:00",
+			"details":"<a href=''>详细</a>"
+			
+			
+		},{
+			"bondCode":"0153288",
+			"tlrName":"国家电网公司",
+			"tlrCode":"0153288",
+			"createType":"数量",
+			"zongliang":"2,400,000",
+			"status":"已申购",
+			"createDate":"2015/09/08 10:15:00",
+			"endDate":"2015/09/08 10:20:00",
+			"details":"<a href=''>详细</a>"
+			
+			
+		},{
+			"bondCode":"0153289",
+			"tlrName":"长城企业债券",
+			"tlrCode":"0153289",
+			"createType":"数量",
+			"zongliang":"2,400,000",
+			"status":"未申购",
+			"createDate":"2015/09/08 10:15:00",
+			"endDate":"2015/09/08 10:20:00",
+			"details":"<a href=''>详细</a>"
+			
+			
+		},{
+			"bondCode":"8787999",
+			"tlrName":"国家电网公司",
+			"tlrCode":"8787999",
+			"createType":"数量",
+			"zongliang":"2,400,000",
+			"status":"已申购",
+			"createDate":"2015/09/08 10:15:00",
+			"endDate":"2015/09/08 10:20:00",
+			"details":"<a href=''>详细</a>"
+			
+			
+		},{
+			"bondCode":"0153201",
+			"tlrName":"长城企业债券",
+			"tlrCode":"0153201",
+			"createType":"数量",
+			"zongliang":"2,400,000",
+			"status":"已申购",
+			"createDate":"2015/09/08 10:15:00",
+			"endDate":"2015/09/08 10:20:00",
+			"details":"<a href=''>详细</a>"
+			
+		}
+		
+		]}
+  

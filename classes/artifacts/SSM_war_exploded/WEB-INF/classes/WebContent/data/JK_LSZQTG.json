@@ -1,0 +1,203 @@
+{"total":20, "rows": [{
+			"cxssname":"重庆农商行",
+			"cxscode":"000000002307",
+			"cxamount":"100,000",
+			"zygz":"0.000",
+			"zzdsh":"100,000",
+			"zzdsz":"0.000",
+			"currentstate":"未托管",
+			"loginstate":"未登录",
+			"zqtgtime":"2015-11-03 09:50:00"
+		},{
+			"cxssname":"农业银行",
+			"cxscode":"000000002302",
+			"cxamount":"1,100,000",
+			"zygz":"100,000",
+			"zzdsh":"1,000,000",
+			"zzdsz":"100,000",
+			"currentstate":"已托管",
+			"loginstate":"已登录",
+			"zqtgtime":"2015-11-03 09:50:00"
+		},{
+			"cxssname":"建设银行",
+			"cxscode":"000000002302",
+			"cxamount":"1,100,000",
+			"zygz":"100,000",
+			"zzdsh":"1,000,000",
+			"zzdsz":"100,000",
+			"currentstate":"已托管",
+			"loginstate":"已登录",
+			"zqtgtime":"2015-11-03 09:50:00"
+		},{
+			"cxssname":"中国兴业银行",
+			"cxscode":"200000002301",
+			"cxamount":"4,500,100",
+			"zygz":"1,500,000",
+			"zzdsh":"2,000,100",
+			"zzdsz":"2,000,000,000",
+			"currentstate":"已托管",
+			"loginstate":"未登录",
+			"zqtgtime":"2015-11-03 09:50:00"
+		},{
+			"cxssname":"长城企业债券",
+			"cxscode":"500000002355",
+			"cxamount":"100,000",
+			"zygz":"4,000,000",
+			"zzdsh":"2,000,000",
+			"zzdsz":"2,000,000",
+			"currentstate":"已托管",
+			"loginstate":"已登录",
+			"zqtgtime":"2015-11-03 09:50:00"
+		},{
+			"cxssname":"中国农业银行",
+			"cxscode":"200000002302",
+			"cxamount":"100,000",
+			"zygz":"100,000",
+			"zzdsh":"0.00",
+			"zzdsz":"0.00",
+			"currentstate":"已托管",
+			"loginstate":"未登录",
+			"zqtgtime":"2015-11-03 09:50:00"
+		},{
+			"cxssname":"郑州农商行",
+			"cxscode":"200000002112",
+			"cxamount":"100,000",
+			"zygz":"500,000,000",
+			"zzdsh":"400,000,000",
+			"zzdsz":"100,000,000",
+			"currentstate":"已托管",
+			"loginstate":"未登录",
+			"zqtgtime":"2015-11-03 09:50:00"
+		},{
+			"cxssname":"江西农商行",
+			"cxscode":"200000002112",
+			"cxamount":"100,000",
+			"zygz":"700,000,000",
+			"zzdsh":"400,000,000",
+			"zzdsz":"300,000,000",
+			"currentstate":"已托管",
+			"loginstate":"未登录",
+			"zqtgtime":"2015-11-03 09:50:00"
+		},{
+			"cxssname":"中国招商银行",
+			"cxscode":"800000000",
+			"cxamount":"100,000",
+			"zygz":"200,000,000",
+			"zzdsh":"400,000,000",
+			"zzdsz":"200,000,000",
+			"currentstate":"已托管",
+			"loginstate":"已登录",
+			"zqtgtime":"2015-11-03 09:50:00"
+		},{
+			"cxssname":"中国农业银行",
+			"cxscode":"200000002302",
+			"cxamount":"100,000",
+			"zygz":"100,000",
+			"zzdsh":"0.00",
+			"zzdsz":"0.00",
+			"currentstate":"已托管",
+			"loginstate":"未登录",
+			"zqtgtime":"2015-11-03 09:50:00"
+		},{
+			"cxssname":"郑州农商行",
+			"cxscode":"200000002112",
+			"cxamount":"100,000",
+			"zygz":"500,000,000",
+			"zzdsh":"400,000,000",
+			"zzdsz":"100,000,000",
+			"currentstate":"已托管",
+			"loginstate":"未登录",
+			"zqtgtime":"2015-11-03 09:50:00"
+		},{
+			"cxssname":"江西农商行",
+			"cxscode":"200000002112",
+			"cxamount":"100,000",
+			"zygz":"700,000,000",
+			"zzdsh":"400,000,000",
+			"zzdsz":"300,000,000",
+			"currentstate":"已托管",
+			"loginstate":"未登录",
+			"zqtgtime":"2015-11-03 09:50:00"
+		},{
+			"cxssname":"中国招商银行",
+			"cxscode":"800000000",
+			"cxamount":"100,000",
+			"zygz":"200,000,000",
+			"zzdsh":"400,000,000",
+			"zzdsz":"200,000,000",
+			"currentstate":"已托管",
+			"loginstate":"已登录",
+			"zqtgtime":"2015-11-03 09:50:00"
+		},{
+			"cxssname":"中国招商银行",
+			"cxscode":"800000000",
+			"cxamount":"100,000",
+			"zygz":"200,000,000",
+			"zzdsh":"400,000,000",
+			"zzdsz":"200,000,000",
+			"currentstate":"已托管",
+			"loginstate":"已登录",
+			"zqtgtime":"2015-11-03 09:50:00"
+		},{
+			"cxssname":"中国招商银行",
+			"cxscode":"800000000",
+			"cxamount":"100,000",
+			"zygz":"200,000,000",
+			"zzdsh":"400,000,000",
+			"zzdsz":"200,000,000",
+			"currentstate":"已托管",
+			"loginstate":"已登录",
+			"zqtgtime":"2015-11-03 09:50:00"
+		},{
+			"cxssname":"中国招商银行",
+			"cxscode":"800000000",
+			"cxamount":"100,000",
+			"zygz":"200,000,000",
+			"zzdsh":"400,000,000",
+			"zzdsz":"200,000,000",
+			"currentstate":"已托管",
+			"loginstate":"已登录",
+			"zqtgtime":"2015-11-03 09:50:00"
+		},{
+			"cxssname":"中国招商银行",
+			"cxscode":"80000000",
+			"cxamount":"100,000",
+			"zygz":"200,000,000",
+			"zzdsh":"400,000,000",
+			"zzdsz":"200,000,000",
+			"currentstate":"已托管",
+			"loginstate":"已登录",
+			"zqtgtime":"2015-11-03 09:50:00"
+		},{
+			"cxssname":"中国招商银行",
+			"cxscode":"800000000",
+			"cxamount":"100,000",
+			"zygz":"200,000,000",
+			"zzdsh":"400,000,000",
+			"zzdsz":"200,000,000",
+			"currentstate":"已托管",
+			"loginstate":"已登录",
+			"zqtgtime":"2015-11-03 09:50:00"
+		},{
+			"cxssname":"中国招商银行",
+			"cxscode":"800000000",
+			"cxamount":"100,000",
+			"zygz":"200,000,000",
+			"zzdsh":"400,000,000",
+			"zzdsz":"200,000,000",
+			"currentstate":"已托管",
+			"loginstate":"已登录",
+			"zqtgtime":"2015-11-03 09:50:00"
+		},{
+			"cxssname":"中国招商银行",
+			"cxscode":"800000000",
+			"cxamount":"100,000",
+			"zygz":"200,000,000",
+			"zzdsh":"400,000,000",
+			"zzdsz":"200,000,000",
+			"currentstate":"已托管",
+			"loginstate":"已登录",
+			"zqtgtime":"2015-11-03 09:50:00"
+		}
+		
+		]}

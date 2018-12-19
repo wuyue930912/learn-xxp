@@ -1,0 +1,182 @@
+{"total":14, "rows": [{
+			"yaoyuestate":"已发送",
+			"cxscode":"A00000001",
+			"yaoyueid":"10000001",
+			"bjjdstarttime":"2015-09-16 19:00:00",
+			"bjjdendtime":"2015-09-16 19:30:00",
+			"bjjdtype":"利率",
+			"bjjdamount":"800,000",
+			"ksctg":"是",
+			"flag":""
+		},{
+			"yaoyuestate":"已簿记建档",
+			"cxscode":"A00000002",
+			"yaoyueid":"10000002",
+			"bjjdstarttime":"2015-09-16 17:40:00",
+			"bjjdendtime":"2015-09-16 20:30:00",
+			"bjjdtype":"数量",
+			"bjjdamount":"1,000,000",
+			"ksctg":"否",
+			"flag":""
+		},{
+			"yaoyuestate":"已确认",
+			"cxscode":"A00000003",
+			"yaoyueid":"10000003",
+			"bjjdstarttime":"2015-09-16 16:00:00",
+			"bjjdendtime":"2015-09-16 16:30:00",
+			"bjjdtype":"利率",
+			"bjjdamount":"2,000,000",
+			"ksctg":"是",
+			"flag":""
+		},{
+			"yaoyuestate":"已当期追加",
+			"cxscode":"A00000004",
+			"yaoyueid":"10000004",
+			"bjjdstarttime":"2015-09-16 15:44:00",
+			"bjjdendtime":"2015-09-16 15:51:00",
+			"bjjdtype":"数量",
+			"bjjdamount":"1,500,000",
+			"ksctg":"是",
+			"flag":""
+		},{
+			"yaoyuestate":"当期追加已确认",
+			"cxscode":"A00000005",
+			"yaoyueid":"10000005",
+			"bjjdstarttime":"2015-09-16 13:25:00",
+			"bjjdendtime":"2015-09-16 13:39:00",
+			"bjjdtype":"价格",
+			"bjjdamount":"1,400,000",
+			"ksctg":"是",
+			"flag":""
+		},{
+			"yaoyuestate":"债权托管",
+			"cxscode":"A00000006",
+			"yaoyueid":"10000006",
+			"bjjdstarttime":"2015-09-16 11:15:00",
+			"bjjdendtime":"2015-09-16 15:30:00",
+			"bjjdtype":"价格",
+			"bjjdamount":"1,000,000",
+			"ksctg":"是",
+			"flag":"1"
+		},{
+			"yaoyuestate":"已注册",
+			"cxscode":"A00000007",
+			"yaoyueid":"10000007",
+			"bjjdstarttime":"2015-09-16 09:00:00",
+			"bjjdendtime":"2015-09-16 12:30:00",
+			"bjjdtype":"价格",
+			"bjjdamount":"1,000,000",
+			"ksctg":"是",
+			"flag":"0"
+		},{
+			"yaoyuestate":"已发送",
+			"cxscode":"A00000008",
+			"yaoyueid":"10000008",
+			"bjjdstarttime":"2015-09-16 19:00:00",
+			"bjjdendtime":"2015-09-16 19:30:00",
+			"bjjdtype":"利率",
+			"bjjdamount":"800,000",
+			"ksctg":"是",
+			"flag":""
+		},{
+			"yaoyuestate":"已簿记建档",
+			"cxscode":"A00000009",
+			"yaoyueid":"10000009",
+			"bjjdstarttime":"2015-09-16 17:40:00",
+			"bjjdendtime":"2015-09-16 20:30:00",
+			"bjjdtype":"数量",
+			"bjjdamount":"1,000,000",
+			"ksctg":"否",
+			"flag":""
+		},{
+			"yaoyuestate":"已确认",
+			"cxscode":"A00000010",
+			"yaoyueid":"10000010",
+			"bjjdstarttime":"2015-09-16 16:00:00",
+			"bjjdendtime":"2015-09-16 16:30:00",
+			"bjjdtype":"利率",
+			"bjjdamount":"2,000,000",
+			"ksctg":"是",
+			"flag":""
+		},{
+			"yaoyuestate":"已当期追加",
+			"cxscode":"A00000011",
+			"yaoyueid":"10000010",
+			"bjjdstarttime":"2015-09-16 15:44:00",
+			"bjjdendtime":"2015-09-16 15:51:00",
+			"bjjdtype":"数量",
+			"bjjdamount":"1,500,000",
+			"ksctg":"是",
+			"flag":""
+		},{
+			"yaoyuestate":"当期追加已确认",
+			"cxscode":"A00000012",
+			"yaoyueid":"10000019",
+			"bjjdstarttime":"2015-09-16 13:25:00",
+			"bjjdendtime":"2015-09-16 13:39:00",
+			"bjjdtype":"价格",
+			"bjjdamount":"1,400,000",
+			"ksctg":"否",
+			"flag":""
+		},{
+			"yaoyuestate":"债权托管",
+			"cxscode":"A00000011",
+			"yaoyueid":"10000010",
+			"bjjdstarttime":"2015-09-16 11:15:00",
+			"bjjdendtime":"2015-09-16 15:30:00",
+			"bjjdtype":"价格",
+			"bjjdamount":"1,000,000",
+			"ksctg":"是",
+			"flag":"0"
+		},{
+			"yaoyuestate":"已注册",
+			"cxscode":"A00000011",
+			"yaoyueid":"10000010",
+			"bjjdstarttime":"2015-09-16 09:00:00",
+			"bjjdendtime":"2015-09-16 12:30:00",
+			"bjjdtype":"价格",
+			"bjjdamount":"1,000,000",
+			"ksctg":"是",
+			"flag":"1"
+		},{
+			"yaoyuestate":"已当期追加",
+			"cxscode":"A00000011",
+			"yaoyueid":"10000010",
+			"bjjdstarttime":"2015-09-16 15:44:00",
+			"bjjdendtime":"2015-09-16 15:51:00",
+			"bjjdtype":"数量",
+			"bjjdamount":"1,500,000",
+			"ksctg":"是",
+			"flag":""
+		},{
+			"yaoyuestate":"当期追加已确认",
+			"cxscode":"A00000011",
+			"yaoyueid":"10000010",
+			"bjjdstarttime":"2015-09-16 13:25:00",
+			"bjjdendtime":"2015-09-16 13:39:00",
+			"bjjdtype":"价格",
+			"bjjdamount":"1,400,000",
+			"ksctg":"否",
+			"flag":""
+		},{
+			"yaoyuestate":"债权托管",
+			"cxscode":"A00000011",
+			"yaoyueid":"10000010",
+			"bjjdstarttime":"2015-09-16 11:15:00",
+			"bjjdendtime":"2015-09-16 15:30:00",
+			"bjjdtype":"价格",
+			"bjjdamount":"1,000,000",
+			"ksctg":"是",
+			"flag":"1"
+		},{
+			"yaoyuestate":"已注册",
+			"cxscode":"A00000011",
+			"yaoyueid":"10000010",
+			"bjjdstarttime":"2015-09-16 09:00:00",
+			"bjjdendtime":"2015-09-16 12:30:00",
+			"bjjdtype":"价格",
+			"bjjdamount":"1,000,000",
+			"ksctg":"是",
+			"flag":"1"
+		}
+		]}

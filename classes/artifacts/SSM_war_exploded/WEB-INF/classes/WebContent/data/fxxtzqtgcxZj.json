@@ -1,0 +1,23 @@
+{"total":3, "rows": [{
+			"bondCode":"<b>追加中标</b>",
+			"bondName":"--",
+			"years":"2,000,000",
+			"accrualType":"20,000,000,000.00",
+			"createDate1":"1,000,000",
+			"pamount1":"10,000,000,000.00",
+			"createDate2":"1,000,000",
+			"pamount2":"10,000,000,000.00",
+			"createDate3":"1,000,000",
+			"pamount3":"10,000,000.00"
+		},{
+			"bondCode":"<b>合计</b>",
+			"bondName":"--",
+			"years":"2,400,000",
+			"accrualType":"24,000,000,000.00",
+			"createDate1":"12,000,000",
+			"pamount1":"120,000,000,000.00",
+			"createDate2":"12,000,000",
+			"pamount2":"120,000,000,000.00",
+			"createDate3":"12,000,000",
+			"pamount3":"120,000,000.00"
+		}]}
