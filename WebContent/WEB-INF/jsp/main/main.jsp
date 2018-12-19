@@ -121,6 +121,22 @@
 			}
 		});
 	}
+	
+	function time(){
+		var vWeek,vWeek_s,vDay;
+		vWeek = ["星期天","星期一","星期二","星期三","星期四","星期五","星期六"];
+		var date =  new Date();
+		year = date.getFullYear();
+		month = date.getMonth() + 1;
+		day = date.getDate();
+		hours = date.getHours();
+		minutes = date.getMinutes();
+		seconds = date.getSeconds();
+		vWeek_s = date.getDay();
+		document.getElementById("time").innerHTML = year + "年" + month + "月" + day + "日" + "\t" + hours + ":" + minutes +":" + seconds + "\t" + vWeek[vWeek_s] ;
+	};
+	
+	setInterval("time()",1000);
 </script>
 <style type="text/css">
 .jiesuo {
@@ -202,13 +218,18 @@
 							<td><span> 登录用户： </span></td>
 							<td>${sessionScope.loginUser.username}</td>
 						</tr>
+
+
 						<tr>
 							<td><span> 用户角色： </span></td>
 							<td><c:if test="${sessionScope.loginUser.userrole == 1}">
-									超级管理员
-								</c:if> <c:if test="${sessionScope.loginUser.userrole == 2}">
-									普通用户
-								</c:if></td>
+										超级管理员
+									</c:if> <c:if test="${sessionScope.loginUser.userrole == 2}">
+										普通用户
+									</c:if></td>
+						</tr>
+						<tr>
+							<div id="time"></div>
 						</tr>
 					</table>
 				</div>
@@ -216,9 +237,10 @@
 		</div>
 	</div>
 	<div data-options="region:'center'" id="content"" style="padding: 0px; overflow: hidden;">
-		<div id="tt" class="easyui-tabs" style="width:100%; height:550px; overflow: hidden;">
+		<div id="tt" class="easyui-tabs" style="width:100%; height:555px; overflow: hidden;">
         	<div title="Home" style="background: url(images/bk.jpg);background-repeat: no-repeat;background-size: cover; -webkit-filter:blur(45px);
 				-moz-filter:blur(45px);-o-filter:blur(45px);-ms-filter:blur(45px);filter:blur(45px); ">
+				
         	</div>
     	</div>
 	</div>

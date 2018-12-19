@@ -41,7 +41,7 @@
 .button {
   display: inline-block;
   border-radius: 4px;
-  background-color: #66ccff;
+  background-color: #f4511e;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -85,21 +85,95 @@
   transform: translateY(4px);
 }
 
+.chat-bubble-bottom {}
+.chat-bubble-bottom:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  right:10px;
+  top:-21px;
+  border: 10px solid;
+  border-color:transparent transparent #989898 transparent ;
+}
+.chat-bubble-bottom:after {
+ content: '';
+ position: absolute;
+ width: 0;
+ height: 0;
+ right:12px;
+ top:-16px;
+ border: 8px solid;
+ border-color:transparent transparent #ffffff transparent  ;
+}
+.chat-bubble{
+  position: relative;
+  margin:12px;
+  padding:5px 8px;
+  word-break: break-all;
+  background:#fff;
+  border: 1px solid #989898;
+  border-radius: 5px;
+  max-width:200px;
+}
+.chat-bubble-left {}
+.chat-bubble-left:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -20px;
+  top:5px;
+  border: 10px solid;
+  border-color:transparent #f4511e transparent  transparent ;
+}
+.chat-bubble-left:after {
+ content: '';
+ position: absolute;
+ width: 0;
+ height: 0;
+ left:-16px;
+ top:7px;
+ border: 8px solid;
+ border-color:transparent #f4511e transparent  transparent ;
+}
+ 
+.chat-bubble-right {}
+.chat-bubble-right:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: -20px;
+  top:5px;
+  border: 10px solid;
+  border-color:transparent transparent transparent #f4511e;
+}
+.chat-bubble-right:after {
+ content: '';
+ position: absolute;
+ width: 0;
+ height: 0;
+ right:-16px;
+ top:7px;
+ border: 8px solid;
+ border-color:transparent transparent transparent #f4511e ;
+}
 
 </style>
 
 </head>
 <body class="easyui-layout" id="mainbody">
-		<input type="text" value="${sessionScope.loginUser.username}">
+		<input id = "username" type="hidden" value="${sessionScope.loginUser.username}">
 		<div id="msg" data-options="region:'west',iconCls:'icon-msg',collapsed:false,collapsible:false "
-			style="height: 65%; width: 100%;  overflow-y: auto;" title="webSocket">
-			<div id="message"></div>
+			style="height: 65%; width: 100%;  overflow-y: auto;  background: url(${ctx}/images/bk.jpg);background-repeat: no-repeat;background-size: cover; " title="webSocket">
+			<div id="message"  style="width: 98%;" ></div>
 		</div>
 
 		<div data-options="region:'south',iconCls:'icon-msg',collapsed:false,collapsible:false "
-			style="height: 300px; width: 100%; overflow: hidden">
+			style="height: 170px; width: 100%; overflow: hidden">
 			
-			<div id="editor" style="height:190px">      
+			<div id="editor" style="height:100px">      
 				<script type="text/javascript" charset="utf-8">      
 					UE.getEditor('editor');      
 				</script>  
@@ -147,9 +221,15 @@
 
     //将消息显示在网页上
     function setMessageInnerHTML(innerHTML) {
-    	alert(innerHTML);
-        document.getElementById('message').innerHTML += innerHTML + '<br/>';
-        $("#msg").scrollTop($("#msg")[0].scrollHeight);
+    	var username = innerHTML.split(":")[3].trim();
+    	var usersession = $("#username").val().trim();
+    	if(username == usersession){
+    		document.getElementById('message').innerHTML += '<div class=\'chat-bubble chat-bubble-right\' style=\'color: #FFFFFF; margin-left: 78%; text-align:left; background:#f4511e;\'>' + innerHTML + '<br/></div>';
+            $("#msg").scrollTop($("#msg")[0].scrollHeight);
+    	}else{
+    		document.getElementById('message').innerHTML += '<div class=\'chat-bubble chat-bubble-left\' style=\'margin-left: 3%; text-align:left; background:#f4511e; \'>' + innerHTML + '<br/></div>';
+            $("#msg").scrollTop($("#msg")[0].scrollHeight);
+    	}
     }
 
     //关闭WebSocket连接
