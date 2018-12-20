@@ -62,11 +62,12 @@ public class LoginController {
 		List<Menu> listSon = map.get("sonNode");
 		
 		ModelAndView modelAndView = new ModelAndView();
-		modelAndView.setViewName("main/main");
+		modelAndView.setViewName("main/main-bootstrap");
 		modelAndView.addObject("menuList", list);
 		modelAndView.addObject("sonList", listSon);
 		return modelAndView;
 	}
+
 
 	@RequestMapping(value = "/toLoginTwo", method = RequestMethod.POST)
 	@ResponseBody

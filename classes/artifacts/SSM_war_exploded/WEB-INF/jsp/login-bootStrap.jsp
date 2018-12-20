@@ -8,19 +8,89 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <title>中央国债登记结算有限责任公司</title>
+    <title>title</title>
     <meta http-equiv="X-UA-Compatible" content="IE=12;IE=11;IE=10;IE=9;IE=8;IE=7;IE=EDGE"/>
     <style type="text/css">
         body {
             background: url("${ctx}/images/1.jpg");
+
             animation-name: myfirst;
             animation-duration: 12s;
             animation-delay: 2s;
             animation-iteration-count: infinite;
             animation-play-state: running;
+
+            -webkit-animation-name: myfirst;
+            -webkit-animation-duration: 12s;
+            -webkit-animation-delay: 2s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-play-state: running;
+
+            -moz-animation-name: myfirstfox;
+            -moz-animation-duration: 12s;
+            -moz-animation-delay: 2s;
+            -moz-animation-iteration-count: infinite;
+            -moz-animation-play-state: running;
+
+            -o-animation-name: myfirst;
+            -o-animation-duration: 12s;
+            -o-animation-delay: 2s;
+            -o-animation-iteration-count: infinite;
+            -o-animation-play-state: running;
         }
 
         @keyframes myfirst {
+            0% {
+                background: url("${ctx}/images/1.jpg");
+            }
+            34% {
+                background: url("${ctx}/images/2.jpg");
+            }
+            67% {
+                background: url("${ctx}/images/3.jpg");
+            }
+            100% {
+                background: url("${ctx}/images/1.jpg");
+            }
+        }
+
+        @-webkit-keyframes myfirst {
+            0% {
+                background: url("${ctx}/images/1.jpg");
+            }
+            34% {
+                background: url("${ctx}/images/2.jpg");
+            }
+            67% {
+                background: url("${ctx}/images/3.jpg");
+            }
+            100% {
+                background: url("${ctx}/images/1.jpg");
+            }
+        }
+
+        @-ms-keyframes myfirst {
+            0% {
+                background: url("${ctx}/images/1.jpg");
+            }
+            34% {
+                background: url("${ctx}/images/2.jpg");
+            }
+            67% {
+                background: url("${ctx}/images/3.jpg");
+            }
+            100% {
+                background: url("${ctx}/images/1.jpg");
+            }
+        }
+
+        @-moz-keyframes myfirstfox {
+            100% {
+                background: url("${ctx}/images/1.jpg");
+            }
+        }
+
+        @-o-keyframes myfirst {
             0% {
                 background: url("${ctx}/images/1.jpg");
             }
@@ -217,11 +287,11 @@
                     success: function (data) {
                         if (data == '9001') {
                             window.location.href = "${ctx}/main";
-                        } else if (data == '9999') {
-                            alert('用户不存在！');
+                        }else if (data == '9999') {
+                            $('#errormsg').attr("class","alert-danger");
                             return false;
                         } else if (data == '9002') {
-                            alert('密码错误！');
+                            $('#errormsg').attr("class","alert-danger");
                             return false;
                         }
 
@@ -230,12 +300,28 @@
 
             }
         }
+
+        function closeMsg(){
+            $('#errormsg').attr("class","alert-danger hide");
+        }
+
     </script>
 </head>
 <body style="overflow: hidden">
+
+<div class="alert alert-warning hide" role="alert" id="errormsg"  data-dismiss="alert" style="width:100%;height: 20px; text-align: center">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"  onclick='javascript:closeMsg();'>
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <strong>账号/密码错误!</strong>
+</div>
+
 <div class="container">
+
+
     <div class="form row" style="margin-left: 340px;margin-top: 150px;">
-        <div class="form-horizontal col-md-offset-3" id="login_form" style="height: 300px">
+        <div class="form-horizontal col-md-offset-3" id="login_form" style="height: 300px;margin-left: 15px">
+
             <h3 class="form-title" style="margin-left: 155px; margin-top: 20px;">LOGIN</h3>
 
             <div class="col-md-9">
@@ -250,11 +336,12 @@
                 <div class="form-group">
                     <i class="fa fa-lock fa-lg"></i>
                     <input id="password" value="" name="password" type="password" maxlength="6"
-                           style="margin-left: 67px;width: 230px;" class="form-control required" placeholder="Password"/>
+                           style="margin-left: 67px;width: 230px;" class="form-control required"
+                           placeholder="Password"/>
                 </div>
-                <div class="cont_btn">
-                    <button type="button" class="btn btn-success pull-right" name="submit"
-                            style="margin-left: 80px;margin-top:5px; width: 200px;" onclick='javascript:login();'>登   录
+                <div class="cont_btn" style="margin-left: 80px;margin-top:5px; width: 200px;">
+                    <button type="button" class="btn btn-success pull-right" name="submit" style="width: 228px;"
+                             onclick='javascript:login();'>登 录
                     </button>
                 </div>
 
@@ -262,6 +349,8 @@
         </div>
     </div>
 </div>
+
+
 
 </body>
 </html>

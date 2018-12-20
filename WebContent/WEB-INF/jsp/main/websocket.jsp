@@ -9,12 +9,12 @@
 <meta http-equiv="pragma" content="no-cache"/>
 <meta http-equiv="cache-control" content="no-cache,must-revalidate"/>
 <meta http-equiv="expires" content="0"/>
-<title>中央国债登记结算有限责任公司</title>
+<title>title</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible"
 	content="IE=12;IE=11;IE=10;IE=9;IE=8;IE=7;IE=EDGE" />
-<link id="easyuiTheme" rel="stylesheet" type="text/css"
-	href="${ctx}/js/easyui/themes/custom/easyuiTree.css">
+	<link id="easyuiTheme" rel="stylesheet" type="text/css"
+		  href="${ctx}/js/easyui/themes/metro-blue/easyui.css">
 <link rel="stylesheet" type="text/css"
 	href="${ctx}/js/easyui/themes/icon.css">
 <link rel="stylesheet" type="text/css"
@@ -165,8 +165,8 @@
 </head>
 <body class="easyui-layout" id="mainbody">
 		<input id = "username" type="hidden" value="${sessionScope.loginUser.username}">
-		<div id="msg" data-options="region:'west',iconCls:'icon-msg',collapsed:false,collapsible:false "
-			style="height: 65%; width: 100%;  overflow-y: auto;  background: url(${ctx}/images/bk.jpg);background-repeat: no-repeat;background-size: cover; " title="webSocket">
+		<div id="msg" data-options="region:'west',collapsed:false,collapsible:false "
+			style="height: 65%; width: 100%;  overflow-y: auto;  background: url(${ctx}/images/bk.jpg);background-repeat: no-repeat;background-size: cover; ">
 			<div id="message"  style="width: 98%;" ></div>
 		</div>
 

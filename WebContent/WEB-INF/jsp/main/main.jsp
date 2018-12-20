@@ -9,12 +9,12 @@
 <meta http-equiv="pragma" content="no-cache"/>
 <meta http-equiv="cache-control" content="no-cache,must-revalidate"/>
 <meta http-equiv="expires" content="0"/>
-<title>中央国债登记结算有限责任公司</title>
+<title>title</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible"
 	content="IE=12;IE=11;IE=10;IE=9;IE=8;IE=7;IE=EDGE" />
-<link id="easyuiTheme" rel="stylesheet" type="text/css"
-	href="${ctx}/js/easyui/themes/custom/easyuiTree.css">
+	<link id="easyuiTheme" rel="stylesheet" type="text/css"
+		  href="${ctx}/js/easyui/themes/metro-blue/easyui.css">
 <link rel="stylesheet" type="text/css"
 	href="${ctx}/js/easyui/themes/icon.css">
 <link rel="stylesheet" type="text/css"
@@ -181,13 +181,13 @@
 	</div>
 	<div data-options="region:'south'" style="height: 30px;">
 		<div id="bottomDiv" class="bottom_font" align="center">
-			&copy;中央国债登记结算有限责任公司 Copyright&copy; All Rights Reserved</div>
+			</div>
 	</div>
 	<div data-options="region:'west',split:true,iconCls:'icon-left_nav'" style="width: 20%;">
 		<div class="easyui-layout" style="width: 100%; height: 100%;">
 			<div data-options="region:'west',iconCls:'icon-msg',collapsed:false,collapsible:false "
 				style="height: 65%; width: 100%; overflow: hidden" title="导航菜单">
-				
+
 				<div id="nav" class="easyui-accordion" fit="false" border="false" style="width: 100%; height: 98%; font-weight: bold;">
 					<c:forEach items="${menuList}" var="menu">
 						<div title='${menu.name}' style="height: 15px; font-weight: bold;">
@@ -206,7 +206,7 @@
 						</div>
 					</c:forEach>
 				</div>
-				
+
 			</div>
 			<div data-options="region:'south',iconCls:'icon-msg',collapsed:false,collapsible:false "
 				style="height: 170px; width: 100%; overflow: hidden" title="登录信息">
@@ -240,7 +240,7 @@
 		<div id="tt" class="easyui-tabs" style="width:100%; height:555px; overflow: hidden;">
         	<div title="Home" style="background: url(images/bk.jpg);background-repeat: no-repeat;background-size: cover; -webkit-filter:blur(45px);
 				-moz-filter:blur(45px);-o-filter:blur(45px);-ms-filter:blur(45px);filter:blur(45px); ">
-				
+
         	</div>
     	</div>
 	</div>

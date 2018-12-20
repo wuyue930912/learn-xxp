@@ -10,8 +10,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible"
 	content="IE=12;IE=11;IE=10;IE=9;IE=8;IE=7;IE=EDGE" />
+
 <link id="easyuiTheme" rel="stylesheet" type="text/css"
-	href="${ctx}/js/easyui/themes/custom/easyuiTree.css">
+	 href="${ctx}/js/easyui/themes/metro-blue/easyui.css">
 <link rel="stylesheet" type="text/css"
 	href="${ctx}/js/easyui/themes/icon.css">
 <link rel="stylesheet" type="text/css"
