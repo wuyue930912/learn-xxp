@@ -19,6 +19,7 @@
 	href="${ctx}/js/easyui/themes/color.css">
 <link rel="stylesheet" type="text/css" href="${ctx}/css/common.css">
 <link rel="stylesheet" type="text/css" href="${ctx}/css/base.css">
+<link href="${ctx}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 <script type="text/javascript" src="${ctx}/js/easyui/jquery.min.js"></script>
 <script type="text/javascript"
@@ -29,6 +30,7 @@
 <script type="text/javascript" src="${ctx}/js/app.js"></script>
 <script type="text/javascript" src="${ctx}/js/load.js"></script>
 <script type="text/javascript" src="${ctx}/js/pubfun.js"></script>
+<script src="${ctx}/bootstrap/js/bootstrap.min.js"></script>
 
 <title>用户管理</title>
 </head>
@@ -39,20 +41,20 @@
 				<b>查询条件</b>
 			</legend>
 			<form id="search_msgUploadSearch">
-				<table class="tb-search">
+				<table>
 					<tr>
-						<td align="center" style="width: 100px;">用户名:</td>
-						<td> 
-							<input id="username_search" data-options="width:'160px'" type="text" name="username" class="easyui-textbox" />
+						<td>
+							<div class="input-group" style="margin-left: 30px">
+								<span class="input-group-addon">用户名</span>
+								<input id="username_search" type="text" class="form-control" placeholder="twitterhandle" style="width: 200px;">
+							</div>
 						</td>
-						
-						<td align="center" style="width: 100px;">
-							<span class="btn-left" >
-								<a href="#" id="btn_msgUploadSearchId" class="easyui-linkbutton"
-								data-options="iconCls:'icon-search'" onclick="seachUserList();">查 询</a>
-							</span>
+						<td>
+							<div class="btn-group" role="group" aria-label="...">
+								<button type="button" class="btn btn-default" onclick="seachUserList();">查 询</button>
+								<button type="button" class="btn btn-default" onclick="exportUser();">导 出</button>
+							</div>
 						</td>
-						
 					</tr>
 				</table>
 			</form>

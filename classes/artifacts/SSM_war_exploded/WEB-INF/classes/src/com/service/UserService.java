@@ -29,6 +29,7 @@ public interface UserService{
 	User selectUserByKey(int parseInt);
 
 	int updateUser(User user);
-	
-	
+
+
+    List<User> findAll();
 }

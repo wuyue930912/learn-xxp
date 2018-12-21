@@ -41,7 +41,7 @@
 .button {
   display: inline-block;
   border-radius: 4px;
-  background-color: #f4511e;
+  background-color: #337ab7;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -94,7 +94,7 @@
   right:10px;
   top:-21px;
   border: 10px solid;
-  border-color:transparent transparent #989898 transparent ;
+  border-color:transparent transparent #337ab7 transparent ;
 }
 .chat-bubble-bottom:after {
  content: '';
@@ -104,7 +104,7 @@
  right:12px;
  top:-16px;
  border: 8px solid;
- border-color:transparent transparent #ffffff transparent  ;
+ border-color:transparent transparent #337ab7 transparent  ;
 }
 .chat-bubble{
   position: relative;
@@ -112,7 +112,7 @@
   padding:5px 8px;
   word-break: break-all;
   background:#fff;
-  border: 1px solid #989898;
+  border: 1px solid #337ab7;
   border-radius: 5px;
   max-width:200px;
 }
@@ -125,7 +125,7 @@
   left: -20px;
   top:5px;
   border: 10px solid;
-  border-color:transparent #f4511e transparent  transparent ;
+  border-color:transparent #337ab7 transparent  transparent ;
 }
 .chat-bubble-left:after {
  content: '';
@@ -135,7 +135,7 @@
  left:-16px;
  top:7px;
  border: 8px solid;
- border-color:transparent #f4511e transparent  transparent ;
+ border-color:transparent #337ab7 transparent  transparent ;
 }
  
 .chat-bubble-right {}
@@ -147,7 +147,7 @@
   right: -20px;
   top:5px;
   border: 10px solid;
-  border-color:transparent transparent transparent #f4511e;
+  border-color:transparent transparent transparent #337ab7;
 }
 .chat-bubble-right:after {
  content: '';
@@ -157,7 +157,7 @@
  right:-16px;
  top:7px;
  border: 8px solid;
- border-color:transparent transparent transparent #f4511e ;
+ border-color:transparent transparent transparent #337ab7 ;
 }
 
 </style>
@@ -166,7 +166,7 @@
 <body class="easyui-layout" id="mainbody">
 		<input id = "username" type="hidden" value="${sessionScope.loginUser.username}">
 		<div id="msg" data-options="region:'west',collapsed:false,collapsible:false "
-			style="height: 65%; width: 100%;  overflow-y: auto;  background: url(${ctx}/images/bk.jpg);background-repeat: no-repeat;background-size: cover; ">
+			style="height: 65%; width: 100%;  overflow-y: auto;  background: url(${ctx}/images/1.jpg);background-repeat: no-repeat;background-size: cover; ">
 			<div id="message"  style="width: 98%;" ></div>
 		</div>
 
@@ -224,10 +224,10 @@
     	var username = innerHTML.split(":")[3].trim();
     	var usersession = $("#username").val().trim();
     	if(username == usersession){
-    		document.getElementById('message').innerHTML += '<div class=\'chat-bubble chat-bubble-right\' style=\'color: #FFFFFF; margin-left: 78%; text-align:left; background:#f4511e;\'>' + innerHTML + '<br/></div>';
+    		document.getElementById('message').innerHTML += '<div class=\'chat-bubble chat-bubble-right\' style=\'color: #FFFFFF; margin-left: 78%; text-align:left; background:#337ab7;\'>' + innerHTML + '<br/></div>';
             $("#msg").scrollTop($("#msg")[0].scrollHeight);
     	}else{
-    		document.getElementById('message').innerHTML += '<div class=\'chat-bubble chat-bubble-left\' style=\'margin-left: 3%; text-align:left; background:#f4511e; \'>' + innerHTML + '<br/></div>';
+    		document.getElementById('message').innerHTML += '<div class=\'chat-bubble chat-bubble-left\' style=\'margin-left: 3%; text-align:left; background:#337ab7; \'>' + innerHTML + '<br/></div>';
             $("#msg").scrollTop($("#msg")[0].scrollHeight);
     	}
     }

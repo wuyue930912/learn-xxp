@@ -1,5 +1,6 @@
 package com.controller;
 
+import java.io.OutputStream;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -10,7 +11,16 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.util.*;
 import org.apache.log4j.Logger;
+import org.apache.poi.hssf.usermodel.HSSFCell;
+import org.apache.poi.hssf.usermodel.HSSFCellStyle;
+import org.apache.poi.hssf.usermodel.HSSFRow;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.hssf.util.HSSFColor;
+import org.apache.poi.ss.usermodel.FillPatternType;
+import org.apache.poi.ss.usermodel.HorizontalAlignment;
+import org.apache.poi.ss.usermodel.VerticalAlignment;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,10 +32,6 @@ import com.pojo.Role;
 import com.pojo.User;
 import com.service.RoleService;
 import com.service.UserService;
-import com.util.MD5Util;
-import com.util.ModelAndViewUtil;
-import com.util.PageBean;
-import com.util.ResponseUtil;
 
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
@@ -216,6 +222,55 @@ public class UserController {
 
 		ResponseUtil.write(res, result);
 		return null;
+	}
+
+	@RequestMapping("/export")
+	public void export(HttpServletRequest request, HttpServletResponse response) {
+		response.setContentType("application/vnd.ms-excel");
+		response.setHeader("Content-disposition", "attachment;filename=userExport.xls");
+		OutputStream ouputStream = null;
+
+		List<User> list = userService.findAll();
+
+		/***
+		 * @功能  生成基础报表 含表头 表尾 数据列表。修改报表样式需要重新定义报表HSSFCellStyle
+		 * @参数 （要生成报表的list/报表名称/报表中对象类型）
+		 * @url   样式修改等具体参考http://poi.apache.org/apidocs/3.17/
+		 * @author  Wuyue
+		 */
+		HSSFWorkbook wb = ExportUtil.exportData(list,"用户报表",new User());
+
+		//重新定义报表样式
+		HSSFCellStyle style = wb.createCellStyle();
+		style.setFillForegroundColor(HSSFColor.HSSFColorPredefined.BLUE.getIndex());
+		style.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+		style.setFillBackgroundColor(HSSFColor.HSSFColorPredefined.BLUE.getIndex());
+		style.setAlignment(HorizontalAlignment.CENTER);// 水平居中
+		style.setVerticalAlignment(VerticalAlignment.CENTER);// 垂直居中
+
+		//重新定义表头样式
+		HSSFRow row = wb.getSheet("用户报表").getRow(0);
+		HSSFCell cell = row.getCell(0);
+		cell.setCellStyle(style);
+
+		//重新定义表尾样式
+		HSSFRow row2 = wb.getSheet("用户报表").getRow(list.size()+2);
+		HSSFCell cell2 = row2.getCell(0);
+		cell2.setCellStyle(style);
+
+		try {
+			ouputStream = response.getOutputStream();
+			wb.write(ouputStream);
+		} catch (Exception e) {
+			throw new RuntimeException("系统异常");
+		} finally {
+			try {
+				ouputStream.flush();
+				ouputStream.close();
+			} catch (Exception e) {
+				throw new RuntimeException("系统异常");
+			}
+		}
 	}
 	
 	

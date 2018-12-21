@@ -2,6 +2,7 @@
   <library name="learn-xxp">
     <CLASSES>
       <root url="file://$PROJECT_DIR$" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/poi-3.16.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

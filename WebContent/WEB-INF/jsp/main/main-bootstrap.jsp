@@ -151,6 +151,23 @@
         };
 
         setInterval("time()", 1000);
+
+        $("#btn1").click(function() {
+            $("#d1").hide();
+        });
+
+        function showMsg(){
+            $("#jumbotron").hide();
+            $('#msg').attr("class","active");
+            $('#home').attr("class","");
+        }
+
+        function gohome(){
+            $("#jumbotron").show();
+            $('#home').attr("class","active");
+            $('#msg').attr("class","");
+        }
+
     </script>
     <style type="text/css">
         .tabs-panels > .panel > .panel-body {
@@ -177,7 +194,7 @@
                         <div class="accordion" id="accordion-702175" STYLE="border: unset">
                             <div class="panel panel-primary" >
                                 <div class="panel-heading" >
-                                    <h3 class="panel-title">导航菜单咯</h3>
+                                    <h3 class="panel-title">导航菜单</h3>
                                 </div>
                                 <div class="panel-body" style="padding: unset">
                                     <c:forEach items="${menuList}" var="menu">
@@ -221,10 +238,10 @@
             </div>
         </div>
 
-        <div data-options="region:'south',iconCls:'icon-msg',collapsed:false,collapsible:false "style="height: 170px; width: 100%; overflow: hidden; padding: unset;margin-top: 67px">
+        <div data-options="region:'south',iconCls:'icon-msg',collapsed:false,collapsible:false "style="height: 170px; width: 100%; overflow: hidden; padding: unset;margin-top: 67px;border: unset">
                <div class="panel panel-primary" style="margin-top: 45px;" >
                     <div class="panel-heading" >
-                        <h3 class="panel-title">登陆信息咯</h3>
+                        <h3 class="panel-title">登陆信息</h3>
                     </div>
                 <div class="panel-body">
                     <table>
@@ -261,7 +278,16 @@
                         </div>
                         <div>
                             <ul class="nav navbar-nav" style="text-align: center">
-                                <li class="active" style="width: 150px"><a href="#">首页</a></li>
+                                <li id="home" class="active" style="width: 150px">
+                                    <a href="#" onclick="gohome()">首页</a>
+                                </li>
+
+                                <li id="msg">
+                                    <a href="#" onclick="showMsg()" style="float: right ; width: 150px">
+                                    公告
+                                    </a>
+                                </li>
+
                                 <li><a href="#" onclick="logout()" style="float: right ; width: 150px">
                                         关闭
                                     </a>
@@ -290,7 +316,7 @@
 
             </div>
 
-            <div class="jumbotron" style="height: 100%;">
+            <div id="jumbotron" class="jumbotron" style="height: 100%;">
                 <div id="myCarousel" class="carousel slide">
                     <!-- 轮播（Carousel）指标 -->
                     <ol class="carousel-indicators">

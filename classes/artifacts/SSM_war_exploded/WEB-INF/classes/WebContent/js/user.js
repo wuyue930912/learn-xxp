@@ -39,7 +39,11 @@
 	$(this).ready(function() {
 		initUser();
 	});
-	
+
+	function exportUser(){
+		window.location.href="/user/export";
+	}
+
 	function initUser(){
 		var table_userList=$("#table_userList");
 		table_userList.datagrid({ 
@@ -271,7 +275,7 @@
 	}
 	
 	function seachUserList(){
-		var username_search = $("#username_search").textbox('getValue');
+		var username_search = $("#username_search").val();
 		
 		var table_userList=$("#table_userList");
 		table_userList.datagrid({ 

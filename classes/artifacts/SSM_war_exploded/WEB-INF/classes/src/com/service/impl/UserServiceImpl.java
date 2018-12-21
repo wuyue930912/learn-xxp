@@ -67,6 +67,11 @@ public class UserServiceImpl implements UserService{
 		// TODO Auto-generated method stub
 		return userMapper.updateByPrimaryKey(user);
 	}
-	
+
+	@Override
+	public List<User> findAll() {
+		return userMapper.selectByExample(new UserExample());
+	}
+
 
 }
