@@ -165,11 +165,11 @@ public class UserController {
 	
 	
 	@RequestMapping(value = "/queryUserList")
-	public String queryUserList(@RequestParam(value="page",required=false) String page,@RequestParam(value="rows",required=false) String rows,HttpServletResponse res) throws Exception {
+	public String queryUserList(@RequestParam(value="page",required=false) String page,@RequestParam(value="rows",required=false) String rows,HttpServletRequest req ,HttpServletResponse res) throws Exception {
 		PageBean pageBean=new PageBean(Integer.parseInt(page),Integer.parseInt(rows));
 		Map<String,Object> map=new HashMap<String,Object>();
 		map.put("start", pageBean.getStart());
-		map.put("size", pageBean.getPageSize());
+		map.put("size",pageBean.getPageSize());
 		List<User> userList=userService.find(map);
 		Long total=userService.getTotal(map);
 		

@@ -60,4 +60,9 @@ public class RoleServiceImpl implements RoleService {
 		// TODO Auto-generated method stub
 		return roleMapper.deleteByPrimaryKey(Integer.parseInt(id));
 	}
+
+	@Override
+	public int updateRole(Role role) {
+		return roleMapper.updateByPrimaryKey(role);
+	}
 }

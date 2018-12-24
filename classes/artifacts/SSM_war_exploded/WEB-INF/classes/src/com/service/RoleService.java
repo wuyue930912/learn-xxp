@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.Map;
 
 import com.pojo.Role;
-import com.pojo.User;
 
 public interface RoleService {
 	Role findByRoleId(Integer userRoleId);
@@ -21,4 +20,5 @@ public interface RoleService {
 
 	int deleteByKey(String id);
 
+	int updateRole(Role role);
 }

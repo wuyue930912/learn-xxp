@@ -8,7 +8,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>中央国债登记结算有限责任公司</title>
+<title>title</title>
 <meta http-equiv="X-UA-Compatible" content="IE=12;IE=11;IE=10;IE=9;IE=8;IE=7;IE=EDGE" />
 <link href="${ctx}/css/login.css" rel="stylesheet" type="text/css" />
 <link id="easyuiTheme" rel="stylesheet" type="text/css" href="${ctx}/js/easyui/themes/custom/easyui.css">

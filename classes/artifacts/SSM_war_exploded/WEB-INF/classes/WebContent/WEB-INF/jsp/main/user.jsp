@@ -31,8 +31,12 @@
 <script type="text/javascript" src="${ctx}/js/load.js"></script>
 <script type="text/javascript" src="${ctx}/js/pubfun.js"></script>
 <script src="${ctx}/bootstrap/js/bootstrap.min.js"></script>
-
-<title>用户管理</title>
+    <style type="text/css">
+        .panel-body{
+            padding: unset;
+        }
+    </style>
+    <title>用户管理</title>
 </head>
 <body>
 	<div style="margin-top: 2%">
@@ -49,9 +53,10 @@
 								<input id="username_search" type="text" class="form-control" placeholder="twitterhandle" style="width: 200px;">
 							</div>
 						</td>
-						<td>
+						<td style="padding-left: 600px;">
 							<div class="btn-group" role="group" aria-label="...">
 								<button type="button" class="btn btn-default" onclick="seachUserList();">查 询</button>
+                                <button type="button" class="btn btn-default" onclick="reset();">重 置</button>
 								<button type="button" class="btn btn-default" onclick="exportUser();">导 出</button>
 							</div>
 						</td>
@@ -60,8 +65,8 @@
 			</form>
 		</fieldset>
 	</div>
-	<div style="margin-left: 2%; margin-top: 2%" id="roletable">
-		<table id="table_userList" style="width: 500px; height: 380px; align:'center'">
+	<div style="margin-left: 2%; margin-top: 2%; padding: unset" id="roletable" >
+		<table id="table_userList" style="width: 500px; height: 380px; align:'center'; padding: unset">
 		</table>
 	</div>
 	

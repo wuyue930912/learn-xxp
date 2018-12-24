@@ -4,12 +4,13 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/WebContent/WEB-INF/lib/poi-3.16.jar" charset="GBK" />
     <file url="file://$PROJECT_DIR$/WebContent/bootstrap/css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/WebContent/bootstrap/dist" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/WebContent/bootstrap/fonts" charset="GBK" />
     <file url="file://$PROJECT_DIR$/WebContent/bootstrap/js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/WebContent/images/1.jpg" charset="GBK" />
     <file url="file://$PROJECT_DIR$/WebContent/images/2.jpg" charset="GBK" />
     <file url="file://$PROJECT_DIR$/WebContent/images/3.jpg" charset="GBK" />
     <file url="file://$PROJECT_DIR$/WebContent/images/4.jpg" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/js/bootstrap-3.3.7-dist" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/controller/LoginController.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/controller/WebSocketTest.java" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />

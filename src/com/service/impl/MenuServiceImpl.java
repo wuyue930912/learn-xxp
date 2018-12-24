@@ -12,7 +12,6 @@ import com.mapper.MenuMapper;
 import com.pojo.Menu;
 import com.pojo.MenuExample;
 import com.pojo.MenuExample.Criteria;
-import com.pojo.Role;
 import com.service.MenuService;
 
 @Service("MenuService")
@@ -54,4 +53,38 @@ public class MenuServiceImpl implements MenuService {
 		return menuMapper.getTotal(map);
 	}
 
+	@Override
+	public List<Menu> findMenu(Map<String, Object> map) {
+		// TODO Auto-generated method stub
+		return menuMapper.findMenu(map);
+	}
+
+	@Override
+	public List<Menu> findAll() {
+		// TODO Auto-generated method stub
+		MenuExample example = new MenuExample();
+		Criteria criteria = example.createCriteria();
+		criteria.andPrentnodeEqualTo(0);
+		return menuMapper.selectByExample(example);
+	}
+
+	@Override
+	public int insert(Menu menu) {
+		return menuMapper.insert(menu);
+	}
+
+	@Override
+	public List<Menu> checkMenuName(String menuName) {
+		MenuExample example = new MenuExample();
+		Criteria criteria = example.createCriteria();
+		criteria.andNameEqualTo(menuName);
+		return menuMapper.selectByExample(example);
+	}
+
+
+	@Override
+	public Long getTotalMenu(Map<String, Object> map) {
+		// TODO Auto-generated method stub
+		return menuMapper.getTotalMenu(map);
+	}
 }

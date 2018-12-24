@@ -35,4 +35,8 @@ public interface MenuMapper {
 	Long getTotal(Map<String, Object> map);
 
 	List<Menu> find(Map<String, Object> map);
+
+    List<Menu> findMenu(Map<String, Object> map);
+
+    Long getTotalMenu(Map<String, Object> map);
 }

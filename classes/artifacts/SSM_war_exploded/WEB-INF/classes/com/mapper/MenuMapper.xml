@@ -11,7 +11,37 @@
     <result column="state" jdbcType="INTEGER" property="state" />
     <result column="prentnode" jdbcType="INTEGER" property="prentnode" />
   </resultMap>
-  
+
+  <select id="findMenu" resultMap="BaseResultMap">
+    select * from kj_menu
+    <where>
+      state = '0'
+      <if test="menuName  != null">
+        and name like concat('%',#{menuName},'%')
+      </if>
+      <if test="menuUrl  != null">
+        and url like concat('%',#{menuUrl},'%')
+      </if>
+    </where>
+    order by prentnode
+    <if test="start!=null and size!=null">
+      limit #{start},#{size}
+    </if>
+  </select>
+
+  <select id="getTotalMenu" parameterType="Map" resultType="Long">
+    select count(*) from kj_menu
+    <where>
+      state = '0'
+      <if test="menuName  != null">
+        and name like concat('%',#{menuName},'%')
+      </if>
+      <if test="menuUrl  != null">
+        and url like concat('%',#{menuUrl},'%')
+      </if>
+    </where>
+  </select>
+
   <select id="find" resultMap="BaseResultMap">
 	select * from kj_menu
 	<where>

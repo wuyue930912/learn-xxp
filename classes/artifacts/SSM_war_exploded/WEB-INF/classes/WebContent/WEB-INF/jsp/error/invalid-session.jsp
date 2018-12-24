@@ -8,7 +8,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>中央国债登记结算有限责任公司</title>
+<title>title</title>
 <meta http-equiv="X-UA-Compatible" content="IE=12;IE=11;IE=10;IE=9;IE=8;IE=7;IE=EDGE" />
 <link href="${ctx}/css/login.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
@@ -39,7 +39,7 @@
 					<div style="font-size: 25px; width: 400px; height: 200px; color: white; margin-left: 35%;">
 					<br/>
 					<br/>
-						会话超时请<a href="login">重新登录</a>！
+						会话超时请<a href="loginTwo">重新登录</a>！
 					</div>
 				</div>
 				<!--错误信息显示位置和样式调整 -->
@@ -48,7 +48,7 @@
 		</div>		
 	</div>
 	<div id="nantian" style='postion:relative;text-align:center;'>
-	<div class="foot">&copy; 中央国债登记结算有限责任公司 Copyright &copy; All Rights Reserved</div>
+	<div class="foot"></div>
 	</div>
 </body>
 </html>

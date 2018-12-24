@@ -1,5 +1,7 @@
 package com.controller;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -51,7 +53,47 @@ public class RoleController {
 	public String toRoleAdd() {
 		return "main/roleAdd";
 	}
-	
+
+	@ResponseBody
+	@RequestMapping(value = "/updateRole")
+	public JSONObject updateRole(HttpServletRequest request, HttpServletResponse response) throws ParseException {
+		String id = request.getParameter("id");
+		String roleName = request.getParameter("roleName");
+		String bz = request.getParameter("bz");
+		String createtime = request.getParameter("rolecreatetime");
+		String menus = request.getParameter("menus");
+
+		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		Date date = format.parse(createtime);
+
+		JSONObject result=new JSONObject();
+
+		Role role = new Role();
+		role.setId(Integer.parseInt(id));
+		role.setBz(bz);
+		role.setMenus(menus);
+		role.setName(roleName);
+		role.setCreatetime(date);
+
+		int count = RoleService.updateRole(role);
+		if(count>0) {
+			result.put("flag", "success");
+		}else {
+			result.put("flag", "error");
+		}
+		return result;
+	}
+
+
+	@RequestMapping(value = "/toRoleEdit")
+	public ModelAndView toRoleEdit(HttpServletRequest request) {
+		String roleID = request.getParameter("roleID");
+		Role role = RoleService.findByRoleId(Integer.parseInt(roleID));
+		ModelAndView modelAndView = ModelAndViewUtil.toPage("main/roleEdit");
+		modelAndView.addObject("EditRole", role);
+		return modelAndView;
+	}
+
 	@RequestMapping(value = "/queryMenuList")
 	public String queryMenuList(@RequestParam(value="page",required=false) String page,@RequestParam(value="rows",required=false) String rows,HttpServletResponse res) throws Exception {
 		PageBean pageBean=new PageBean(Integer.parseInt(page),Integer.parseInt(rows));

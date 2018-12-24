@@ -40,6 +40,10 @@
 		initUser();
 	});
 
+	function reset(){
+	    $("#username_search").val('');
+    }
+
 	function exportUser(){
 		window.location.href="/user/export";
 	}
@@ -174,6 +178,8 @@
 	   		draggable:true,
 	   		width: 800,
 	   		height:480,
+            draggable:true,
+            modal: true,
 	   		buttons:[{
 				text:'保存',
 				width:80,
