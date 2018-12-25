@@ -23,4 +23,6 @@ public interface MenuService {
 
 	List<Menu> checkMenuName(String menuName);
 
+    int delete(int id);
+
 }

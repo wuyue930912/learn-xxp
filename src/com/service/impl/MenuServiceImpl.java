@@ -74,6 +74,20 @@ public class MenuServiceImpl implements MenuService {
 	}
 
 	@Override
+	public int delete(int id) {
+		MenuExample example = new MenuExample();
+		Criteria criteria = example.createCriteria();
+		criteria.andIdEqualTo(id);
+		List<Menu> menus = menuMapper.selectByExample(new MenuExample());
+		for (Menu menu : menus){
+			if (menu.getPrentnode() == id){
+				return 0;
+			}
+		}
+		return menuMapper.deleteByPrimaryKey(id);
+	}
+
+	@Override
 	public List<Menu> checkMenuName(String menuName) {
 		MenuExample example = new MenuExample();
 		Criteria criteria = example.createCriteria();

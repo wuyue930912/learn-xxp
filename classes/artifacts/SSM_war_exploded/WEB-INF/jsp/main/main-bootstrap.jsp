@@ -183,11 +183,32 @@
     </div>
 </div>
 <div data-options="region:'west',split:true,iconCls:'icon-left_nav'" style="width: 20%; padding: unset">
-    <div class="easyui-layout" style="width: 100%; height: 100%; padding: unset;background-color: #2f2f2f">
-        <div data-options="region:'west',iconCls:'icon-msg',collapsed:false,collapsible:false "
-             style="height: 65%; width: 100%; overflow: hidden;border: none;padding: unset">
+    <div class="panel panel-primary" >
+        <div class="panel-heading" >
+            <h3 class="panel-title">登陆信息</h3>
+        </div>
+        <div class="panel-body">
+            <table>
+                <tr>
+                    <td><span> 登录用户： </span></td>
+                    <td>${sessionScope.loginUser.username}</td>
+                </tr>
 
-            <div class="container-fluid" style="padding: unset">
+                <tr>
+                    <td><span> 用户角色： </span></td>
+                    <td><c:if test="${sessionScope.loginUser.userrole == 1}">
+                        超级管理员
+                    </c:if> <c:if test="${sessionScope.loginUser.userrole == 2}">
+                        普通用户
+                    </c:if></td>
+                </tr>
+                <tr>
+                    <div id="time"></div>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="container-fluid" style="padding: unset">
 
                 <div class="row-fluid">
                     <div class="span12">
@@ -236,36 +257,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div data-options="region:'south',iconCls:'icon-msg',collapsed:false,collapsible:false "style="height: 170px; width: 100%; overflow: hidden; padding: unset;margin-top: 67px;border: unset">
-               <div class="panel panel-primary" style="margin-top: 45px;" >
-                    <div class="panel-heading" >
-                        <h3 class="panel-title">登陆信息</h3>
-                    </div>
-                <div class="panel-body">
-                    <table>
-                        <tr>
-                            <td><span> 登录用户： </span></td>
-                            <td>${sessionScope.loginUser.username}</td>
-                        </tr>
-
-                        <tr>
-                            <td><span> 用户角色： </span></td>
-                            <td><c:if test="${sessionScope.loginUser.userrole == 1}">
-                                超级管理员
-                            </c:if> <c:if test="${sessionScope.loginUser.userrole == 2}">
-                                普通用户
-                            </c:if></td>
-                        </tr>
-                        <tr>
-                            <div id="time"></div>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 <div data-options="region:'center'" id="content" style="padding: 0px; overflow: hidden;">
     <div id="tt" class="easyui-tabs" style="width:100%; height:650px; overflow: hidden;">

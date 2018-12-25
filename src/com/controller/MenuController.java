@@ -63,6 +63,22 @@ public class MenuController {
         return null;
     }
 
+
+    @ResponseBody
+    @RequestMapping(value = "/deleteMenu")
+    public JSONObject deleteMenu(HttpServletRequest request,HttpSession session){
+        String id = request.getParameter("id");
+        JSONObject result=new JSONObject();
+
+        int count = menuService.delete(Integer.parseInt(id));
+        if(count>0) {
+            result.put("flag", "success");
+        }else {
+            result.put("flag", "error");
+        }
+        return result;
+    }
+
     @ResponseBody
     @RequestMapping(value = "/submitMenu")
     public JSONObject submitMenu(HttpServletRequest request,HttpSession session){

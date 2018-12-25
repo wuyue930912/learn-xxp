@@ -40,6 +40,9 @@
     <script src="${ctx}/bootstrap/dist/locale/bootstrap-table-zh-CN.js"></script>
 
     <style type="text/css">
+        .fixed-table-toolbar{
+            margin-top: -20px;
+        }
         .panel-body {
             padding: unset;
         }
@@ -88,16 +91,21 @@
         </div>
     </div>
 
-
     <div id="toolbar" class="btn-group">
+        <button id="btn_father_add" type="button" class="btn btn-default"data-toggle="modal" data-target="#menuAddFatherModal">
+            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>新增一级导航
+        </button>
+
         <button id="btn_add" type="button" class="btn btn-default"data-toggle="modal" data-target="#menuAddModal">
-            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>新增
+            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>新增二级导航
         </button>
 
         <button id="btn_edit" type="button" class="btn btn-default">
             <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>修改
         </button>
-        <button id="btn_delete" type="button" class="btn btn-default">
+        <button id="btn_delete" type="button" class="btn btn-default"  title="请选择一条要删除的数据"
+                data-container="body" data-toggle="popover" data-placement="bottom"
+                onclick="todelete();">
             <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
         </button>
     </div>
@@ -106,6 +114,142 @@
     </table>
 </div>
 
+<div class="modal fade" id="menuDeleteModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content" style="text-align: center">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h4 class="modal-title" id="myModalLabelDelete">
+                    删除导航
+                </h4>
+            </div>
+            <div id="isdel" class="modal-body" style="text-align: center">
+                确定删除
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                </button>
+                <button type="button" class="btn btn-primary" onclick="deleteMenu();">
+                    确定
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+
+<script type="text/javascript">
+   function todelete(){
+        var row = $("#table_menuList").bootstrapTable('getSelections');
+        if (row.length === 0){
+            $('#btn_delete').popover('show');
+            return false;
+        }else{
+            $('#btn_delete').popover('destroy');
+            $('#menuDeleteModal').modal('show');
+            $("#isdel").html("确定删除 "+row[0].name+"?");
+        }
+    }
+
+    function deleteMenu() {
+        var row = $("#table_menuList").bootstrapTable('getSelections');
+        var id = row[0].id;
+        $.ajax({
+            type: "post",
+            url: '/menu/deleteMenu',
+            data: {"id":id},
+            cache: false,
+            async : false,
+            dataType: "json",
+            success: function (data){
+                var flag = data.flag;
+                if(flag === "success"){
+                    jQuery.messager.alert( "提示","删除成功！", 'info');
+                    $('#table_menuList').bootstrapTable('refresh');
+                    $('#menuDeleteModal').modal('hide')
+                }else if(flag === "error"){
+                    jQuery.messager.alert("提示","删除失败！该节点仍存在子节点！请先删除子节点！", 'info');
+                    return false;
+                }
+            },
+            error:function(){
+                jQuery.messager.alert("提示","服务器异常！", 'error');
+                return false;
+            }
+        });
+    }
+
+</script>
+
+<div class="modal fade" id="menuAddFatherModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content" style="text-align: center">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h4 class="modal-title" id="myModalLabelFather">
+                    新增一级导航
+                </h4>
+            </div>
+            <div class="modal-body" style="text-align: center">
+                <form class="form-horizontal" role="form">
+                    <div class="input-group" style="margin-left: 100px">
+                        <span class="input-group-addon">导航名称</span>
+                        <input id="menuFatherNameAdd" type="text" class="form-control" placeholder="twitterhandle" style="width: 300px;">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                </button>
+                <button type="button" class="btn btn-primary" onclick="submitMenuFather();">
+                    提交
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+
+<script type="text/javascript">
+    function submitMenuFather() {
+        var menuNameAddFather = $("#menuFatherNameAdd").val();
+
+        if (menuNameAddFather === undefined || menuNameAddFather === ''){
+            jQuery.messager.alert("提示","导航名必填！", 'info');
+            return false;
+        }
+
+        $.ajax({
+            type: "post",
+            url: '/menu/submitMenu',
+            data: {"menuNameAdd":menuNameAddFather,"menuUrlAdd":'',"fathernode":0},
+            cache: false,
+            async : false,
+            dataType: "json",
+            success: function (data){
+                var flag = data.flag;
+                if(flag === "success"){
+                    jQuery.messager.alert( "提示","新增成功！", 'info');
+                    $('#table_menuList').bootstrapTable('refresh');
+                    $('#menuAddFatherModal').modal('hide')
+                }else if(flag === "error"){
+                    jQuery.messager.alert("提示","新增失败！", 'info');
+                    return false;
+                }else if(flag === "error2"){
+                    jQuery.messager.alert("提示","新增失败！用户名重复！", 'info');
+                    return false;
+                }
+            },
+            error:function(){
+                jQuery.messager.alert("提示","服务器异常！", 'error');
+                return false;
+            }
+        });
+
+    }
+</script>
 <!-- 模态框（Modal） -->
 <div class="modal fade" id="menuAddModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -115,7 +259,7 @@
                     &times;
                 </button>
                 <h4 class="modal-title" id="myModalLabel">
-                    新增导航
+                    新增二级导航
                 </h4>
             </div>
             <div class="modal-body" style="text-align: center">
@@ -132,7 +276,6 @@
 
                     <div class="form-group" style="margin-left: 100px;margin-top: 20px">
                         <select id="fathernode" class="form-control" style="width: 380px" onchange="isOwnOrTwo();">
-                            <option value="0">一级导航</option>
                             <c:forEach items="${fathers}" var="item">
                                 <option value="${item.id}">${item.name}</option>
                             </c:forEach>
@@ -150,34 +293,24 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal -->
 </div>
-<script type="text/javascript">
-    $('#menuAddModal').on('show.bs.modal ', function (e) {
-        $("#menuUrlAddDiv").hide();
-    })
 
-    function isOwnOrTwo() {
-        var fathernode = $("#fathernode").val();
-        if (fathernode != 0){
-            $("#menuUrlAddDiv").show();
-        } else{
-            $("#menuUrlAddDiv").hide();
-        }
-    }
+<script type="text/javascript">
+
     function submitMenu() {
         var menuNameAdd = $("#menuNameAdd").val();
         var menuUrlAdd = $("#menuUrlAdd").val();
         var fathernode = $("#fathernode").val();
 
-        if (menuNameAdd == undefined || menuNameAdd == ''){
-            jQuery.messager.alert("导航名必填！", 'info');
+        if (menuNameAdd === undefined || menuNameAdd === ''){
+            jQuery.messager.alert("提示","导航名必填！",'info');
             return false;
         }
-        if (menuUrlAdd == undefined && menuUrlAdd != 0){
-            jQuery.messager.alert("URL必填！", 'info');
+        if (menuUrlAdd === undefined || menuUrlAdd === ''){
+            jQuery.messager.alert("提示","URL必填！",'info');
             return false;
         }
-        if (fathernode == undefined || fathernode == ''){
-            jQuery.messager.alert("父节点必选！", 'info');
+        if (fathernode === undefined || fathernode === ''){
+            jQuery.messager.alert("提示","父节点必选！",'info');
             return false;
         }
 
@@ -190,26 +323,27 @@
             dataType: "json",
             success: function (data){
                 var flag = data.flag;
-                if(flag == "success"){
-                    jQuery.messager.alert('温馨提示', "新增成功！", 'info');
+                if(flag === "success"){
+                    jQuery.messager.alert("提示", "新增成功！", 'info');
                     $('#table_menuList').bootstrapTable('refresh');
                     $('#menuAddModal').modal('hide')
-                }else if(flag == "error"){
-                    jQuery.messager.alert('温馨提示', "新增失败！", 'info');
+                }else if(flag === "error"){
+                    jQuery.messager.alert( "提示","新增失败！", 'info');
                     return false;
-                }else if(flag == "error2"){
-                    jQuery.messager.alert('温馨提示', "新增失败！用户名重复！", 'info');
+                }else if(flag === "error2"){
+                    jQuery.messager.alert( "提示","新增失败！用户名重复！", 'info');
                     return false;
                 }
             },
             error:function(){
-                jQuery.messager.alert('温馨提示', "服务器异常！", 'error');
+                jQuery.messager.alert("提示","服务器异常！", 'info');
                 return false;
             }
         });
 
     }
 </script>
+
 <script type="text/javascript" src="${ctx}/js/menu.js"></script>
 </body>
 </html>

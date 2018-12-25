@@ -103,9 +103,7 @@
         <button id="btn_edit" type="button" class="btn btn-default">
             <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>修改
         </button>
-        <button id="btn_delete" type="button" class="btn btn-default"  title="请选择一条要删除的数据"
-                data-container="body" data-toggle="popover" data-placement="bottom"
-                onclick="todelete();">
+        <button id="btn_delete" type="button" class="btn btn-default" onclick="todelete();">
             <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
         </button>
     </div>
@@ -142,42 +140,12 @@
 <script type="text/javascript">
    function todelete(){
         var row = $("#table_menuList").bootstrapTable('getSelections');
-        if (row.length === 0){
-            $('#btn_delete').popover('show');
+        if (row.length < 0){
+            jQuery.messager.alert("请选择要删除的数据");
             return false;
         }else{
-            $('#btn_delete').popover('destroy');
             $('#menuDeleteModal').modal('show');
-            $("#isdel").html("确定删除 "+row[0].name+"?");
         }
-    }
-
-    function deleteMenu() {
-        var row = $("#table_menuList").bootstrapTable('getSelections');
-        var id = row[0].id;
-        $.ajax({
-            type: "post",
-            url: '/menu/deleteMenu',
-            data: {"id":id},
-            cache: false,
-            async : false,
-            dataType: "json",
-            success: function (data){
-                var flag = data.flag;
-                if(flag === "success"){
-                    jQuery.messager.alert( "提示","删除成功！", 'info');
-                    $('#table_menuList').bootstrapTable('refresh');
-                    $('#menuDeleteModal').modal('hide')
-                }else if(flag === "error"){
-                    jQuery.messager.alert("提示","删除失败！该节点仍存在子节点！请先删除子节点！", 'info');
-                    return false;
-                }
-            },
-            error:function(){
-                jQuery.messager.alert("提示","服务器异常！", 'error');
-                return false;
-            }
-        });
     }
 
 </script>
@@ -216,8 +184,8 @@
     function submitMenuFather() {
         var menuNameAddFather = $("#menuFatherNameAdd").val();
 
-        if (menuNameAddFather === undefined || menuNameAddFather === ''){
-            jQuery.messager.alert("提示","导航名必填！", 'info');
+        if (menuNameAddFather == undefined || menuNameAddFather == ''){
+            jQuery.messager.alert("导航名必填！", 'info');
             return false;
         }
 
@@ -230,20 +198,20 @@
             dataType: "json",
             success: function (data){
                 var flag = data.flag;
-                if(flag === "success"){
-                    jQuery.messager.alert( "提示","新增成功！", 'info');
+                if(flag == "success"){
+                    jQuery.messager.alert( "新增成功！", 'info');
                     $('#table_menuList').bootstrapTable('refresh');
                     $('#menuAddFatherModal').modal('hide')
-                }else if(flag === "error"){
-                    jQuery.messager.alert("提示","新增失败！", 'info');
+                }else if(flag == "error"){
+                    jQuery.messager.alert("新增失败！", 'info');
                     return false;
-                }else if(flag === "error2"){
-                    jQuery.messager.alert("提示","新增失败！用户名重复！", 'info');
+                }else if(flag == "error2"){
+                    jQuery.messager.alert("新增失败！用户名重复！", 'info');
                     return false;
                 }
             },
             error:function(){
-                jQuery.messager.alert("提示","服务器异常！", 'error');
+                jQuery.messager.alert("服务器异常！", 'error');
                 return false;
             }
         });
@@ -301,16 +269,16 @@
         var menuUrlAdd = $("#menuUrlAdd").val();
         var fathernode = $("#fathernode").val();
 
-        if (menuNameAdd === undefined || menuNameAdd === ''){
-            jQuery.messager.alert("提示","导航名必填！",'info');
+        if (menuNameAdd == undefined || menuNameAdd == ''){
+            jQuery.messager.alert("导航名必填！");
             return false;
         }
-        if (menuUrlAdd === undefined || menuUrlAdd === ''){
-            jQuery.messager.alert("提示","URL必填！",'info');
+        if (menuUrlAdd == undefined && menuUrlAdd != 0){
+            jQuery.messager.alert("URL必填！");
             return false;
         }
-        if (fathernode === undefined || fathernode === ''){
-            jQuery.messager.alert("提示","父节点必选！",'info');
+        if (fathernode == undefined || fathernode == ''){
+            jQuery.messager.alert("父节点必选！");
             return false;
         }
 
@@ -323,20 +291,20 @@
             dataType: "json",
             success: function (data){
                 var flag = data.flag;
-                if(flag === "success"){
-                    jQuery.messager.alert("提示", "新增成功！", 'info');
+                if(flag == "success"){
+                    jQuery.messager.alert( "新增成功！");
                     $('#table_menuList').bootstrapTable('refresh');
                     $('#menuAddModal').modal('hide')
-                }else if(flag === "error"){
-                    jQuery.messager.alert( "提示","新增失败！", 'info');
+                }else if(flag == "error"){
+                    jQuery.messager.alert( "新增失败！");
                     return false;
-                }else if(flag === "error2"){
-                    jQuery.messager.alert( "提示","新增失败！用户名重复！", 'info');
+                }else if(flag == "error2"){
+                    jQuery.messager.alert( "新增失败！用户名重复！");
                     return false;
                 }
             },
             error:function(){
-                jQuery.messager.alert("提示","服务器异常！", 'info');
+                jQuery.messager.alert("服务器异常！");
                 return false;
             }
         });
