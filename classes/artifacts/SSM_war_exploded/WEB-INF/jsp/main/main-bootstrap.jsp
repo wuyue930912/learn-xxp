@@ -270,22 +270,23 @@
                         <div>
                             <ul class="nav navbar-nav" style="text-align: center">
                                 <li id="home" class="active" style="width: 150px">
-                                    <a href="#" onclick="gohome()">首页</a>
+                                    <a href="#" onclick="gohome()">
+                                        <span class="glyphicon glyphicon-home" style="color: rgb(0, 0, 0); font-size: 15px;"> 首页</span></a>
                                 </li>
 
                                 <li id="msg">
                                     <a href="#" onclick="showMsg()" style="float: right ; width: 150px">
-                                    公告
+                                        <span class="glyphicon glyphicon-th-list" style="color: rgb(0, 0, 0); font-size: 15px;"> 公告</span>
                                     </a>
                                 </li>
 
                                 <li><a href="#" onclick="logout()" style="float: right ; width: 150px">
-                                        关闭
+                                        <span class="glyphicon glyphicon-remove" style="color: rgb(0, 0, 0); font-size: 15px;"> 关闭</span>
                                     </a>
                                 </li>
                                 <li class="dropdown" style="float: right; width: 150px">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                            ${sessionScope.loginUser.username}
+                                        <span class="glyphicon glyphicon-user" style="color: rgb(0, 0, 0); font-size: 15px;"> ${sessionScope.loginUser.username}</span>
                                         <b class="caret"></b>&nbsp;
                                         <span class="badge">99+</span>
                                     </a>
@@ -303,8 +304,6 @@
                         </div>
                     </div>
                 </nav>
-
-
             </div>
 
             <div id="jumbotron" class="jumbotron" style="height: 100%;">

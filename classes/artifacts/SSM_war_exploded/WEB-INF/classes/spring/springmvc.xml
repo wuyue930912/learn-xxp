@@ -12,6 +12,10 @@
 	
 	<!-- Spring 来扫描指定包下的类，并注册被@Component，@Controller，@Service，@Repository等注解标记的组件 -->
 	<mvc:annotation-driven />
+
+	<mvc:resources mapping="/flowplayer/**" location="/flowplayer/"/>
+    <mvc:resources mapping="/jwplayer/**" location="/jwplayer/"/>
+	<mvc:resources mapping="/videoJS/**" location="/videoJS/"/>
 	<mvc:resources mapping="/bootstrap/**" location="/bootstrap/"/>
 	<mvc:resources mapping="/ueditor/**" location="/ueditor/"/>
 	<mvc:resources mapping="/js/**" location="/js/"/>
