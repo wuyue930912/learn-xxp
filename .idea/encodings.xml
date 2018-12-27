@@ -2,43 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/WebContent/WEB-INF/lib/poi-3.16.jar" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/bootstrap/css" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/bootstrap/dist" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/bootstrap/fonts" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/bootstrap/js" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/flowplayer/flowplayer-3.2.8.min.js" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/flowplayer/flowplayer-3.2.8.swf" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/flowplayer/flowplayer.controls-3.2.8.swf" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/flowplayer/flowplayer.rtmp-3.2.8.swf" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/flowplayer/rtmp_sample_player_flowplayer.html" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/flowplayer/sample_player_flowplayer.html" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/images/1.jpg" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/images/2.jpg" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/images/3.jpg" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/images/4.jpg" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/jwplayer/jwplayer.js" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/jwplayer/player.swf" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/jwplayer/rtmp_sample_player_jwplayer.html" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/jwplayer/sample_player_jwplayer.html" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/jwplayer/simplest_flashmedia_example-master.zip" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/jwplayer/simplest_flashmedia_example-master.zip" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/jwplayer/simplest_flashmedia_example-master.zip" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/jwplayer/simplest_flashmedia_example-master.zip" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/jwplayer/simplest_flashmedia_example-master.zip" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/jwplayer/sintel.mp4" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/videoJS/alt" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/videoJS/examples" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/videoJS/font" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/videoJS/ie8" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/videoJS/lang" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/videoJS/video-js.css" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/videoJS/video-js.min.css" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/videoJS/video-js.swf" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/videoJS/video.js" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/WebContent/videoJS/video.min.js" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/com/controller/LoginController.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/controller/WebSocketTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pom.xml" charset="GBK" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>

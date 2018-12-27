@@ -167,7 +167,7 @@
 <div data-options="region:'west',split:true,iconCls:'icon-left_nav'" style="width: 70%; padding: unset">
     <div>
         <h1>RTMP Sample Player JWPlayer</h1>
-        <iframe name="" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" width="750px" height="530px" src="http://127.0.0.1:5080/oflaDemo/jwPlayer.html"></iframe>
+        <iframe name="" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" width="750px" height="530px" src="http://127.0.0.1:5080/vod/jwPlayer.html"></iframe>
 
     </div>
 </div>
