@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
@@ -40,188 +41,23 @@
 </head>
 <body>
 <div class="row">
-
+<c:forEach items="${lives}" var="item">
     <div class="col-sm-6 col-md-3">
         <div class="thumbnail">
-            <img src="${ctx}/images/1.jpg"
+            <img src="${ctx}${item.liveimage}"
                  alt="通用的占位符缩略图">
             <div class="caption">
-                <h3>缩略图标签</h3>
-                <p>一些示例文本。一些示例文本。</p>
+                <h3>${item.livetitle}</h3>
+                <p>${item.livename}</p>
                 <p>
-                    <a href="#" class="btn btn-primary" role="button">
-                        按钮
-                    </a>
-                    <a href="#" class="btn btn-default" role="button">
+                    <a href="${ctx}/red5/toOneLive?name=${item.livename}" class="btn btn-primary" role="button">
                         按钮
                     </a>
                 </p>
             </div>
         </div>
     </div>
-    <div class="col-sm-6 col-md-3">
-        <div class="thumbnail">
-            <img src="${ctx}/images/2.jpg"
-                 alt="通用的占位符缩略图">
-            <div class="caption">
-                <h3>缩略图标签</h3>
-                <p>一些示例文本。一些示例文本。</p>
-                <p>
-                    <a href="#" class="btn btn-primary" role="button">
-                        按钮
-                    </a>
-                    <a href="#" class="btn btn-default" role="button">
-                        按钮
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-6 col-md-3">
-        <div class="thumbnail">
-            <img src="${ctx}/images/3.jpg"
-                 alt="通用的占位符缩略图">
-            <div class="caption">
-                <h3>缩略图标签</h3>
-                <p>一些示例文本。一些示例文本。</p>
-                <p>
-                    <a href="#" class="btn btn-primary" role="button">
-                        按钮
-                    </a>
-                    <a href="#" class="btn btn-default" role="button">
-                        按钮
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-6 col-md-3">
-        <div class="thumbnail">
-            <img src="${ctx}/images/4.jpg"
-                 alt="通用的占位符缩略图">
-            <div class="caption">
-                <h3>缩略图标签</h3>
-                <p>一些示例文本。一些示例文本。</p>
-                <p>
-                    <a href="#" class="btn btn-primary" role="button">
-                        按钮
-                    </a>
-                    <a href="#" class="btn btn-default" role="button">
-                        按钮
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-6 col-md-3">
-        <div class="thumbnail">
-            <img src="${ctx}/images/1.jpg"
-                 alt="通用的占位符缩略图">
-            <div class="caption">
-                <h3>缩略图标签</h3>
-                <p>一些示例文本。一些示例文本。</p>
-                <p>
-                    <a href="#" class="btn btn-primary" role="button">
-                        按钮
-                    </a>
-                    <a href="#" class="btn btn-default" role="button">
-                        按钮
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-6 col-md-3">
-        <div class="thumbnail">
-            <img src="${ctx}/images/1.jpg"
-                 alt="通用的占位符缩略图">
-            <div class="caption">
-                <h3>缩略图标签</h3>
-                <p>一些示例文本。一些示例文本。</p>
-                <p>
-                    <a href="#" class="btn btn-primary" role="button">
-                        按钮
-                    </a>
-                    <a href="#" class="btn btn-default" role="button">
-                        按钮
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-6 col-md-3">
-        <div class="thumbnail">
-            <img src="${ctx}/images/1.jpg"
-                 alt="通用的占位符缩略图">
-            <div class="caption">
-                <h3>缩略图标签</h3>
-                <p>一些示例文本。一些示例文本。</p>
-                <p>
-                    <a href="#" class="btn btn-primary" role="button">
-                        按钮
-                    </a>
-                    <a href="#" class="btn btn-default" role="button">
-                        按钮
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-6 col-md-3">
-        <div class="thumbnail">
-            <img src="${ctx}/images/1.jpg"
-                 alt="通用的占位符缩略图">
-            <div class="caption">
-                <h3>缩略图标签</h3>
-                <p>一些示例文本。一些示例文本。</p>
-                <p>
-                    <a href="#" class="btn btn-primary" role="button">
-                        按钮
-                    </a>
-                    <a href="#" class="btn btn-default" role="button">
-                        按钮
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-6 col-md-3">
-        <div class="thumbnail">
-            <img src="${ctx}/images/1.jpg"
-                 alt="通用的占位符缩略图">
-            <div class="caption">
-                <h3>缩略图标签</h3>
-                <p>一些示例文本。一些示例文本。</p>
-                <p>
-                    <a href="#" class="btn btn-primary" role="button">
-                        按钮
-                    </a>
-                    <a href="#" class="btn btn-default" role="button">
-                        按钮
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-6 col-md-3">
-        <div class="thumbnail">
-            <img src="${ctx}/images/1.jpg"
-                 alt="通用的占位符缩略图">
-            <div class="caption">
-                <h3>缩略图标签</h3>
-                <p>一些示例文本。一些示例文本。</p>
-                <p>
-                    <a href="#" class="btn btn-primary" role="button">
-                        按钮
-                    </a>
-                    <a href="#" class="btn btn-default" role="button">
-                        按钮
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-
+</c:forEach>
 </div>
 </body>
 </html>

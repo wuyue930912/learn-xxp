@@ -7,128 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="269ea3de-51c9-4ea7-bbf4-53cbdaf944b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_34.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_34.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_34.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_12_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/rtmp/liveMenu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/WebContent/WEB-INF/jsp/rtmp/liveMenu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/jsp/rtmp/liveMenu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/service/RmtpService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/service/impl/RmtpServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/rtmp/jwPlayer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/js/red5/framework_4.5.1.21328.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/js/red5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/js/red5/jwPlayer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/js/red5/jwplayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/js/red5/miniplayer.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/js/red5/osmf_1.0.0.16316.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/js/red5/player.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/js/red5/spark_4.5.1.21328.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/js/red5/streams/red5.flv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/js/red5/streams/red5.flv.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/js/red5/swfobject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/js/red5/textLayout_2.0.0.232.swf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/red5.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/red5.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/controller/ExcelExportController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/controller/MenuController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/controller/Red5Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/controller/RoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/controller/WebSocketController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/controller/WebSocketTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/mapper/MenuMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/mapper/RoleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/pojo/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/pojo/MenuExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/pojo/MenuExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/pojo/MenuExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/pojo/MenuExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/pojo/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/pojo/RoleExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/pojo/RoleExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/pojo/RoleExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/pojo/RoleExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/pojo/UserExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/pojo/UserExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/pojo/UserExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/pojo/UserExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/service/MenuService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/service/RoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/service/impl/MenuServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/service/impl/RoleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/util/CustomExceptionResolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/util/ExportUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/util/GetHttpSessionConfigurator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/util/MD5Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/util/ModelAndViewUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/util/MyException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/util/PageBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/util/ResponseUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/util/StringUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/SSM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/SSM.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/rtmp/liveMenu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/rtmp/liveMenu.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/WebContent/WEB-INF/jsp/red5.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/WebContent/WEB-INF/jsp/red5.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/WebContent/WEB-INF/jsp/rtmp/liveMenu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/WebContent/WEB-INF/jsp/rtmp/liveMenu.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/com/controller/Red5Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/com/controller/Red5Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/resource/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/resource/generatorConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/src/com/controller/Red5Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/src/com/controller/Red5Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/jsp/red5.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/jsp/red5.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resource/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/jsp/rtmp/liveMenu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/jsp/rtmp/liveMenu.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/controller/Red5Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/controller/Red5Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/controller/Red5Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/controller/Red5Controller.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -237,34 +139,44 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="252" />
-          <entry key="jsp" value="3" />
+          <entry key="java" value="464" />
+          <entry key="jsp" value="414" />
           <entry key="txt" value="5" />
-          <entry key="xml" value="14" />
+          <entry key="xml" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="252" />
-          <entry key="JSP" value="3" />
+          <entry key="JAVA" value="464" />
+          <entry key="JSP" value="414" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="XML" value="14" />
+          <entry key="XML" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="12" />
-          <entry key="jsp" value="1" />
-          <entry key="xml" value="4" />
+          <entry key="html" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="23" />
+          <entry key="js" value="2" />
+          <entry key="jsp" value="5" />
+          <entry key="properties" value="1" />
+          <entry key="swf" value="1" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="12" />
-          <entry key="JSP" value="1" />
-          <entry key="XML" value="4" />
+          <entry key="HTML" value="1" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="23" />
+          <entry key="JSP" value="5" />
+          <entry key="JavaScript" value="2" />
+          <entry key="Properties" value="1" />
+          <entry key="SWF" value="1" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
     </session>
@@ -272,24 +184,54 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/service/RmtpService.java">
+        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/rtmp/liveMenu.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="293">
+              <caret line="54" column="24" lean-forward="true" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/js/role.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="40" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/service/impl/RmtpServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/rtmp/jwPlayer.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="89">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#1;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/red5.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="34" selection-start-line="34" selection-end-line="36" selection-end-column="101" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -298,17 +240,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/controller/Red5Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/service/impl/MenuServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="303">
+              <caret line="44" column="68" lean-forward="true" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -318,15 +251,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>send</find>
       <find>中央国债登记</find>
       <find>onclick</find>
       <find>ex</find>
@@ -356,6 +288,7 @@
       <find>addDrtManager</find>
       <find>favicon</find>
       <find>BaseResultMap</find>
+      <find>/red5/player.swf</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -398,12 +331,15 @@
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/main/menu.jsp" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/main/main-bootstrap.jsp" />
         <option value="$PROJECT_DIR$/resource/spring/springmvc.xml" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/red5.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/resource/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/src/com/service/RmtpService.java" />
         <option value="$PROJECT_DIR$/src/com/service/impl/RmtpServiceImpl.java" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/rtmp/liveMenu.jsp" />
         <option value="$PROJECT_DIR$/src/com/controller/Red5Controller.java" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/red5.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/rtmp/jwPlayer.jsp" />
       </list>
     </option>
   </component>
@@ -463,59 +399,6 @@
               <item name="SSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="SSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
-            <path>
-              <item name="SSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="SSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="SSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="SSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="SSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="SSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="SSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="SSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="mapper" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="SSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="SSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pojo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="SSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="SSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="SSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="SSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="impl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="SSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="SSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -558,7 +441,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545892151125" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545899640313" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -568,12 +451,16 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\kj\WebContent\js\red5" />
+      <recent name="E:\kj\WebContent\WEB-INF" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\kj\WebContent\js\red5" />
+      <recent name="E:\kj\WebContent\WEB-INF\red5" />
+      <recent name="E:\kj\WebContent\WEB-INF" />
+      <recent name="E:\kj\WebContent" />
       <recent name="E:\kj" />
-      <recent name="E:\kj\WebContent\WEB-INF\jsp" />
-      <recent name="E:\learn-xxp\WebContent\flowplayer" />
-      <recent name="E:\learn-xxp\WebContent\jwplayer" />
-      <recent name="E:\learn-xxp\WebContent\videoJS" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -711,12 +598,12 @@
       <workItem from="1545738561134" duration="809000" />
       <workItem from="1545789896908" duration="17271000" />
       <workItem from="1545887697129" duration="1682000" />
-      <workItem from="1545889517742" duration="1535000" />
+      <workItem from="1545889517742" duration="9157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119747000" />
+    <option name="totallyTimeSpent" value="127369000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -729,9 +616,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49856734" visible="true" weight="0.26096824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49856734" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" sideWeight="0.50287354" side_tool="true" weight="0.25340393" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -741,42 +627,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.58128077" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.32840723" />
-      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.4977307" weight="0.32840723" />
-      <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.49924356" weight="0.32840723" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" weight="0.32840723" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5030257" side_tool="true" weight="0.37602627" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" weight="0.32840723" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49924356" weight="0.32840723" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49924356" weight="0.32840723" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.32980332" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49856734" visible="true" weight="0.26096824" />
-      <window_info id="Structure" order="1" sideWeight="0.50287354" side_tool="true" weight="0.25340393" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.68472904" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.47783253" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -795,7 +646,42 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32980332" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49856734" weight="0.26096824" />
+      <window_info id="Structure" order="1" sideWeight="0.50287354" side_tool="true" weight="0.25340393" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.47783253" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.32840723" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.4977307" weight="0.32840723" />
+      <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.49924356" weight="0.32840723" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" weight="0.32840723" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5030257" side_tool="true" weight="0.37602627" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" weight="0.32840723" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49924356" weight="0.32840723" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49924356" weight="0.32840723" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
@@ -860,38 +746,11 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build/classes/com/service/MenuService.class" />
-    <entry file="file://$PROJECT_DIR$/WebContent/js/role.js" />
-    <entry file="file://$PROJECT_DIR$/src/com/mapper/MenuMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/mapper/UserMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/mapper/UserMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/com/mapper/MenuMapper.xml" />
-    <entry file="jar://E:/apache-tomcat-8.5.29/lib/servlet-api.jar!/javax/servlet/http/HttpServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/taglib.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/com/pojo/Menu.java" />
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/main/user.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/com/controller/UserController.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/controller/LoginController.java" />
-    <entry file="file://$PROJECT_DIR$/WebContent/js/user.js" />
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/main/menu.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/com/util/CustomExceptionResolver.java" />
-    <entry file="file://$PROJECT_DIR$/WebContent/js/menu.js" />
-    <entry file="file://$PROJECT_DIR$/src/com/service/MenuService.java" />
-    <entry file="file://$PROJECT_DIR$/resource/spring/applicationContext-trans.xml" />
-    <entry file="file://$PROJECT_DIR$/resource/spring/applicationContext-dao.xml" />
-    <entry file="file://$PROJECT_DIR$/WebContent/videoJS/video-js.swf" />
     <entry file="file://$PROJECT_DIR$/resource/spring/applicationContext-service.xml" />
     <entry file="file://$PROJECT_DIR$/WebContent/jwplayer/jwplayer.js" />
     <entry file="file://$PROJECT_DIR$/WebContent/jwplayer/sample_player_jwplayer.html" />
     <entry file="file://$PROJECT_DIR$/WebContent/flowplayer/flowplayer.controls-3.2.8.swf" />
     <entry file="file://$PROJECT_DIR$/WebContent/videoJS/examples/simple-embed/index.html" />
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/login-bootStrap.jsp" />
     <entry file="file://$PROJECT_DIR$/resource/spring/springmvc.xml" />
     <entry file="file://$PROJECT_DIR$/WebContent/jwplayer/rtmp_sample_player_jwplayer.html" />
     <entry file="file://$PROJECT_DIR$/WebContent/flowplayer/rtmp_sample_player_flowplayer.html" />
@@ -900,18 +759,6 @@
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/main/websocket.jsp" />
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/main/main.jsp" />
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/main/main-bootstrap.jsp" />
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/red5.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="169" column="147" selection-start-line="169" selection-start-column="147" selection-end-line="169" selection-end-column="147" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/rtmp/liveMenu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3565" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-437">
@@ -956,27 +803,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/service/impl/MenuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pojo/RtmpKey.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/service/RmtpService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1008,19 +838,189 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/controller/Red5Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/service/impl/RmtpServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
+        <state relative-caret-position="407">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/service/RmtpService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/util/CustomExceptionResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/util/GetHttpSessionConfigurator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/util/ExportUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1178">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/util/MD5Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/util/ModelAndViewUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/util/MyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/util/PageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/util/ResponseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/util/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/service/impl/MenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/red5/.idea/vod.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/red5/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="43" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/red5/WEB-INF/red5-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/red5-web.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/red5-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/js/red5/framework_4.5.1.21328.swf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/js/red5/jwPlayer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/js/red5/jwplayer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/login-bootStrap.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2622">
+          <caret selection-end-column="87" />
+          <folding>
+            <element signature="n#style#0;n#embed#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/rtmp/liveMenu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="54" column="24" lean-forward="true" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/js/role.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="40" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/controller/Red5Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="44" column="68" lean-forward="true" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/red5.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" selection-start-line="34" selection-end-line="36" selection-end-column="101" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/rtmp/jwPlayer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="n#style#1;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
