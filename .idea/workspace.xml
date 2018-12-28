@@ -7,186 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="269ea3de-51c9-4ea7-bbf4-53cbdaf944b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/conf/access.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/conf/catalina.policy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/conf/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/conf/ehcache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/conf/jee-container.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/conf/keystore.jmx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/conf/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/conf/no-jee-container.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/conf/password.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/conf/quartz.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/conf/realm.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/conf/red5-common.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/conf/red5-core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/conf/red5.globals" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/conf/red5.policy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/conf/red5.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/conf/red5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/conf/tomcat-users.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/conf/truststore.jmx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/conf/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/antlr-3.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/antlr-runtime-3.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/asm-4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/aspectjrt-1.8.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/bcprov-jdk15on-1.52.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/c3p0-0.9.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/cglib-nodep-2.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/commons-beanutils-1.9.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/commons-codec-1.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/commons-collections-3.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/commons-daemon-1.0.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/commons-lang3-3.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/commons-pool-1.5.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/ehcache-core-2.6.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/groovy-2.0.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/httpclient-4.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/httpcore-4.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/isoparser-1.0.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/jaudiotagger-2.0.4-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/jcl-over-slf4j-1.7.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/jruby-1.6.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/jul-to-slf4j-1.7.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/jython-standalone-2.5.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/log4j-over-slf4j-1.7.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/logback-access-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/logback-classic-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/logback-core-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/mina-core-2.0.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/mina-integration-beans-2.0.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/mina-integration-jmx-2.0.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/mina-integration-ognl-2.0.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/quartz-2.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/red5-io-1.0.6-RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/red5-server-common-1.0.6-RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/slf4j-api-1.7.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/spring-aop-4.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/spring-beans-4.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/spring-context-4.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/spring-context-support-4.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/spring-core-4.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/spring-expression-4.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/spring-web-4.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/xercesImpl-2.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/lib/xml-apis-1.3.04.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/log/0.0.0.0_access..2018-12-26.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/log/0.0.0.0_access..2018-12-27.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/log/chat.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/log/red5.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/plugins/ecj-4.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/plugins/el-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/plugins/juli-over-slf4j-1.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/plugins/tomcat-embed-core.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/plugins/tomcat-embed-el.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/plugins/tomcat-embed-jasper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/plugins/tomcat-embed-logging-juli.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/plugins/tomcatplugin-1.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/plugins/websocket-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/red5-debug.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/red5-debug.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/red5-highperf.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/red5-highperf.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/red5-server.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/red5-service.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/red5-shutdown.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/red5-shutdown.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/red5.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/red5.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/chat/WEB-INF/classes/logback-chat.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/chat/WEB-INF/lib/chat-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/chat/WEB-INF/lib/json-smart-2.0-RC3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/chat/WEB-INF/red5-web.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/chat/WEB-INF/red5-web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/chat/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/chat/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/installer/AC_OETags.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/installer/WEB-INF/red5-web.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/installer/WEB-INF/red5-web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/installer/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/installer/history/history.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/installer/history/history.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/installer/history/historyFrame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/installer/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/installer/installer.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/installer/playerProductInstall.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/live/WEB-INF/red5-web.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/live/WEB-INF/red5-web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/live/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/red5-default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/WEB-INF/red5-web.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/WEB-INF/red5-web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/biglogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/crossdomain.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/BallControl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/BallControl.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/DevNotes_NetConnection.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/FITCPresentation.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/FITCSpeakerBroadcaster.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/MessageRecorder.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/RemotingTest.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/SimpleChat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/SimpleChat.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/adminPanel.air" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/adminPanel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/adminPanel.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/assets/expressInstall.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/assets/swfobject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/bwcheck.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/bwcheck.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/echo_test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/echo_test.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/ofla_demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/ofla_demo.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/othello.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/publisher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/publisher.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/simpleBroadcaster.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/simpleBroadcaster.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/simpleRecorder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/simpleRecorder.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/simpleSubscriber.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/simpleSubscriber.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/videoConference.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/videoConference.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/videoConference_Flash7.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/xray.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/xrayConnector_1.6.1.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/demos/xrayconnector.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/flvdemo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/gc.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/root/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/vod/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/vod/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/vod/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/vod/.idea/vod.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/vod/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/vod/WEB-INF/red5-web.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/vod/WEB-INF/red5-web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/vod/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/vod/framework_4.5.1.21328.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/vod/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/vod/jwPlayer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/vod/jwplayer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/vod/miniplayer.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/vod/osmf_1.0.0.16316.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/vod/player.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/vod/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/vod/spark_4.5.1.21328.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/vod/streams/red5.flv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/vod/streams/red5.flv.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/vod/swfobject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/red5-server-1.0.6-RELEASE/webapps/vod/textLayout_2.0.0.232.swf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/controller/WebSocketLive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/rtmp/jwPlayer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/rtmp/jwPlayer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/WebContent/WEB-INF/jsp/rtmp/jwPlayer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/WebContent/WEB-INF/jsp/rtmp/jwPlayer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/com/controller/WebSocketController.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/com/controller/WebSocketController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/src/com/controller/WebSocketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/classes/src/com/controller/WebSocketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/jsp/rtmp/jwPlayer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded/WEB-INF/jsp/rtmp/jwPlayer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/controller/WebSocketController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/controller/WebSocketController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -287,7 +115,7 @@
     <session id="1659006893">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.62" value="1" />
           <entry key="project.opened" value="2" />
@@ -295,16 +123,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="464" />
-          <entry key="jsp" value="414" />
+          <entry key="css" value="47" />
+          <entry key="java" value="535" />
+          <entry key="js" value="695" />
+          <entry key="jsp" value="1961" />
           <entry key="txt" value="14" />
           <entry key="xml" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="464" />
-          <entry key="JSP" value="414" />
+          <entry key="CSS" value="47" />
+          <entry key="JAVA" value="535" />
+          <entry key="JSP" value="1961" />
+          <entry key="JavaScript" value="695" />
           <entry key="PLAIN_TEXT" value="14" />
           <entry key="XML" value="16" />
         </counts>
@@ -312,27 +144,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
+          <entry key="css" value="2" />
           <entry key="html" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="23" />
-          <entry key="js" value="2" />
-          <entry key="jsp" value="5" />
+          <entry key="java" value="33" />
+          <entry key="js" value="7" />
+          <entry key="jsp" value="13" />
           <entry key="properties" value="1" />
           <entry key="swf" value="1" />
-          <entry key="xml" value="8" />
+          <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
+          <entry key="CSS" value="2" />
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="23" />
-          <entry key="JSP" value="5" />
-          <entry key="JavaScript" value="2" />
+          <entry key="JAVA" value="33" />
+          <entry key="JSP" value="13" />
+          <entry key="JavaScript" value="7" />
           <entry key="Properties" value="1" />
           <entry key="SWF" value="1" />
-          <entry key="XML" value="8" />
+          <entry key="XML" value="9" />
         </counts>
       </usages-collector>
     </session>
@@ -340,55 +174,69 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/rtmp/liveMenu.jsp">
+        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/rtmp/jwPlayer.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+            <state relative-caret-position="89">
+              <caret line="227" column="43" selection-start-line="227" selection-start-column="43" selection-end-line="227" selection-end-column="43" />
+              <folding>
+                <element signature="n#style#1;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/js/role.js">
+        <entry file="file://$PROJECT_DIR$/src/com/pojo/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="40" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+            <state relative-caret-position="76">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/rtmp/jwPlayer.jsp">
+        <entry file="file://$PROJECT_DIR$/src/com/controller/WebSocketLive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="1121">
+              <caret line="59" column="22" lean-forward="true" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
               <folding>
-                <element signature="n#style#1;n#head#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#3573#3574#0" expanded="true" />
+                <element signature="e#3607#3608#0" expanded="true" />
+                <element signature="e#3663#3664#0" expanded="true" />
+                <element signature="e#3706#3707#0" expanded="true" />
+                <element signature="e#3762#3763#0" expanded="true" />
+                <element signature="e#3805#3806#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/red5.jsp">
+        <entry file="file://$PROJECT_DIR$/src/com/controller/WebSocketTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="34" selection-start-line="34" selection-end-line="36" selection-end-column="101" />
+            <state relative-caret-position="-589">
+              <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
               <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#887#902#0" expanded="true" />
+                <element signature="e#3094#3095#0" expanded="true" />
+                <element signature="e#3128#3129#0" expanded="true" />
+                <element signature="e#3184#3185#0" expanded="true" />
+                <element signature="e#3227#3228#0" expanded="true" />
+                <element signature="e#3283#3284#0" expanded="true" />
+                <element signature="e#3326#3327#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/controller/WebSocketController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -396,8 +244,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/controller/Red5Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="44" column="68" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="68" />
+            <state relative-caret-position="228">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -415,11 +263,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>中央国债登记</find>
-      <find>onclick</find>
-      <find>ex</find>
-      <find>region:'south</find>
-      <find>username_search</find>
       <find>panel-body</find>
       <find>export</find>
       <find>seachUserList</find>
@@ -445,7 +288,15 @@
       <find>favicon</find>
       <find>BaseResultMap</find>
       <find>/red5/player.swf</find>
+      <find>laz</find>
+      <find>lazy</find>
+      <find>1.</find>
+      <find>login</find>
+      <find>WebSocket</find>
     </findStrings>
+    <dirStrings>
+      <dir>E:\kj\src\com\controller</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -458,12 +309,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/util/StringUtil.java" />
         <option value="$PROJECT_DIR$/src/com/util/CustomExceptionResolver.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/login.jsp" />
         <option value="$PROJECT_DIR$/src/com/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/main/main.jsp" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/login-bootStrap.jsp" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/main/websocket.jsp" />
         <option value="$PROJECT_DIR$/src/com/service/ExcelExportService.java" />
         <option value="$PROJECT_DIR$/src/com/service/impl/ExcelExportService.java" />
@@ -491,15 +340,25 @@
         <option value="$PROJECT_DIR$/src/com/service/impl/MenuServiceImpl.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/main/menu.jsp" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/main/main-bootstrap.jsp" />
-        <option value="$PROJECT_DIR$/resource/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/resource/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/src/com/service/RmtpService.java" />
         <option value="$PROJECT_DIR$/src/com/service/impl/RmtpServiceImpl.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/rtmp/liveMenu.jsp" />
         <option value="$PROJECT_DIR$/src/com/controller/Red5Controller.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/red5.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/js/vue/vue.js" />
+        <option value="$PROJECT_DIR$/src/com/controller/VueController.java" />
+        <option value="$PROJECT_DIR$/WebContent/css/vue.css" />
+        <option value="$PROJECT_DIR$/WebContent/js/echo/echo.js" />
+        <option value="$PROJECT_DIR$/resource/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/rtmp/liveMenu.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/js/vuemain.js" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/vue/vuePage.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/login-bootStrap.jsp" />
+        <option value="$PROJECT_DIR$/src/com/controller/WebSocketTest.java" />
+        <option value="$PROJECT_DIR$/src/com/controller/WebSocketLive.java" />
+        <option value="$PROJECT_DIR$/src/com/controller/WebSocketController.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/rtmp/jwPlayer.jsp" />
       </list>
     </option>
@@ -542,7 +401,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -559,6 +418,76 @@
             <path>
               <item name="SSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="SSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="SSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="SSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="resource" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="SSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="SSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="SSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="SSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="pojo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="SSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="WebContent" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="SSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="WebContent" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="SSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="WebContent" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="WEB-INF" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="SSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="WebContent" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="WEB-INF" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="jsp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="SSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="WebContent" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="WEB-INF" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="jsp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SSM" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="SSM" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="WebContent" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="WEB-INF" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="jsp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="rtmp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -602,8 +531,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545899959131" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/classes/artifacts/SSM_war_exploded" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545999201275" />
+    <property name="last_opened_file_path" value="D:/red5-server-1.0.6-RELEASE" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -613,15 +542,19 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\kj\WebContent" />
       <recent name="E:\kj\WebContent\js\red5" />
       <recent name="E:\kj\WebContent\WEB-INF" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\kj" />
-      <recent name="E:\kj\WebContent\js\red5" />
-      <recent name="E:\kj\WebContent\WEB-INF\red5" />
-      <recent name="E:\kj\WebContent\WEB-INF" />
-      <recent name="E:\kj\WebContent" />
+      <recent name="E:\kj\WebContent\images" />
+      <recent name="E:\kj\WebContent\jquery" />
+      <recent name="E:\kj\WebContent\js\jquery" />
+      <recent name="E:\kj\WebContent\js\echo" />
+      <recent name="E:\kj\WebContent\js\jQuery" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -759,7 +692,7 @@
       <workItem from="1545738561134" duration="809000" />
       <workItem from="1545789896908" duration="17271000" />
       <workItem from="1545887697129" duration="1682000" />
-      <workItem from="1545889517742" duration="9505000" />
+      <workItem from="1545889517742" duration="37067000" />
     </task>
     <task id="LOCAL-00001" summary="add live">
       <created>1545899685635</created>
@@ -772,7 +705,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127717000" />
+    <option name="totallyTimeSpent" value="155279000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -784,19 +717,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49856734" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49856734" weight="0.26096824" />
       <window_info id="Structure" order="1" sideWeight="0.50287354" side_tool="true" weight="0.25340393" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.47783253" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49546143" weight="0.47783253" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -804,7 +737,7 @@
       <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.4977307" weight="0.32840723" />
       <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.49924356" weight="0.32840723" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" weight="0.32840723" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5030257" side_tool="true" weight="0.37602627" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5045386" side_tool="true" visible="true" weight="0.47783253" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" weight="0.32840723" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49924356" weight="0.32840723" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
@@ -831,7 +764,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.47783253" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49546143" visible="true" weight="0.47783253" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -839,7 +772,7 @@
       <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.4977307" weight="0.32840723" />
       <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.49924356" weight="0.32840723" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" weight="0.32840723" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5030257" side_tool="true" weight="0.37602627" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5045386" side_tool="true" weight="0.47783253" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" weight="0.32840723" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49924356" weight="0.32840723" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
@@ -884,12 +817,6 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/login-bootStrap.jsp</url>
-          <line>141</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/main/user.jsp</url>
           <line>9</line>
           <properties />
@@ -916,47 +843,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resource/spring/applicationContext-service.xml" />
-    <entry file="file://$PROJECT_DIR$/WebContent/jwplayer/jwplayer.js" />
-    <entry file="file://$PROJECT_DIR$/WebContent/jwplayer/sample_player_jwplayer.html" />
-    <entry file="file://$PROJECT_DIR$/WebContent/flowplayer/flowplayer.controls-3.2.8.swf" />
-    <entry file="file://$PROJECT_DIR$/WebContent/videoJS/examples/simple-embed/index.html" />
-    <entry file="file://$PROJECT_DIR$/resource/spring/springmvc.xml" />
-    <entry file="file://$PROJECT_DIR$/WebContent/jwplayer/rtmp_sample_player_jwplayer.html" />
-    <entry file="file://$PROJECT_DIR$/WebContent/flowplayer/rtmp_sample_player_flowplayer.html" />
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/main/role.jsp" />
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/login.jsp" />
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/main/websocket.jsp" />
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/main/main.jsp" />
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/main/main-bootstrap.jsp" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-437">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/controller/ExcelExportController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/controller/MenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/controller/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resource/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1141,23 +1027,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/login-bootStrap.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2622">
-          <caret selection-end-column="87" />
-          <folding>
-            <element signature="n#style#0;n#embed#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/rtmp/liveMenu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/js/role.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1165,17 +1034,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/controller/Red5Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/com/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="44" column="68" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="68" />
+        <state relative-caret-position="59">
+          <caret line="38" selection-start-line="38" selection-end-line="39" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/js/vue/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210178">
+          <caret line="11062" selection-start-line="11062" selection-end-line="11062" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/controller/VueController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/red5.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" selection-start-line="34" selection-end-line="36" selection-end-column="101" />
+        <state relative-caret-position="-525">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="8" selection-end-column="50" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
@@ -1183,14 +1075,159 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/js/jquery/jquery.lazyload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="143" column="16" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/js/echo/echo.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/jquery/jquery.lazy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/css/login.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/vue/vuePage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="939">
+          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/js/vuemain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/css/vue.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/rtmp/liveMenu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/login-bootStrap.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="331" column="52" lean-forward="true" selection-start-line="331" selection-start-column="52" selection-end-line="331" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#script#6;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#embed#0;n#!!top" expanded="true" />
+            <element signature="e#9651#11304#0#HTML" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/main/websocket.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="166" column="29" selection-start-line="166" selection-start-column="21" selection-end-line="166" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/controller/WebSocketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/controller/Red5Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/rtmp/jwPlayer.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="89">
+          <caret line="227" column="43" selection-start-line="227" selection-start-column="43" selection-end-line="227" selection-end-column="43" />
           <folding>
             <element signature="n#style#1;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/controller/WebSocketTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-589">
+          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#887#902#0" expanded="true" />
+            <element signature="e#3094#3095#0" expanded="true" />
+            <element signature="e#3128#3129#0" expanded="true" />
+            <element signature="e#3184#3185#0" expanded="true" />
+            <element signature="e#3227#3228#0" expanded="true" />
+            <element signature="e#3283#3284#0" expanded="true" />
+            <element signature="e#3326#3327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/controller/WebSocketLive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="59" column="22" lean-forward="true" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3573#3574#0" expanded="true" />
+            <element signature="e#3607#3608#0" expanded="true" />
+            <element signature="e#3663#3664#0" expanded="true" />
+            <element signature="e#3706#3707#0" expanded="true" />
+            <element signature="e#3762#3763#0" expanded="true" />
+            <element signature="e#3805#3806#0" expanded="true" />
           </folding>
         </state>
       </provider>

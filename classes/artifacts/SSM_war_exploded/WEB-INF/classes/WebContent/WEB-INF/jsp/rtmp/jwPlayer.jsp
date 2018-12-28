@@ -198,6 +198,7 @@
         <div class="easyui-layout" id="mainbody" style="width: 100%; height: 105%;">
             <div data-options="region:'west',iconCls:'icon-msg',collapsed:false,collapsible:false "
                  style="height: 380px; width: 100%; overflow: hidden">
+                <input id = "userid" type="hidden" value="${sessionScope.loginUser.id}">
                 <input id = "username" type="hidden" value="${sessionScope.loginUser.username}">
                 <div id="msg" data-options="region:'west',collapsed:false,collapsible:false "
                      style="height: 100%; width: 100%;  overflow-y: auto;">
@@ -222,9 +223,12 @@
 
     <script type="text/javascript">
         var websocket = null;
+        var userid = $('#userid').val();
+        var liveName = $('#liveName').val();
+        var param = liveName + '-' + userid;
         //判断当前浏览器是否支持WebSocket
         if ('WebSocket' in window) {
-            websocket = new WebSocket("ws://localhost:8080/websocket");
+            websocket = new WebSocket("ws://localhost:8080/websocketLive/"+param);
         }
         else {
             alert('当前浏览器 Not support websocket')
