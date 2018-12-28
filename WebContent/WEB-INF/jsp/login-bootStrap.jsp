@@ -139,6 +139,8 @@
     <script type="text/javascript" src="${ctx}/js/pubfun.js"></script>
     <script type="text/javascript" src="${ctx}/js/app.js"></script>
     <script src="${ctx}/bootstrap/js/bootstrap.min.js"></script>
+    <script src="${ctx}/js/vue/vue.js"></script>
+
     <script type="text/javascript">
         var eDiv = document.createElement("div");
         var flag = "";
@@ -307,7 +309,7 @@
 
     </script>
 </head>
-<body style="overflow: hidden">
+<body style="overflow: hidden" >
 
 <div class="alert alert-warning hide" role="alert" id="errormsg"  data-dismiss="alert" style="width:100%;height: 20px; text-align: center">
     <button type="button" class="close" data-dismiss="alert" aria-label="Close"  onclick='javascript:closeMsg();'>
@@ -324,7 +326,7 @@
 
             <h3 class="form-title" style="margin-left: 155px; margin-top: 20px;">LOGIN</h3>
 
-            <div class="col-md-9">
+            <div class="col-md-9" id="userVue">
 
                 <div class="form-group">
                     <i class="fa fa-lock fa-lg"></i>
@@ -333,15 +335,15 @@
                            style="margin-left: 67px;width: 230px;"/>
                 </div>
 
-                <div class="form-group">
+                <div id= 'vueLogin' class="form-group">
                     <i class="fa fa-lock fa-lg"></i>
                     <input id="password" value="" name="password" type="password" maxlength="6"
                            style="margin-left: 67px;width: 230px;" class="form-control required"
                            placeholder="Password"/>
                 </div>
                 <div class="cont_btn" style="margin-left: 80px;margin-top:5px; width: 200px;">
-                    <button type="button" class="btn btn-success pull-right" name="submit" style="width: 228px;"
-                             onclick='javascript:login();'>登 录
+                    <button id="toLoginButton" type="button" class="btn btn-success pull-right" name="submit" style="width: 228px;"
+                             onclick='login();'>登 录
                     </button>
                 </div>
 
@@ -349,8 +351,6 @@
         </div>
     </div>
 </div>
-
-
 
 </body>
 </html>

@@ -32,7 +32,30 @@
     <script type="text/javascript" src="${ctx}/js/load.js"></script>
     <script type="text/javascript" src="${ctx}/js/pubfun.js"></script>
     <script src="${ctx}/bootstrap/js/bootstrap.min.js"></script>
+    <script src="${ctx}/jquery/jquery.lazy.js"></script>
+    <script src="${ctx}/jquery/jquery.lazy.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('.lazy').Lazy({
+                effect: 'fadeIn',
+                effectTime: 2000,
+                threshold: 0,
+                // placeholder: "data:image/gif;base64,R0lGODlhEALAPQAPzl5uLr9Nrl8e7..."
+            });
+        });
+    </script>
     <style type="text/css">
+        <%--img.lazy {--%>
+            <%--width: 700px;--%>
+            <%--height: 150px;--%>
+            <%--display: block;--%>
+
+            <%--/* optional way, set loading as background */--%>
+            <%--background-image: url('${ctx}/images/loading.gif');--%>
+            <%--background-repeat: no-repeat;--%>
+            <%--background-position: 50% 50%;--%>
+        <%--}--%>
+
         .panel-body {
             padding: unset;
         }
@@ -44,8 +67,7 @@
 <c:forEach items="${lives}" var="item">
     <div class="col-sm-6 col-md-3">
         <div class="thumbnail">
-            <img src="${ctx}${item.liveimage}"
-                 alt="通用的占位符缩略图">
+            <img class="lazy"  data-src="${ctx}${item.liveimage}" alt="缩略图">
             <div class="caption">
                 <h3>${item.livetitle}</h3>
                 <p>${item.livename}</p>

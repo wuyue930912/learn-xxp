@@ -1,0 +1,343 @@
+2018-12-27 13:23:01,516 [main] INFO  org.red5.server.Launcher - Red5 Server 1.0.6-RELEASE (https://github.com/Red5)
+2018-12-27 13:23:02,007 [main] INFO  o.s.c.s.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@25bbe1b6: startup date [Thu Dec 27 13:23:02 CST 2018]; root of context hierarchy
+2018-12-27 13:23:02,341 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [red5.xml]
+2018-12-27 13:23:02,885 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [jee-container.xml]
+2018-12-27 13:23:03,054 [main] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [red5.properties]
+2018-12-27 13:23:03,097 [main] INFO  o.r.spring.Red5ApplicationContext - setApplicationContext: org.springframework.context.support.FileSystemXmlApplicationContext@25bbe1b6: startup date [Thu Dec 27 13:23:02 CST 2018]; root of context hierarchy
+2018-12-27 13:23:03,098 [main] INFO  o.r.spring.Red5ApplicationContext - Red5ApplicationContext init
+2018-12-27 13:23:03,101 [main] INFO  o.r.spring.Red5ApplicationContext - Refreshing ApplicationContext 'red5.common': startup date [Thu Dec 27 13:23:03 CST 2018]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@25bbe1b6
+2018-12-27 13:23:03,104 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [red5-common.xml]
+2018-12-27 13:23:03,299 [main] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [red5.properties]
+2018-12-27 13:23:03,391 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2018-12-27 13:23:03,476 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-12-27 13:23:03,479 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+2018-12-27 13:23:03,482 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2018-12-27 13:23:03,484 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'Red5_Scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 32 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-12-27 13:23:03,485 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'Red5_Scheduler' initialized from the specified file : 'D:/red5-server-1.0.6-RELEASE/conf/quartz.properties'
+2018-12-27 13:23:03,489 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+2018-12-27 13:23:03,491 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler Red5_Scheduler_$_NON_CLUSTERED started.
+2018-12-27 13:23:03,512 [main] INFO  o.s.r.rmi.RmiRegistryFactoryBean - Creating new RMI registry
+2018-12-27 13:23:04,423 [main] INFO  o.s.j.s.ConnectorServerFactoryBean - JMX connector server started: javax.management.remote.rmi.RMIConnectorServer@1af2d44a
+2018-12-27 13:23:04,945 [main] INFO  org.red5.server.service.WarDeployer - War deployer service created
+2018-12-27 13:23:05,100 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-12-27 13:23:05,117 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'org.springframework.jmx.support.ConnectorServerFactoryBean#0' has been autodetected for JMX exposure
+2018-12-27 13:23:05,133 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'schedulingService' has been autodetected for JMX exposure
+2018-12-27 13:23:05,138 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'clientBroadcastStream' has been autodetected for JMX exposure
+2018-12-27 13:23:05,728 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'schedulingService': registering with JMX server as MBean [org.red5.server:name=schedulingService,type=QuartzSchedulingService]
+2018-12-27 13:23:05,733 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'org.springframework.jmx.support.ConnectorServerFactoryBean#0': registering with JMX server as MBean [org.red5.server:name=org.springframework.jmx.support.ConnectorServerFactoryBean#0,type=RMIConnectorServer]
+2018-12-27 13:23:05,766 [main] INFO  o.r.spring.Red5ApplicationContext - setApplicationContext: org.springframework.context.support.FileSystemXmlApplicationContext@25bbe1b6: startup date [Thu Dec 27 13:23:02 CST 2018]; root of context hierarchy
+2018-12-27 13:23:05,770 [main] INFO  o.r.spring.Red5ApplicationContext - Red5ApplicationContext init
+2018-12-27 13:23:05,777 [main] INFO  o.r.spring.Red5ApplicationContext - Refreshing ApplicationContext 'red5.core': startup date [Thu Dec 27 13:23:05 CST 2018]; parent: ApplicationContext 'red5.common'
+2018-12-27 13:23:05,779 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [red5-core.xml]
+2018-12-27 13:23:05,912 [main] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [red5.properties]
+2018-12-27 13:23:06,029 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP will be bound to [0.0.0.0:1935]
+2018-12-27 13:23:06,038 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP Mina Transport Settings
+Acceptor style: default I/O threads: 16
+TCP no-delay: true keep-alive: false
+2018-12-27 13:23:06,369 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Traffic class modification is disabled
+2018-12-27 13:23:06,424 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Send buffer size: 65536 recv buffer size: 65536 so linger: -1 traffic class: 0
+2018-12-27 13:23:06,616 [main] INFO  org.red5.server.ContextLoader - ContextLoader init
+2018-12-27 13:23:06,643 [main] INFO  org.red5.server.ContextLoader - Loading: default.context = ${red5.root}/webapps/red5-default.xml => D:/red5-server-1.0.6-RELEASE/webapps/red5-default.xml
+2018-12-27 13:23:06,657 [main] INFO  o.s.c.s.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@6eb2384f: startup date [Thu Dec 27 13:23:06 CST 2018]; parent: ApplicationContext 'red5.common'
+2018-12-27 13:23:06,661 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [D:\red5-server-1.0.6-RELEASE\webapps\red5-default.xml]
+2018-12-27 13:23:06,818 [main] INFO  org.red5.server.Context - Setting parent bean factory as core
+2018-12-27 13:23:07,132 [main] INFO  org.red5.server.tomcat.TomcatLoader - Loading tomcat
+2018-12-27 13:23:07,189 [main] INFO  org.red5.server.tomcat.TomcatLoader - Server root: D:/red5-server-1.0.6-RELEASE
+2018-12-27 13:23:07,192 [main] INFO  org.red5.server.tomcat.TomcatLoader - Config root: D:/red5-server-1.0.6-RELEASE/conf
+2018-12-27 13:23:07,240 [main] INFO  org.red5.server.tomcat.TomcatLoader - Application root: D:/red5-server-1.0.6-RELEASE/webapps
+2018-12-27 13:23:07,443 [main] INFO  org.red5.server.tomcat.TomcatLoader - Starting Tomcat servlet engine
+2018-12-27 13:23:07,900 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_181\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;E:\Git\cmd;D:\red5-server-1.0.6-RELEASE;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;E:\apache-maven-3.3.9\bin;;.
+2018-12-27 13:23:08,026 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-5080"]
+2018-12-27 13:23:08,068 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-27 13:23:08,089 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+2018-12-27 13:23:08,092 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.0.26
+2018-12-27 13:23:08,422 [0.0.0.0-startStop-1] INFO  o.a.catalina.startup.ContextConfig - No global web.xml found
+2018-12-27 13:23:33,000 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/] - No Spring WebApplicationInitializer types detected on classpath
+2018-12-27 13:23:33,092 [0.0.0.0-startStop-1] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-12-27 13:23:41,662 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/live] - No Spring WebApplicationInitializer types detected on classpath
+2018-12-27 13:23:41,742 [0.0.0.0-startStop-1] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-12-27 13:23:49,096 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/chat] - No Spring WebApplicationInitializer types detected on classpath
+2018-12-27 13:23:49,171 [0.0.0.0-startStop-1] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-12-27 13:23:56,742 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/vod] - No Spring WebApplicationInitializer types detected on classpath
+2018-12-27 13:23:56,805 [0.0.0.0-startStop-1] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-12-27 13:23:59,112 [RTMPConnectionExecutor-1] WARN  o.red5.server.net.rtmp.RTMPHandler - Scope vod/live1 not found
+2018-12-27 13:23:59,190 [RTMPConnectionExecutor-1] INFO  o.red5.server.net.rtmp.RTMPHandler - No application scope found for vod/live1 on host 127.0.0.1
+2018-12-27 13:24:02,263 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/installer] - No Spring WebApplicationInitializer types detected on classpath
+2018-12-27 13:24:02,316 [0.0.0.0-startStop-1] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-12-27 13:24:02,326 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-5080"]
+2018-12-27 13:24:02,347 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized:  path: D:\red5-server-1.0.6-RELEASE\webapps\root\
+2018-12-27 13:24:02,349 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /live path: D:\red5-server-1.0.6-RELEASE\webapps\live\
+2018-12-27 13:24:02,353 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /chat path: D:\red5-server-1.0.6-RELEASE\webapps\chat\
+2018-12-27 13:24:02,358 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /vod path: D:\red5-server-1.0.6-RELEASE\webapps\vod\
+2018-12-27 13:24:02,360 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /installer path: D:\red5-server-1.0.6-RELEASE\webapps\installer\
+2018-12-27 13:24:02,362 [main] INFO  org.red5.server.tomcat.TomcatLoader - Dedicated RTMPT server configuration was not specified
+2018-12-27 13:24:02,374 [main] INFO  org.red5.server.ContextLoader - JEE server was found: TomcatLoader [serviceEngineName=red5Engine]
+2018-12-27 13:24:02,435 [Launcher:/installer] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Thu Dec 27 13:24:02 CST 2018]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@6eb2384f
+2018-12-27 13:24:02,436 [Launcher:/chat] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Thu Dec 27 13:24:02 CST 2018]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@6eb2384f
+2018-12-27 13:24:02,438 [Launcher:] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Thu Dec 27 13:24:02 CST 2018]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@6eb2384f
+2018-12-27 13:24:02,438 [Launcher:/live] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Thu Dec 27 13:24:02 CST 2018]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@6eb2384f
+2018-12-27 13:24:02,438 [Launcher:/vod] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Thu Dec 27 13:24:02 CST 2018]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@6eb2384f
+2018-12-27 13:24:02,447 [main] INFO  o.r.net.websocket.WebSocketPlugin - WebSocketPlugin ctor
+2018-12-27 13:24:02,455 [Launcher:/installer] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2018-12-27 13:24:02,455 [Launcher:/chat] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2018-12-27 13:24:02,459 [Launcher:] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2018-12-27 13:24:02,466 [Launcher:/live] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2018-12-27 13:24:02,467 [Launcher:/vod] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2018-12-27 13:24:02,472 [main] INFO  o.r.net.websocket.WebSocketPlugin - WebSocketPlugin start
+2018-12-27 13:24:02,480 [main] INFO  o.red5.server.plugin.PluginLauncher - Loaded plugin: org.red5.net.websocket.WebSocketPlugin
+2018-12-27 13:24:02,499 [main] INFO  o.r.n.websocket.WebSocketTransport - WebSocket will be bound to [0.0.0.0:8081]
+2018-12-27 13:24:02,721 [Launcher:] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2018-12-27 13:24:02,728 [Launcher:/live] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2018-12-27 13:24:02,739 [Launcher:/vod] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2018-12-27 13:24:02,747 [Launcher:/installer] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2018-12-27 13:24:02,772 [Launcher:/chat] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2018-12-27 13:24:02,845 [main] INFO  o.r.n.websocket.WebSocketTransport - started  websocket transport
+2018-12-27 13:24:02,878 [Launcher:] INFO  org.red5.server.Context - Setting parent bean factory as core
+2018-12-27 13:24:02,881 [Launcher:/live] INFO  org.red5.server.Context - Setting parent bean factory as core
+2018-12-27 13:24:02,885 [Launcher:/chat] INFO  org.red5.server.Context - Setting parent bean factory as core
+2018-12-27 13:24:02,898 [Launcher:/installer] INFO  org.red5.server.Context - Setting parent bean factory as core
+2018-12-27 13:24:02,898 [Launcher:/vod] INFO  org.red5.server.Context - Setting parent bean factory as core
+2018-12-27 13:24:02,917 [Launcher:] INFO  org.red5.server.scope.WebScope - Set server [Server@6fa35455map[[empty]]]
+2018-12-27 13:24:02,927 [Launcher:/chat] INFO  org.red5.server.scope.WebScope - Set server [Server@6fa35455map[[empty]]]
+2018-12-27 13:24:02,941 [Launcher:/installer] INFO  org.red5.server.scope.WebScope - Set server [Server@6fa35455map[[empty]]]
+2018-12-27 13:24:02,944 [Launcher:/vod] INFO  org.red5.server.scope.WebScope - Set server [Server@6fa35455map[[empty]]]
+2018-12-27 13:24:02,950 [Launcher:] INFO  org.red5.server.scope.Scope - Scope null name reset to:  disallowed
+2018-12-27 13:24:02,962 [Launcher:] INFO  org.red5.server.Server - Add mapping global: default host:  context: null
+2018-12-27 13:24:02,963 [Launcher:] INFO  org.red5.server.scope.Scope - Invalid scope name, null is not allowed
+2018-12-27 13:24:02,965 [Launcher:] WARN  org.red5.server.scope.Scope - Invalid scope rejected: Scope [name=null, path=/default, type=APPLICATION, autoStart=true, creationTime=1545888242886, depth=1, enabled=true, running=false]
+2018-12-27 13:24:02,966 [Launcher:] WARN  org.red5.server.scope.Scope - Scope not added to parent
+2018-12-27 13:24:02,967 [Launcher:] INFO  org.red5.server.scope.WebScope - Webscope already registered
+2018-12-27 13:24:03,038 [Launcher:/installer] INFO  org.red5.server.Server - Add mapping global: default host: localhost context: installer
+2018-12-27 13:24:03,039 [Launcher:/live] INFO  org.red5.server.scope.WebScope - Set server [Server@6fa35455map['/' -> 'default']]
+2018-12-27 13:24:03,040 [Launcher:/vod] INFO  org.red5.server.Server - Add mapping global: default host:  context: vod
+2018-12-27 13:24:03,040 [Launcher:/chat] INFO  org.red5.server.Server - Add mapping global: default host:  context: chat
+2018-12-27 13:24:03,057 [Launcher:/installer] INFO  org.red5.server.Server - Add mapping global: default host: localhost:5080 context: installer
+2018-12-27 13:24:03,064 [Launcher:/live] INFO  org.red5.server.Server - Add mapping global: default host:  context: live
+2018-12-27 13:24:03,078 [Launcher:/vod] INFO  org.red5.server.scope.WebScope - Webscope already registered
+2018-12-27 13:24:03,078 [Launcher:/installer] INFO  org.red5.server.scope.WebScope - Webscope already registered
+2018-12-27 13:24:03,081 [Launcher:/live] INFO  org.red5.server.scope.WebScope - Webscope already registered
+2018-12-27 13:24:03,099 [Launcher:/chat] INFO  org.red5.server.scope.WebScope - Webscope already registered
+2018-12-27 13:24:03,120 [Launcher:/installer] INFO  org.red5.server.service.Installer - Installer service created
+2018-12-27 13:24:11,783 [RTMPConnectionExecutor-2] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:0
+2018-12-27 13:24:11,840 [RTMPConnectionExecutor-2] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@3ac96cfa new: org.red5.server.stream.ClientBroadcastStream@3ac96cfa
+2018-12-27 13:24:11,840 [RTMPConnectionExecutor-2] INFO  o.r.s.stream.ClientBroadcastStream - Stream start: wuyue
+2018-12-27 13:24:11,846 [RTMPConnectionExecutor-2] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:publish c-ip:127.0.0.1 x-sname:8578fcb4-a0b1-4616-97d3-b902235b397f x-name:wuyue
+2018-12-27 13:24:18,715 [RTMPConnectionExecutor-3] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:1
+2018-12-27 13:24:18,807 [Red5_Scheduler_Worker-19] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:126726bd-014c-4b15-b4a5-5d240fc25456
+2018-12-27 13:24:18,870 [Red5_Scheduler_Worker-20] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:126726bd-014c-4b15-b4a5-5d240fc25456 x-name:wuyue
+2018-12-27 13:24:31,227 [RTMPConnectionExecutor-2] INFO  o.red5.server.stream.StreamService - closeStream: streamId=1, connection=RTMPMinaConnection from 127.0.0.1 (in: 3661 out: 3998201) session: VOGCHKT6KNTGW state: connected
+2018-12-27 13:24:31,241 [Red5_Scheduler_Worker-26] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:3661 sc-bytes:4003604 x-sname:126726bd-014c-4b15-b4a5-5d240fc25456
+2018-12-27 13:24:35,285 [NioProcessor-4] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:1
+2018-12-27 13:43:27,981 [NioProcessor-3] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:unpublish c-ip:127.0.0.1 cs-bytes:382916201 sc-bytes:5467 x-sname:8578fcb4-a0b1-4616-97d3-b902235b397f x-file-length:1156 x-name:wuyue
+2018-12-27 13:43:27,992 [RTMPConnectionExecutor-1] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2018-12-27 13:43:27,993 [RTMPConnectionExecutor-2] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2018-12-27 13:43:28,021 [NioProcessor-3] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:0
+2018-12-27 13:56:40,129 [RTMPConnectionExecutor-4] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:2
+2018-12-27 13:56:40,218 [Red5_Scheduler_Worker-9] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:a2b46f43-b3df-416a-a90e-3654ab86bbce
+2018-12-27 13:56:40,240 [Red5_Scheduler_Worker-11] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:a2b46f43-b3df-416a-a90e-3654ab86bbce x-name:wuyue
+2018-12-27 13:56:41,632 [RTMPConnectionExecutor-4] INFO  o.red5.server.stream.StreamService - closeStream: streamId=1, connection=RTMPMinaConnection from 127.0.0.1 (in: 3612 out: 3761) session: MMYLYPO0ZOVLC state: connected
+2018-12-27 13:56:41,645 [Red5_Scheduler_Worker-16] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:3612 sc-bytes:3944 x-sname:a2b46f43-b3df-416a-a90e-3654ab86bbce
+2018-12-27 13:56:42,354 [RTMPConnectionExecutor-3] WARN  org.red5.server.stream.PlayEngine - Subscribe to wuyue provider failed
+2018-12-27 13:56:42,363 [Red5_Scheduler_Worker-15] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:dc036ef9-6805-4847-9833-ebfca2104f36
+2018-12-27 13:56:42,368 [Red5_Scheduler_Worker-13] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:dc036ef9-6805-4847-9833-ebfca2104f36 x-name:wuyue
+2018-12-27 13:56:49,720 [RTMPConnectionExecutor-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:3
+2018-12-27 13:56:49,745 [RTMPConnectionExecutor-1] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@49ad1b2c new: org.red5.server.stream.ClientBroadcastStream@49ad1b2c
+2018-12-27 13:56:49,749 [RTMPConnectionExecutor-1] INFO  o.r.s.stream.ClientBroadcastStream - Stream start: wuyue
+2018-12-27 13:56:49,750 [RTMPConnectionExecutor-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:publish c-ip:127.0.0.1 x-sname:83404e6d-63c4-421c-b178-0e90a9398d4b x-name:wuyue
+2018-12-27 13:56:57,503 [NioProcessor-6] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:unpublish c-ip:127.0.0.1 cs-bytes:2376958 sc-bytes:3603 x-sname:83404e6d-63c4-421c-b178-0e90a9398d4b x-file-length:7 x-name:wuyue
+2018-12-27 13:56:57,513 [RTMPConnectionExecutor-2] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2018-12-27 13:56:57,514 [RTMPConnectionExecutor-4] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2018-12-27 13:56:57,516 [NioProcessor-6] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:3
+2018-12-27 13:56:57,728 [NioProcessor-5] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:2
+2018-12-27 13:56:57,737 [Red5_Scheduler_Worker-26] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:3710 sc-bytes:2379755 x-sname:dc036ef9-6805-4847-9833-ebfca2104f36
+2018-12-27 14:21:58,262 [RTMPConnectionExecutor-3] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:4
+2018-12-27 14:21:58,289 [RTMPConnectionExecutor-2] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@47f02bb8 new: org.red5.server.stream.ClientBroadcastStream@47f02bb8
+2018-12-27 14:21:58,290 [RTMPConnectionExecutor-2] INFO  o.r.s.stream.ClientBroadcastStream - Stream start: wuyue
+2018-12-27 14:21:58,291 [RTMPConnectionExecutor-2] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:publish c-ip:127.0.0.1 x-sname:d84ca498-6b68-4bba-8234-b96869c78f72 x-name:wuyue
+2018-12-27 14:22:00,709 [RTMPConnectionExecutor-3] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:5
+2018-12-27 14:22:00,789 [Red5_Scheduler_Worker-16] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:33531d9c-944e-4387-bc9c-92e08219ff0c
+2018-12-27 14:22:00,796 [Red5_Scheduler_Worker-9] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:33531d9c-944e-4387-bc9c-92e08219ff0c x-name:wuyue
+2018-12-27 14:23:34,862 [RTMPConnectionExecutor-2] INFO  o.red5.server.stream.StreamService - closeStream: streamId=1, connection=RTMPMinaConnection from 127.0.0.1 (in: 3986 out: 14494533) session: ZVID6EUAGT19D state: connected
+2018-12-27 14:23:34,875 [Red5_Scheduler_Worker-14] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:3986 sc-bytes:14494716 x-sname:33531d9c-944e-4387-bc9c-92e08219ff0c
+2018-12-27 14:23:36,911 [NioProcessor-8] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:5
+2018-12-27 14:25:12,891 [RTMPConnectionExecutor-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:6
+2018-12-27 14:25:13,023 [Red5_Scheduler_Worker-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:7477a36f-4ae4-47d8-a822-af0ec2175d97 x-name:wuyue
+2018-12-27 14:25:13,039 [Red5_Scheduler_Worker-22] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:7477a36f-4ae4-47d8-a822-af0ec2175d97
+2018-12-27 14:25:22,758 [RTMPConnectionExecutor-1] INFO  o.red5.server.stream.StreamService - closeStream: streamId=1, connection=RTMPMinaConnection from 127.0.0.1 (in: 3643 out: 1785975) session: 6AA4TNQTZEISF state: connected
+2018-12-27 14:25:22,772 [Red5_Scheduler_Worker-30] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:3643 sc-bytes:1786158 x-sname:7477a36f-4ae4-47d8-a822-af0ec2175d97
+2018-12-27 14:25:35,804 [NioProcessor-9] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:6
+2018-12-27 14:25:53,578 [NioProcessor-7] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:unpublish c-ip:127.0.0.1 cs-bytes:72810886 sc-bytes:3959 x-sname:d84ca498-6b68-4bba-8234-b96869c78f72 x-file-length:235 x-name:wuyue
+2018-12-27 14:25:53,585 [RTMPConnectionExecutor-4] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2018-12-27 14:25:53,585 [RTMPConnectionExecutor-3] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2018-12-27 14:25:53,589 [NioProcessor-7] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:4
+2018-12-27 14:42:43,006 [RTMPConnectionExecutor-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:7
+2018-12-27 14:42:43,055 [Red5_Scheduler_Worker-32] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:31ec3c36-ec78-43e7-ac9f-c551b182cd47
+2018-12-27 14:42:43,064 [Red5_Scheduler_Worker-2] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:31ec3c36-ec78-43e7-ac9f-c551b182cd47 x-name:wuyue
+2018-12-27 14:42:59,695 [NioProcessor-10] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:7
+2018-12-27 14:42:59,703 [Red5_Scheduler_Worker-18] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:3643 sc-bytes:3817 x-sname:31ec3c36-ec78-43e7-ac9f-c551b182cd47
+2018-12-27 15:07:25,915 [RTMPConnectionExecutor-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:8
+2018-12-27 15:07:25,949 [RTMPConnectionExecutor-3] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@7258ab0b new: org.red5.server.stream.ClientBroadcastStream@7258ab0b
+2018-12-27 15:07:25,957 [RTMPConnectionExecutor-3] INFO  o.r.s.stream.ClientBroadcastStream - Stream start: wuyue
+2018-12-27 15:07:25,960 [RTMPConnectionExecutor-3] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:publish c-ip:127.0.0.1 x-sname:d3d9495d-b881-48e0-9561-40142c6b8f01 x-name:wuyue
+2018-12-27 15:19:49,935 [RTMPConnectionExecutor-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:9
+2018-12-27 15:19:50,018 [Red5_Scheduler_Worker-17] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:1c71c86d-93bf-4432-8926-1354296ceab1
+2018-12-27 15:19:50,035 [Red5_Scheduler_Worker-13] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:1c71c86d-93bf-4432-8926-1354296ceab1 x-name:wuyue
+2018-12-27 15:20:36,795 [RTMPConnectionExecutor-1] INFO  o.red5.server.stream.StreamService - closeStream: streamId=1, connection=RTMPMinaConnection from 127.0.0.1 (in: 3813 out: 11698828) session: JCSHP0D47J2HW state: connected
+2018-12-27 15:20:36,807 [Red5_Scheduler_Worker-28] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:3813 sc-bytes:11699011 x-sname:1c71c86d-93bf-4432-8926-1354296ceab1
+2018-12-27 15:20:37,522 [Red5_Scheduler_Worker-26] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:1fba564b-b773-4e41-98ee-8ba05974b6f3
+2018-12-27 15:20:37,536 [Red5_Scheduler_Worker-30] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:1fba564b-b773-4e41-98ee-8ba05974b6f3 x-name:wuyue
+2018-12-27 15:21:33,644 [RTMPConnectionExecutor-1] INFO  o.red5.server.stream.StreamService - closeStream: streamId=1, connection=RTMPMinaConnection from 127.0.0.1 (in: 4133 out: 29132987) session: JCSHP0D47J2HW state: connected
+2018-12-27 15:21:33,656 [Red5_Scheduler_Worker-22] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:4133 sc-bytes:29133170 x-sname:1fba564b-b773-4e41-98ee-8ba05974b6f3
+2018-12-27 15:21:47,492 [NioProcessor-12] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:9
+2018-12-27 15:22:45,900 [RTMPConnectionExecutor-4] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:10
+2018-12-27 15:22:46,013 [Red5_Scheduler_Worker-24] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:edb853ed-fad0-4ff5-876a-a716100b972a
+2018-12-27 15:22:46,014 [Red5_Scheduler_Worker-31] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:edb853ed-fad0-4ff5-876a-a716100b972a x-name:wuyue
+2018-12-27 15:24:28,351 [NioProcessor-13] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:10
+2018-12-27 15:24:28,363 [Red5_Scheduler_Worker-19] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:4035 sc-bytes:30814046 x-sname:edb853ed-fad0-4ff5-876a-a716100b972a
+2018-12-27 15:36:03,796 [RTMPConnectionExecutor-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:11
+2018-12-27 15:36:03,845 [Red5_Scheduler_Worker-17] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:9827cd57-cf83-4050-aa13-3974f14818b1
+2018-12-27 15:36:03,854 [Red5_Scheduler_Worker-18] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:9827cd57-cf83-4050-aa13-3974f14818b1 x-name:live1
+2018-12-27 15:38:17,806 [NioProcessor-14] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:11
+2018-12-27 15:38:17,813 [Red5_Scheduler_Worker-6] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:4098 sc-bytes:4223 x-sname:9827cd57-cf83-4050-aa13-3974f14818b1
+2018-12-27 15:38:40,377 [RTMPConnectionExecutor-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:12
+2018-12-27 15:38:40,453 [Red5_Scheduler_Worker-26] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:39d95a37-4af3-41cd-a874-82318846d0fa
+2018-12-27 15:38:40,456 [Red5_Scheduler_Worker-25] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:39d95a37-4af3-41cd-a874-82318846d0fa x-name:live1
+2018-12-27 15:38:51,380 [NioProcessor-15] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:12
+2018-12-27 15:38:51,389 [Red5_Scheduler_Worker-11] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:3671 sc-bytes:3796 x-sname:39d95a37-4af3-41cd-a874-82318846d0fa
+2018-12-27 15:40:09,296 [NioProcessor-11] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:unpublish c-ip:127.0.0.1 cs-bytes:650129390 sc-bytes:6819 x-sname:d3d9495d-b881-48e0-9561-40142c6b8f01 x-file-length:1963 x-name:wuyue
+2018-12-27 15:40:09,304 [RTMPConnectionExecutor-1] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2018-12-27 15:40:09,307 [RTMPConnectionExecutor-2] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2018-12-27 15:40:09,329 [NioProcessor-11] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:8
+2018-12-27 15:41:33,081 [RTMPConnectionExecutor-3] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:13
+2018-12-27 15:41:33,194 [Red5_Scheduler_Worker-9] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:a441b02d-624a-4546-b851-4cb395c20028
+2018-12-27 15:41:33,195 [Red5_Scheduler_Worker-8] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:a441b02d-624a-4546-b851-4cb395c20028 x-name:wuyue
+2018-12-27 15:41:36,468 [RTMPConnectionExecutor-3] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:14
+2018-12-27 15:41:36,507 [RTMPConnectionExecutor-1] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@37797579 new: org.red5.server.stream.ClientBroadcastStream@37797579
+2018-12-27 15:41:36,527 [RTMPConnectionExecutor-1] INFO  o.r.s.stream.ClientBroadcastStream - Stream start: wuyue
+2018-12-27 15:41:36,530 [RTMPConnectionExecutor-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:publish c-ip:127.0.0.1 x-sname:ff4b5fea-94a9-49db-826e-7572139e6a93 x-name:wuyue
+2018-12-27 15:41:45,295 [RTMPConnectionExecutor-3] INFO  o.red5.server.stream.StreamService - closeStream: streamId=1, connection=RTMPMinaConnection from 127.0.0.1 (in: 3710 out: 1977724) session: F0FOWSHQDQ8ZO state: connected
+2018-12-27 15:41:45,320 [Red5_Scheduler_Worker-20] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:3710 sc-bytes:1977907 x-sname:a441b02d-624a-4546-b851-4cb395c20028
+2018-12-27 15:43:44,671 [NioProcessor-16] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:13
+2018-12-27 15:44:09,384 [RTMPConnectionExecutor-2] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:15
+2018-12-27 15:44:09,464 [Red5_Scheduler_Worker-7] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:6c2344be-36e9-4944-8c1b-e84103c9ae87
+2018-12-27 15:44:09,478 [Red5_Scheduler_Worker-9] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:6c2344be-36e9-4944-8c1b-e84103c9ae87 x-name:live1
+2018-12-27 15:44:23,684 [NioProcessor-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:unpublish c-ip:127.0.0.1 cs-bytes:25269628 sc-bytes:3917 x-sname:ff4b5fea-94a9-49db-826e-7572139e6a93 x-file-length:167 x-name:wuyue
+2018-12-27 15:44:23,690 [RTMPConnectionExecutor-1] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2018-12-27 15:44:23,723 [NioProcessor-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:14
+2018-12-27 15:44:32,999 [RTMPConnectionExecutor-4] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:16
+2018-12-27 15:44:33,018 [RTMPConnectionExecutor-4] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@37b730b2 new: org.red5.server.stream.ClientBroadcastStream@37b730b2
+2018-12-27 15:44:33,024 [RTMPConnectionExecutor-4] INFO  o.r.s.stream.ClientBroadcastStream - Stream start: wuyue
+2018-12-27 15:44:33,027 [RTMPConnectionExecutor-4] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:publish c-ip:127.0.0.1 x-sname:925febd3-a871-4c4a-a8bf-f8e4943b8b93 x-name:wuyue
+2018-12-27 15:49:19,462 [NioProcessor-2] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:15
+2018-12-27 15:49:19,476 [Red5_Scheduler_Worker-2] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:4721 sc-bytes:4846 x-sname:6c2344be-36e9-4944-8c1b-e84103c9ae87
+2018-12-27 15:49:22,246 [NioProcessor-3] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:unpublish c-ip:127.0.0.1 cs-bytes:57721868 sc-bytes:4113 x-sname:925febd3-a871-4c4a-a8bf-f8e4943b8b93 x-file-length:289 x-name:wuyue
+2018-12-27 15:49:22,266 [RTMPConnectionExecutor-4] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2018-12-27 15:49:22,272 [RTMPConnectionExecutor-2] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2018-12-27 15:49:22,299 [NioProcessor-3] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:16
+2018-12-27 16:04:56,146 [RTMPConnectionExecutor-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:17
+2018-12-27 16:04:56,238 [Red5_Scheduler_Worker-31] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:73d1dabc-054d-4e3d-867e-c62a61f3ce74
+2018-12-27 16:04:56,247 [Red5_Scheduler_Worker-20] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:73d1dabc-054d-4e3d-867e-c62a61f3ce74 x-name:live1
+2018-12-27 16:04:57,644 [RTMPConnectionExecutor-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:18
+2018-12-27 16:04:57,666 [RTMPConnectionExecutor-1] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@6a318a59 new: org.red5.server.stream.ClientBroadcastStream@6a318a59
+2018-12-27 16:04:57,669 [RTMPConnectionExecutor-1] INFO  o.r.s.stream.ClientBroadcastStream - Stream start: wuyue
+2018-12-27 16:04:57,673 [RTMPConnectionExecutor-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:publish c-ip:127.0.0.1 x-sname:04236dd6-136a-4569-a078-d97008ee14cc x-name:wuyue
+2018-12-27 16:04:58,654 [NioProcessor-5] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:unpublish c-ip:127.0.0.1 cs-bytes:170895 sc-bytes:3608 x-sname:04236dd6-136a-4569-a078-d97008ee14cc x-file-length:0 x-name:wuyue
+2018-12-27 16:04:58,663 [NioProcessor-5] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:18
+2018-12-27 16:04:59,163 [RTMPConnectionExecutor-2] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:19
+2018-12-27 16:04:59,194 [RTMPConnectionExecutor-2] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@7c89d916 new: org.red5.server.stream.ClientBroadcastStream@7c89d916
+2018-12-27 16:04:59,195 [RTMPConnectionExecutor-2] INFO  o.r.s.stream.ClientBroadcastStream - Stream start: wuyue
+2018-12-27 16:04:59,200 [RTMPConnectionExecutor-2] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:publish c-ip:127.0.0.1 x-sname:7f2b056d-959c-4f78-9300-f6f2c0efd881 x-name:wuyue
+2018-12-27 16:05:29,341 [NioProcessor-4] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:17
+2018-12-27 16:05:29,352 [Red5_Scheduler_Worker-26] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:3711 sc-bytes:3873 x-sname:73d1dabc-054d-4e3d-867e-c62a61f3ce74
+2018-12-27 16:05:36,742 [RTMPConnectionExecutor-3] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:20
+2018-12-27 16:05:36,804 [Red5_Scheduler_Worker-16] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:dab77284-cafa-4766-8f5f-fba14a611d5c
+2018-12-27 16:05:36,804 [Red5_Scheduler_Worker-10] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:dab77284-cafa-4766-8f5f-fba14a611d5c x-name:live1
+2018-12-27 16:06:40,865 [NioProcessor-7] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:20
+2018-12-27 16:06:40,886 [Red5_Scheduler_Worker-19] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:3823 sc-bytes:3985 x-sname:dab77284-cafa-4766-8f5f-fba14a611d5c
+2018-12-27 16:06:50,090 [RTMPConnectionExecutor-2] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:21
+2018-12-27 16:06:50,210 [Red5_Scheduler_Worker-25] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:68234617-b45f-4b11-b948-56e9b05ce0c1
+2018-12-27 16:06:50,216 [Red5_Scheduler_Worker-4] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:68234617-b45f-4b11-b948-56e9b05ce0c1 x-name:live1
+2018-12-27 16:07:21,338 [NioProcessor-8] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:21
+2018-12-27 16:07:21,346 [Red5_Scheduler_Worker-30] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:3700 sc-bytes:3866 x-sname:68234617-b45f-4b11-b948-56e9b05ce0c1
+2018-12-27 16:07:28,650 [RTMPConnectionExecutor-4] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:22
+2018-12-27 16:07:28,791 [Red5_Scheduler_Worker-13] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:627e271b-c785-44e4-8d8b-1c959705c952
+2018-12-27 16:07:28,811 [Red5_Scheduler_Worker-21] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:627e271b-c785-44e4-8d8b-1c959705c952 x-name:live1
+2018-12-27 16:09:52,613 [NioProcessor-9] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:22
+2018-12-27 16:09:52,623 [Red5_Scheduler_Worker-15] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:4096 sc-bytes:4258 x-sname:627e271b-c785-44e4-8d8b-1c959705c952
+2018-12-27 16:10:16,640 [RTMPConnectionExecutor-4] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:23
+2018-12-27 16:10:16,741 [Red5_Scheduler_Worker-15] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:32203772-3164-4e50-a0b3-c0977678e63e
+2018-12-27 16:10:16,750 [Red5_Scheduler_Worker-18] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:32203772-3164-4e50-a0b3-c0977678e63e x-name:live1
+2018-12-27 16:10:46,963 [NioProcessor-6] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:unpublish c-ip:127.0.0.1 cs-bytes:110271536 sc-bytes:4146 x-sname:7f2b056d-959c-4f78-9300-f6f2c0efd881 x-file-length:347 x-name:wuyue
+2018-12-27 16:10:46,964 [RTMPConnectionExecutor-1] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2018-12-27 16:10:47,024 [NioProcessor-6] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:19
+2018-12-27 16:11:03,933 [RTMPConnectionExecutor-3] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:24
+2018-12-27 16:11:03,957 [RTMPConnectionExecutor-3] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@5d8f2d54 new: org.red5.server.stream.ClientBroadcastStream@5d8f2d54
+2018-12-27 16:11:03,958 [RTMPConnectionExecutor-3] INFO  o.r.s.stream.ClientBroadcastStream - Stream start: live1
+2018-12-27 16:11:03,960 [RTMPConnectionExecutor-3] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:publish c-ip:127.0.0.1 x-sname:9ae90a65-c301-4f58-9469-4e96586a1025 x-name:live1
+2018-12-27 16:11:12,086 [NioProcessor-11] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:unpublish c-ip:127.0.0.1 cs-bytes:2454494 sc-bytes:3596 x-sname:9ae90a65-c301-4f58-9469-4e96586a1025 x-file-length:8 x-name:live1
+2018-12-27 16:11:12,103 [RTMPConnectionExecutor-2] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2018-12-27 16:11:12,104 [RTMPConnectionExecutor-4] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2018-12-27 16:11:12,120 [NioProcessor-11] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:24
+2018-12-27 16:11:12,125 [NioProcessor-10] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:23
+2018-12-27 16:11:12,134 [Red5_Scheduler_Worker-15] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:3784 sc-bytes:2392648 x-sname:32203772-3164-4e50-a0b3-c0977678e63e
+2018-12-27 16:12:21,827 [RTMPConnectionExecutor-3] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:25
+2018-12-27 16:12:21,898 [Red5_Scheduler_Worker-30] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:2bb27633-c86e-4e11-ac2f-3b9096cc6d43
+2018-12-27 16:12:21,900 [Red5_Scheduler_Worker-3] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:2bb27633-c86e-4e11-ac2f-3b9096cc6d43 x-name:live1
+2018-12-27 16:12:29,588 [RTMPConnectionExecutor-3] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:26
+2018-12-27 16:12:29,616 [RTMPConnectionExecutor-3] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@245a0430 new: org.red5.server.stream.ClientBroadcastStream@245a0430
+2018-12-27 16:12:29,618 [RTMPConnectionExecutor-3] INFO  o.r.s.stream.ClientBroadcastStream - Stream start: live1
+2018-12-27 16:12:29,620 [RTMPConnectionExecutor-3] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:publish c-ip:127.0.0.1 x-sname:2089ea68-4603-40b8-9353-3ce5fe6ca090 x-name:live1
+2018-12-27 16:12:45,478 [RTMPConnectionExecutor-2] INFO  o.red5.server.stream.StreamService - closeStream: streamId=1, connection=RTMPMinaConnection from 127.0.0.1 (in: 3708 out: 4527676) session: 5MRGLF6NVXVMT state: connected
+2018-12-27 16:12:45,490 [Red5_Scheduler_Worker-3] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:3708 sc-bytes:4527859 x-sname:2bb27633-c86e-4e11-ac2f-3b9096cc6d43
+2018-12-27 16:14:38,840 [NioProcessor-12] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:25
+2018-12-27 16:21:23,604 [RTMPConnectionExecutor-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:27
+2018-12-27 16:21:23,697 [Red5_Scheduler_Worker-29] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:b96bbb5d-e098-4e7a-978c-08feb54069ac
+2018-12-27 16:21:23,716 [Red5_Scheduler_Worker-24] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:b96bbb5d-e098-4e7a-978c-08feb54069ac x-name:live1
+2018-12-27 16:21:40,530 [NioProcessor-13] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:unpublish c-ip:127.0.0.1 cs-bytes:171573144 sc-bytes:4471 x-sname:2089ea68-4603-40b8-9353-3ce5fe6ca090 x-file-length:550 x-name:live1
+2018-12-27 16:21:40,531 [RTMPConnectionExecutor-4] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2018-12-27 16:21:40,537 [RTMPConnectionExecutor-3] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2018-12-27 16:21:40,547 [NioProcessor-13] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:26
+2018-12-27 16:21:40,610 [NioProcessor-14] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:27
+2018-12-27 16:21:40,620 [Red5_Scheduler_Worker-10] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:3667 sc-bytes:5171023 x-sname:b96bbb5d-e098-4e7a-978c-08feb54069ac
+2018-12-27 16:24:21,771 [RTMPConnectionExecutor-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:28
+2018-12-27 16:24:21,857 [Red5_Scheduler_Worker-23] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:26088ecd-de45-4b61-b24d-cfdc1b7a19e6
+2018-12-27 16:24:21,863 [Red5_Scheduler_Worker-22] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:26088ecd-de45-4b61-b24d-cfdc1b7a19e6 x-name:live1
+2018-12-27 16:25:48,359 [NioProcessor-15] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:28
+2018-12-27 16:25:48,365 [Red5_Scheduler_Worker-16] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:3900 sc-bytes:4062 x-sname:26088ecd-de45-4b61-b24d-cfdc1b7a19e6
+2018-12-27 16:27:57,085 [RTMPConnectionExecutor-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:29
+2018-12-27 16:27:57,163 [Red5_Scheduler_Worker-29] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:16e74290-32fe-4930-8ae2-73c7ad837abe
+2018-12-27 16:27:57,172 [Red5_Scheduler_Worker-28] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:16e74290-32fe-4930-8ae2-73c7ad837abe x-name:live1
+2018-12-27 16:28:01,316 [RTMPConnectionExecutor-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:30
+2018-12-27 16:28:01,347 [RTMPConnectionExecutor-1] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@62d076e7 new: org.red5.server.stream.ClientBroadcastStream@62d076e7
+2018-12-27 16:28:01,354 [RTMPConnectionExecutor-1] INFO  o.r.s.stream.ClientBroadcastStream - Stream start: live1
+2018-12-27 16:28:01,357 [RTMPConnectionExecutor-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:publish c-ip:127.0.0.1 x-sname:f757d6e6-07b9-4744-be65-066fff0ba006 x-name:live1
+2018-12-27 16:28:27,405 [NioProcessor-16] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:29
+2018-12-27 16:28:27,415 [Red5_Scheduler_Worker-7] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:3716 sc-bytes:7485459 x-sname:16e74290-32fe-4930-8ae2-73c7ad837abe
+2018-12-27 16:28:38,023 [RTMPConnectionExecutor-3] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:31
+2018-12-27 16:28:38,105 [Red5_Scheduler_Worker-29] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:014347bc-b1c0-436c-b8cb-e05be0760b59
+2018-12-27 16:28:38,114 [Red5_Scheduler_Worker-28] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:014347bc-b1c0-436c-b8cb-e05be0760b59 x-name:live2
+2018-12-27 16:28:58,804 [NioProcessor-2] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:31
+2018-12-27 16:28:58,814 [Red5_Scheduler_Worker-24] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:3669 sc-bytes:3831 x-sname:014347bc-b1c0-436c-b8cb-e05be0760b59
+2018-12-27 16:29:12,128 [RTMPConnectionExecutor-4] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:32
+2018-12-27 16:29:12,227 [Red5_Scheduler_Worker-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:9c9a56f2-1512-45a1-8e12-1d053276372d
+2018-12-27 16:29:12,230 [Red5_Scheduler_Worker-31] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:9c9a56f2-1512-45a1-8e12-1d053276372d x-name:live1
+2018-12-27 16:29:25,547 [NioProcessor-3] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:32
+2018-12-27 16:29:25,555 [Red5_Scheduler_Worker-13] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:3637 sc-bytes:3962497 x-sname:9c9a56f2-1512-45a1-8e12-1d053276372d
+2018-12-27 16:31:01,655 [RTMPConnectionExecutor-2] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:33
+2018-12-27 16:31:01,757 [Red5_Scheduler_Worker-27] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:95852a3e-7e74-4a3c-b9ae-9dfceffe55cc x-name:live1
+2018-12-27 16:31:01,765 [Red5_Scheduler_Worker-28] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:95852a3e-7e74-4a3c-b9ae-9dfceffe55cc
+2018-12-27 16:31:13,102 [RTMPConnectionExecutor-2] INFO  o.red5.server.stream.StreamService - closeStream: streamId=1, connection=RTMPMinaConnection from 127.0.0.1 (in: 3662 out: 3569421) session: C762A2GFL52HC state: connected
+2018-12-27 16:31:13,117 [Red5_Scheduler_Worker-31] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:3662 sc-bytes:3572775 x-sname:95852a3e-7e74-4a3c-b9ae-9dfceffe55cc
+2018-12-27 16:31:35,630 [NioProcessor-4] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:33
+2018-12-27 16:32:37,758 [RTMPConnectionExecutor-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:34
+2018-12-27 16:32:37,861 [Red5_Scheduler_Worker-11] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:8cd8dc52-47bd-4b8b-ae38-24dd8999fdff
+2018-12-27 16:32:37,870 [Red5_Scheduler_Worker-1] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:8cd8dc52-47bd-4b8b-ae38-24dd8999fdff x-name:live1
+2018-12-27 16:33:07,601 [NioProcessor-5] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:34
+2018-12-27 16:33:07,607 [Red5_Scheduler_Worker-5] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:3716 sc-bytes:8877763 x-sname:8cd8dc52-47bd-4b8b-ae38-24dd8999fdff
